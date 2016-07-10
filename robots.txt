@@ -1,0 +1,26 @@
+User-agent: *
+#Позволяем индексировать
+Allow: /image
+Allow: /index.html
+Allow: /content/installwindows/
+Allow: /content/nastroyka-interneta/
+#Запрещаем к индексации
+Disallow: /css #Таблицы стилей
+Disallow: /callme
+Disallow: /fonts
+Disallow: /js
+
+User-agent: Yandex
+#Позволяем индексировать
+Allow: /image
+Allow: /index.html
+Allow: /content/installwindows/
+Allow: /content/nastroyka-interneta/
+#Запрещаем к индексации
+Disallow: /css #Таблицы стилей
+Disallow: /callme
+Disallow: /fonts
+Disallow: /js
+Host: injeneer.ru
+
+Sitemap: http://injeneer.ru/sitemap.xml
