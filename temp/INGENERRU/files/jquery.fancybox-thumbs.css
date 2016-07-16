@@ -1,0 +1,27 @@
+#fancybox-thumbs {
+	left: 0px; width: 100%; overflow: hidden; position: fixed; z-index: 8050;
+}
+.bottom#fancybox-thumbs {
+	bottom: 2px;
+}
+.top#fancybox-thumbs {
+	top: 2px;
+}
+#fancybox-thumbs ul {
+	list-style: none; margin: 0px; padding: 0px; position: relative;
+}
+#fancybox-thumbs ul li {
+	padding: 1px; float: left; opacity: 0.5;
+}
+#fancybox-thumbs ul li.active {
+	padding: 0px; border: 1px solid rgb(255, 255, 255); border-image: none; opacity: 0.75;
+}
+#fancybox-thumbs ul li:hover {
+	opacity: 1;
+}
+#fancybox-thumbs ul li a {
+	background: rgb(17, 17, 17); border: 1px solid rgb(34, 34, 34); border-image: none; overflow: hidden; display: block; position: relative;
+}
+#fancybox-thumbs ul li img {
+	padding: 0px; border: 0px currentColor; border-image: none; display: block; position: relative; max-width: none;
+}

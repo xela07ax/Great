@@ -1,0 +1,3642 @@
+.bx-core-waitwindow {
+	background-position: 10px; padding: 10px 30px 10px 37px; border: 1px solid rgb(225, 181, 45); border-image: none; text-align: center; color: black; font-family: Verdana,Arial,sans-serif; font-size: 11px; position: absolute; z-index: 10000; background-image: url("/bitrix/js/main/core/images/wait.gif"); background-repeat: no-repeat; background-color: rgb(252, 247, 209);
+}
+.bx-unselectable {
+	-moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; user-select: none;
+}
+.bx-session-message {
+	padding: 10px; border: 1px solid rgb(237, 218, 60); border-image: none; width: 630px; text-align: center; color: black; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: bold; position: absolute; z-index: 10000; background-color: rgb(255, 235, 65);
+}
+.bx-session-message a.bx-session-message-close {
+	background-position: center; width: 12px; height: 12px; float: right; display: block; background-image: url("/bitrix/js/main/core/images/close.gif"); background-repeat: no-repeat;
+}
+.bx-timer-semicolon-off .bx-timer-semicolon {
+	visibility: hidden;
+}
+.bx-panel-tooltip {
+	background: linear-gradient(rgba(227, 233, 234, 0.95), rgba(198, 210, 213, 0.95)); border-width: 1px; border-style: solid; border-color: rgb(162, 166, 173) rgb(152, 156, 161) rgb(142, 147, 152); list-style: none !important; margin: 0px !important; padding: 0px !important; border-radius: 3px !important; border-image: none; text-align: left !important; text-transform: none !important; text-indent: 0px !important; letter-spacing: normal !important; overflow: hidden !important; text-decoration: none !important; word-spacing: normal !important; vertical-align: baseline !important; float: none !important; white-space: normal !important; visibility: visible !important; position: absolute !important; z-index: 2210 !important; box-shadow: 0px 12px 10px rgba(0,0,0,0.25) !important; -moz-box-shadow: 0 12px 10px rgba(0, 0, 0, .25); -webkit-box-shadow: 0 12px 10px rgba(0, 0, 0, .25); -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+.bx-panel-tooltip div {
+	display: block !important;
+}
+.bx-panel-tooltip .bx-panel-tooltip-top-border {
+	display: none !important;
+}
+.bx-panel-tooltip .bx-panel-tooltip-bottom-border {
+	display: none !important;
+}
+.bx-panel-tooltip-content {
+	overflow: hidden !important; display: inline-block !important; position: relative !important; z-index: 10 !important;
+}
+.bx-panel-tooltip-title {
+	font: bold 14px/normal "Helvetica Neue", Helvetica, Arial, sans-serif !important; margin: 0px !important; padding: 7px 10px 0px !important; color: rgb(22, 25, 26) !important; position: relative !important; font-size-adjust: none !important; font-stretch: normal !important; text-shadow: 0px 1px rgba(255,255,255,0.66);
+}
+.bx-panel-tooltip-text {
+	font: 12px/normal "Helvetica Neue", Helvetica, Arial, sans-serif !important; margin: 0px !important; padding: 9px 10px 10px !important; color: rgb(39, 43, 49) !important; position: relative !important; font-size-adjust: none !important; font-stretch: normal !important; text-shadow: 0px 1px rgba(255,255,255,0.25);
+}
+.bx-panel-tooltip-close {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -9px -1881px !important; top: 0px !important; width: 25px !important; height: 20px !important; right: 0px !important; display: block !important; position: absolute !important; z-index: 5 !important;
+}
+.bx-panel-tooltip-close:hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -32px -1881px !important;
+}
+.bx-panel-tooltip-text a {
+	font: 12px/normal "Helvetica Neue", Helvetica, Arial, sans-serif !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+.bx-panel-tooltip-text a {
+	color: rgb(39, 43, 49) !important; text-decoration: underline !important;
+}
+.bx-panel-tooltip-text a:hover {
+	color: rgb(39, 43, 49) !important; text-decoration: underline !important;
+}
+.bx-clear {
+	clear: both;
+}
+div.bx-hk-settings-toolbar {
+	background: white !important; margin: 0px !important; padding: 0px !important; left: 4px; top: 54px; width: 503px !important; position: absolute !important;
+}
+table.bx-hk-settings-toolbar {
+	background: white !important; margin: 9px 0px 0px 8px !important; width: 100% !important;
+}
+div.bx-hk-settings-toolbar td.bx-left {
+	background: url("/bitrix/js/main/core/css/../images/hk_sett_menu_spr.png") no-repeat 0px 0px white !important; margin: 0px !important; padding: 0px !important; width: 3px !important; height: 33px !important;
+}
+div.bx-hk-settings-toolbar td.bx-right {
+	background: url("/bitrix/js/main/core/css/../images/hk_sett_menu_spr.png") no-repeat 0px -36px white !important; margin: 0px !important; padding: 0px !important; width: 3px !important; height: 33px !important;
+}
+div.bx-hk-settings-toolbar td.bx-content {
+	background: url("/bitrix/js/main/core/css/../images/hk_sett_menu_spr.png") repeat-x 0px -72px white !important; margin: 0px !important; padding: 1px 0px 0px 4px !important; height: 33px !important;
+}
+div.bx-hk-settings-toolbar a.bx-context-button {
+	margin: 0px !important; padding: 0px !important; border: currentColor !important; border-image: none !important; height: 33px !important; color: rgb(85, 85, 85) !important; display: inline-block !important; cursor: pointer !important;
+}
+div.bx-hk-settings-toolbar a.bx-context-button:hover {
+	color: black !important;
+}
+div.bx-hk-settings-toolbar span.bx-context-button-text {
+	margin: 0px !important; padding: 8px 15px 0px 0px !important; vertical-align: top !important; display: inline-block !important;
+}
+div.bx-hk-settings-toolbar span.bx-context-button-icon {
+	background-position: center; margin: 0px !important; padding: 0px !important; width: 18px !important; height: 33px !important; display: inline-block !important; background-repeat: no-repeat !important;
+}
+div.bx-hk-settings-toolbar .btn-import {
+	background: url("/bitrix/js/main/core/css/../images/hk_sett_menu_spr.png") no-repeat 0px -109px !important; margin: 0px !important; padding: 0px !important; width: 18px; height: 33px;
+}
+div.bx-hk-settings-toolbar .btn-export {
+	background: url("/bitrix/js/main/core/css/../images/hk_sett_menu_spr.png") no-repeat -26px -109px !important; margin: 0px !important; padding: 0px !important; width: 18px; height: 33px;
+}
+div.bx-hk-settings-toolbar .btn-default {
+	background: url("/bitrix/js/main/core/css/../images/hk_sett_menu_spr.png") no-repeat -52px -109px !important; margin: 0px !important; padding: 0px !important; width: 18px; height: 33px;
+}
+div.bx-hk-settings-toolbar .btn-delall {
+	background: url("/bitrix/js/main/core/css/../images/hk_sett_menu_spr.png") no-repeat -78px -109px !important; margin: 0px !important; padding: 0px !important; width: 18px; height: 33px;
+}
+div.bx-hk-settings-empty {
+	background: none !important; margin: 0px !important; width: 1px !important; height: 1px !important; overflow: hidden !important;
+}
+.bx-hk-settings-row {
+	height: 22px !important;
+}
+a.hk-delete-icon {
+	background: none !important; width: 18px; height: 18px; display: block;
+}
+.bx-hk-settings-row:hover a.hk-delete-icon {
+	background: url("/bitrix/panel/main/images/bx-admin-sprite-small-1.png") no-repeat 0px -2933px !important; width: 18px; height: 18px; display: block !important;
+}
+.bx-hk-settings-row:hover a.hk-delete-icon:hover {
+	background: url("/bitrix/panel/main/images/bx-admin-sprite-small-1.png") no-repeat 0px -2989px !important; width: 18px; height: 18px; display: block !important;
+}
+a.bx-hk-settings:link {
+	color: rgb(0, 105, 196) !important;
+}
+a.bx-hk-settings:visited {
+	color: rgb(0, 105, 196) !important;
+}
+a.bx-hk-settings:hover {
+	color: rgb(224, 0, 0) !important;
+}
+a.bx-hk-settings:active {
+	color: rgb(0, 105, 196) !important;
+}
+div.bx-sticker {
+	border-width: 1px; border-style: solid; left: 0px; top: 0px; overflow: hidden; position: absolute;
+}
+div.bx-sticker div.bxst-header {
+	height: 19px;
+}
+div.bx-sticker div.bxst-content {
+	overflow: hidden; cursor: pointer;
+}
+div.bx-sticker div.bxst-footer {
+	height: 24px; overflow: hidden;
+}
+div.bx-sticker .bxst-sprite {
+	background-image: url("/bitrix/images/fileman/stickers_sprite.png") !important;
+}
+.bxst-sprite {
+	background-image: url("/bitrix/images/fileman/stickers_sprite.png") !important;
+}
+body div.bx-sticker-over {
+	border-width: 2px !important;
+}
+div.bxst-shadow {
+	background: rgb(0, 0, 0); border: 1px solid rgb(0, 0, 0) !important; border-image: none !important; left: 0px; top: 0px; position: absolute; opacity: 0.2;
+}
+div.bxst-completed {
+	opacity: 0.8 !important;
+}
+div.bxst-completed div.bxst-content-area {
+	
+}
+div.bx-sticker div.bxst-header div.bxst-check-cont {
+	margin: 0px 4px; float: left;
+}
+div.bx-sticker div.bxst-header div.bxst-check-cont input {
+	float: left; display: block;
+}
+div.bx-sticker div.bxst-header div.bxst-check-cont label {
+	margin: 3px 5px 0px 0px !important; font-size: 10px !important; float: left; display: block;
+}
+div.bx-sticker div.bxst-header div.bxst-type-cont {
+	margin: 3px 4px 0px 0px; float: right; cursor: pointer;
+}
+div.bx-sticker div.bxst-header div.bxst-but {
+	margin: 4px 4px 0px 0px; float: right;
+}
+div.bx-sticker div.bxst-header div.bxst-but img {
+	width: 12px; height: 12px; cursor: pointer;
+}
+div.bx-sticker div.bxst-header div.bxst-collapse img {
+	background-position: -15px -34px;
+}
+div.bx-sticker div.bxst-header div.bxst-close img {
+	background-position: -15px -14px;
+}
+div.bx-sticker div.bxst-footer div.bxst-marker-area-but {
+	margin: 3px 2px 0px; float: left;
+}
+div.bx-sticker div.bxst-footer div.bxst-marker-elem-but {
+	margin: 3px 2px 0px; float: left;
+}
+div.bx-sticker div.bxst-footer div.bxst-marker-area-but {
+	margin-left: 5px !important;
+}
+div.bx-sticker div.bxst-footer div.bxst-ctrl-txt span {
+	font-family: Verdana !important; font-size: 10px; text-decoration: underline; cursor: pointer;
+}
+div.bx-sticker div.bxst-footer div.bxst-color-but {
+	margin: 4px 0px 0px 6px; float: left; cursor: pointer;
+}
+div.bx-sticker div.bxst-footer div.bxst-add-but {
+	margin: 4px 0px 0px 6px; float: left; cursor: pointer;
+}
+div.bx-sticker div.bxst-footer div.bxst-resizer {
+	margin: 12px 0px 0px; float: right;
+}
+div.bx-sticker div.bxst-footer div.bxst-marker-area-but img {
+	background-position: -9px -101px; width: 19px; height: 19px; cursor: pointer;
+}
+div.bx-sticker div.bxst-footer div.bxst-marker-area-but img.bxst-pressed {
+	background-position: -9px -120px;
+}
+div.bx-sticker div.bxst-footer div.bxst-marker-elem-but img {
+	background-position: -31px -101px; width: 19px; height: 19px; cursor: pointer;
+}
+div.bx-sticker div.bxst-footer div.bxst-marker-elem-but img {
+	background-position: -31px -101px; width: 19px; height: 19px; cursor: pointer;
+}
+div.bx-sticker div.bxst-footer div.bxst-marker-elem-but img.bxst-pressed {
+	background-position: -31px -120px;
+}
+div.bx-sticker div.bxst-footer div.bxst-resizer img {
+	background-position: -14px -45px; width: 12px; height: 12px; cursor: se-resize;
+}
+div.bx-sticker div.bxst-id-cont {
+	margin: 2px 0px 0px 4px !important; font-size: 10px !important; float: left; display: none; cursor: default !important;
+}
+div.bx-sticker div.bxst-footer div.bxst-info-icon {
+	margin: 3px 10px 0px 0px; float: right;
+}
+div.bx-sticker div.bxst-footer div.bxst-info-icon img {
+	background-position: -60px -101px; width: 19px; height: 19px;
+}
+div.bx-sticker div.bxst-type-cont div.bxst-type-corn {
+	width: 3px; height: 12px; float: left; cursor: pointer !important; background-image: url("/bitrix/images/fileman/stickers_sprite.png") !important;
+}
+div.bx-sticker div.bxst-type-cont div.bxst-type-c {
+	padding: 0px 1px; height: 12px; float: left;
+}
+div.bx-sticker div.bxst-type-cont div span {
+	color: rgb(255, 255, 255) !important; line-height: 10px !important; font-family: Verdana !important; font-size: 10px !important; cursor: pointer !important;
+}
+div.bx-sticker div.bxst-type-pers div.bxst-type-l {
+	background-position: -41px -45px;
+}
+div.bx-sticker div.bxst-type-pers div.bxst-type-r {
+	background-position: -41px -60px;
+}
+div.bx-sticker div.bxst-type-pers div.bxst-type-c {
+	background-color: rgb(76, 188, 41);
+}
+div.bx-sticker div.bxst-type-pers div.bxst-type-c-publ {
+	display: none;
+}
+div.bx-sticker div.bxst-type-publ div.bxst-type-l {
+	background-position: -41px -15px;
+}
+div.bx-sticker div.bxst-type-publ div.bxst-type-r {
+	background-position: -41px -30px;
+}
+div.bx-sticker div.bxst-type-publ div.bxst-type-c {
+	background-color: rgb(234, 171, 0);
+}
+div.bx-sticker div.bxst-type-publ div.bxst-type-c-pers {
+	display: none;
+}
+div.bx-sticker div.bxst-content .lhe-button-cont {
+	background: none !important;
+}
+div.bx-sticker div.bxst-content .lhe-line-begin {
+	display: none !important;
+}
+div.bx-sticker div.bxst-content .lhe-line-end {
+	display: none !important;
+}
+div.bx-sticker-readonly div.bxst-close {
+	display: none !important;
+}
+div.bx-sticker-readonly div.bxst-marker-area-but {
+	display: none !important;
+}
+div.bx-sticker-readonly div.bxst-marker-elem-but {
+	display: none !important;
+}
+div.bx-sticker-readonly div.bxst-color-but {
+	display: none !important;
+}
+div.bx-sticker-readonly div.bxst-add-but {
+	display: none !important;
+}
+div.bx-sticker-readonly div.bxst-type-cont {
+	display: none !important;
+}
+div.bx-sticker-readonly div.bxst-content {
+	cursor: default !important;
+}
+div.bxst-yellow {
+	background: rgb(255, 252, 179) !important; border-width: 1px; border-style: solid; border-color: rgb(229, 226, 161) !important;
+}
+div.bxst-yellow div.bxst-header {
+	background: rgb(243, 233, 135) !important;
+}
+div.bxst-yellow div.bxst-header-over {
+	background: rgb(236, 223, 113) !important;
+}
+div.bxst-yellow div.bxst-content .bxst-header-text {
+	background: rgb(243, 233, 135) !important;
+}
+div.bxst-yellow div.bxst-footer {
+	border-top-color: rgb(229, 226, 161) !important; border-top-width: 1px !important; border-top-style: solid !important;
+}
+div.bxst-yellow div.bxst-footer div.bxst-ctrl-txt span {
+	color: rgb(178, 176, 125) !important;
+}
+div.bxst-yellow div.bxst-content-area .bxst-title {
+	color: rgb(127, 126, 89) !important;
+}
+div.bxst-yellow .bxst-title {
+	color: rgb(127, 126, 89) !important;
+}
+div.bxst-yellow div.bxst-check-cont label {
+	color: rgb(127, 126, 89) !important;
+}
+div.bxst-yellow div.bxst-content div.bxlhe-frame {
+	background: rgb(255, 252, 179) !important;
+}
+div.bxst-yellow .lhe-stat-toolbar-cont {
+	border-color: rgb(255, 252, 179) !important;
+}
+div.bxst-yellow div.bxst-content table.bxlhe-frame-table td.bxlhe-editor-buttons {
+	background: rgb(255, 252, 179) !important;
+}
+div.bxst-yellow div.bxst-lhe-cont td.bxlhe-editor-cell {
+	background: rgb(255, 252, 179) !important;
+}
+div.bxst-yellow div.bxst-content td.bxlhe-editor-cell {
+	border-top-color: rgb(255, 252, 179) !important; border-top-width: 1px !important; border-top-style: solid !important;
+}
+div.bxst-yellow div.bxst-content .lhe-button {
+	border: 1px solid rgb(255, 252, 179); border-image: none;
+}
+div.bxst-green {
+	background: rgb(219, 252, 205) !important; border-width: 1px; border-style: solid; border-color: rgb(197, 226, 184) !important;
+}
+div.bxst-green div.bxst-header {
+	background: rgb(204, 242, 188) !important;
+}
+div.bxst-green div.bxst-header-over {
+	background: rgb(193, 234, 175) !important;
+}
+div.bxst-green div.bxst-content .bxst-header-text {
+	background: rgb(109, 126, 102) !important;
+}
+div.bxst-green div.bxst-content p {
+	margin: 0px !important; padding: 0px !important;
+}
+div.bxst-green div.bxst-footer {
+	border-top-color: rgb(197, 226, 184) !important; border-top-width: 1px !important; border-top-style: solid !important;
+}
+div.bxst-green div.bxst-footer div.bxst-ctrl-txt span {
+	color: rgb(153, 176, 143) !important;
+}
+div.bxst-green div.bxst-content-area .bxst-title {
+	color: rgb(109, 126, 102) !important;
+}
+div.bxst-green .bxst-title {
+	color: rgb(109, 126, 102) !important;
+}
+div.bxst-green div.bxst-check-cont label {
+	color: rgb(109, 126, 102) !important;
+}
+div.bxst-green div.bxst-content div.bxlhe-frame {
+	background: rgb(219, 252, 205) !important;
+}
+div.bxst-green .lhe-stat-toolbar-cont {
+	border-color: rgb(219, 252, 205) !important;
+}
+div.bxst-green div.bxst-content table.bxlhe-frame-table td.bxlhe-editor-buttons {
+	background: rgb(219, 252, 205) !important;
+}
+div.bxst-green div.bxst-lhe-cont td.bxlhe-editor-cell {
+	background: rgb(219, 252, 205) !important;
+}
+div.bxst-green div.bxst-content td.bxlhe-editor-cell {
+	border-top-color: rgb(219, 252, 205) !important; border-top-width: 1px !important; border-top-style: solid !important;
+}
+div.bxst-green div.bxst-content .lhe-button {
+	border: 1px solid rgb(219, 252, 205); border-image: none;
+}
+div.bxst-blue {
+	background: rgb(220, 231, 247) !important; border-width: 1px; border-style: solid; border-color: rgb(198, 207, 222) !important;
+}
+div.bxst-blue div.bxst-header {
+	background: rgb(210, 223, 243) !important;
+}
+div.bxst-blue div.bxst-header-over {
+	background: rgb(203, 218, 241) !important;
+}
+div.bxst-blue div.bxst-content .bxst-header-text {
+	background: rgb(110, 115, 123) !important;
+}
+div.bxst-blue div.bxst-footer {
+	border-top-color: rgb(198, 207, 222) !important; border-top-width: 1px !important; border-top-style: solid !important;
+}
+div.bxst-blue div.bxst-footer div.bxst-ctrl-txt span {
+	color: rgb(154, 161, 172) !important;
+}
+div.bxst-blue div.bxst-content-area .bxst-title {
+	color: rgb(110, 115, 123) !important;
+}
+div.bxst-blue .bxst-title {
+	color: rgb(110, 115, 123) !important;
+}
+div.bxst-blue div.bxst-check-cont label {
+	color: rgb(110, 115, 123) !important;
+}
+div.bxst-blue div.bxst-content div.bxlhe-frame {
+	background: rgb(220, 231, 247) !important;
+}
+div.bxst-blue .lhe-stat-toolbar-cont {
+	border-color: rgb(220, 231, 247) !important;
+}
+div.bxst-blue div.bxst-content table.bxlhe-frame-table td.bxlhe-editor-buttons {
+	background: rgb(220, 231, 247) !important;
+}
+div.bxst-blue div.bxst-lhe-cont td.bxlhe-editor-cell {
+	background: rgb(220, 231, 247) !important;
+}
+div.bxst-blue div.bxst-content td.bxlhe-editor-cell {
+	border-top-color: rgb(220, 231, 247) !important; border-top-width: 1px !important; border-top-style: solid !important;
+}
+div.bxst-blue div.bxst-content .lhe-button {
+	border: 1px solid rgb(220, 231, 247); border-image: none;
+}
+div.bxst-red {
+	background: rgb(252, 223, 223) !important; border-width: 1px; border-style: solid; border-color: rgb(226, 200, 200) !important;
+}
+div.bxst-red div.bxst-header {
+	background: rgb(246, 208, 208) !important;
+}
+div.bxst-red div.bxst-header-over {
+	background: rgb(243, 200, 200) !important;
+}
+div.bxst-red div.bxst-content .bxst-header-text {
+	background: rgb(110, 115, 123) !important;
+}
+div.bxst-red div.bxst-footer {
+	border-top-color: rgb(226, 200, 200) !important; border-top-width: 1px !important; border-top-style: solid !important;
+}
+div.bxst-red div.bxst-footer div.bxst-ctrl-txt span {
+	color: rgb(176, 156, 156) !important;
+}
+div.bxst-red div.bxst-content-area .bxst-title {
+	color: rgb(126, 111, 111) !important;
+}
+div.bxst-red .bxst-title {
+	color: rgb(126, 111, 111) !important;
+}
+div.bxst-red div.bxst-check-cont label {
+	color: rgb(126, 111, 111) !important;
+}
+div.bxst-red div.bxst-content div.bxlhe-frame {
+	background: rgb(252, 223, 223) !important;
+}
+div.bxst-red .lhe-stat-toolbar-cont {
+	border-color: rgb(252, 223, 223) !important;
+}
+div.bxst-red div.bxst-content table.bxlhe-frame-table td.bxlhe-editor-buttons {
+	background: rgb(252, 223, 223) !important;
+}
+div.bxst-red div.bxst-lhe-cont td.bxlhe-editor-cell {
+	background: rgb(252, 223, 223) !important;
+}
+div.bxst-red div.bxst-content td.bxlhe-editor-cell {
+	border-top-color: rgb(252, 223, 223) !important; border-top-width: 1px !important; border-top-style: solid !important;
+}
+div.bxst-red div.bxst-content .lhe-button {
+	border: 1px solid rgb(252, 223, 223); border-image: none;
+}
+div.bxst-purple {
+	background: rgb(246, 218, 248) !important; border-width: 1px; border-style: solid; border-color: rgb(221, 196, 223) !important;
+}
+div.bxst-purple div.bxst-header {
+	background: rgb(234, 200, 237) !important;
+}
+div.bxst-purple div.bxst-header-over {
+	background: rgb(228, 190, 230) !important;
+}
+div.bxst-purple div.bxst-content .bxst-header-text {
+	background: rgb(110, 115, 123) !important;
+}
+div.bxst-purple div.bxst-footer {
+	border-top-color: rgb(221, 196, 223) !important; border-top-width: 1px !important; border-top-style: solid !important;
+}
+div.bxst-purple div.bxst-footer div.bxst-ctrl-txt span {
+	color: rgb(172, 152, 173) !important;
+}
+div.bxst-purple div.bxst-content-area .bxst-title {
+	color: rgb(123, 109, 124) !important;
+}
+div.bxst-purple .bxst-title {
+	color: rgb(123, 109, 124) !important;
+}
+div.bxst-purple div.bxst-check-cont label {
+	color: rgb(123, 109, 124) !important;
+}
+div.bxst-purple div.bxst-content div.bxlhe-frame {
+	background: rgb(246, 218, 248) !important;
+}
+div.bxst-purple .lhe-stat-toolbar-cont {
+	border-color: rgb(246, 218, 248) !important;
+}
+div.bxst-purple div.bxst-content table.bxlhe-frame-table td.bxlhe-editor-buttons {
+	background: rgb(246, 218, 248) !important;
+}
+div.bxst-purple div.bxst-lhe-cont td.bxlhe-editor-cell {
+	background: rgb(246, 218, 248) !important;
+}
+div.bxst-purple div.bxst-content td.bxlhe-editor-cell {
+	border-top-color: rgb(246, 218, 248) !important; border-top-width: 1px !important; border-top-style: solid !important;
+}
+div.bxst-purple div.bxst-content .lhe-button {
+	border: 1px solid rgb(246, 218, 248); border-image: none;
+}
+div.bxst-gray {
+	background: rgb(245, 245, 245) !important; border-width: 1px; border-style: solid; border-color: rgb(220, 220, 220) !important;
+}
+div.bxst-gray div.bxst-header {
+	background: rgb(232, 232, 232) !important;
+}
+div.bxst-gray div.bxst-header-over {
+	background: rgb(223, 223, 223) !important;
+}
+div.bxst-gray div.bxst-content .bxst-header-text {
+	background: rgb(122, 122, 122) !important;
+}
+div.bxst-gray div.bxst-footer {
+	border-top-color: rgb(220, 220, 220) !important; border-top-width: 1px !important; border-top-style: solid !important;
+}
+div.bxst-gray div.bxst-footer div.bxst-ctrl-txt span {
+	color: rgb(171, 171, 171) !important;
+}
+div.bxst-gray div.bxst-content-area .bxst-title {
+	color: rgb(122, 122, 122) !important;
+}
+div.bxst-gray .bxst-title {
+	color: rgb(122, 122, 122) !important;
+}
+div.bxst-gray div.bxst-check-cont label {
+	color: rgb(122, 122, 122) !important;
+}
+div.bxst-gray div.bxst-content div.bxlhe-frame {
+	background: rgb(245, 245, 245) !important;
+}
+div.bxst-gray .lhe-stat-toolbar-cont {
+	border-color: rgb(245, 245, 245) !important;
+}
+div.bxst-gray div.bxst-content table.bxlhe-frame-table td.bxlhe-editor-buttons {
+	background: rgb(245, 245, 245) !important;
+}
+div.bxst-gray div.bxst-lhe-cont td.bxlhe-editor-cell {
+	background: rgb(245, 245, 245) !important;
+}
+div.bxst-gray div.bxst-content td.bxlhe-editor-cell {
+	border-top-color: rgb(245, 245, 245) !important; border-top-width: 1px !important; border-top-style: solid !important;
+}
+div.bxst-gray div.bxst-content .lhe-button {
+	border: 1px solid rgb(245, 245, 245); border-image: none;
+}
+div.bxst-lhe-cont {
+	left: -1000px; top: -1000px; position: absolute !important;
+}
+div.bx-sticker div.bxst-content div.bxst-lhe-cont {
+	position: static !important;
+}
+div.bxst-content-area {
+	padding: 5px 5px 5px 21px !important; top: 0px; position: relative;
+}
+div.bxst-content-area {
+	font-family: Verdana !important; font-size: 12px !important;
+}
+div.bxst-content-area * {
+	font-family: Verdana !important; font-size: 12px !important;
+}
+div.bxst-content-area .bxst-title {
+	margin: 0px 0px 0px -7px !important; line-height: 18px !important; font-family: Verdana !important; font-size: 11px !important;
+}
+div.bx-sticker-overlay {
+	background: rgb(209, 209, 209); border: 1px solid rgb(209, 209, 209); border-image: none; display: none; position: absolute;
+}
+div.bx-sticker-op-0 {
+	display: block !important; opacity: 0.25;
+}
+div.bx-sticker-op-1 {
+	display: block !important; opacity: 0.5;
+}
+div.bx-sticker-op-2 {
+	display: block !important; opacity: 0.75;
+}
+div.bx-sticker-op-3 {
+	display: block !important;
+}
+div.bxst-blink-red {
+	background: rgb(255, 128, 0); border: 1px solid rgb(255, 128, 0); border-image: none; display: none; position: absolute;
+}
+#bx-panel .bxst-close-notify-link {
+	color: rgb(63, 147, 199) !important; text-decoration: underline !important; cursor: pointer !important;
+}
+div.bx-sticker div.bxst-header div.bxst-col-title-cont {
+	margin: 1px 2px 0px; padding: 0px !important; height: 16px; line-height: 15px !important; overflow: hidden; float: left; display: none;
+}
+div.bxst-collapsed div.bxst-content {
+	display: none;
+}
+div.bxst-collapsed div.bxst-footer {
+	display: none;
+}
+div.bxst-collapsed div.bxst-collapse img {
+	background-position: -15px -75px !important;
+}
+div.bxst-collapsed div.bxst-type-c span {
+	display: none !important;
+}
+div.bxst-collapsed div.bxst-type-c {
+	padding: 0px !important; width: 6px !important;
+}
+div.bxst-collapsed div.bxst-check-cont {
+	margin: 0px 1px !important;
+}
+div.bxst-collapsed div.bxst-check-cont label {
+	display: none !important;
+}
+div.bxst-collapsed div.bxst-type-cont {
+	margin: 3px 2px 0px 3px !important;
+}
+div.bxst-collapsed div.bxst-col-title-cont {
+	display: block !important;
+}
+div.bxst-collapsed div.bxst-col-title-cont .bxst-title {
+	font-family: Verdana !important; font-size: 12px !important; display: inline !important;
+}
+div.bxst-marker-overlay {
+	left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: absolute; z-index: 790; cursor: url(/bitrix/images/fileman/crosshair.cur), crosshair !important; opacity: 0.2; background-color: rgb(255, 255, 255); -moz-user-select: none; -moz-opacity: 0.2;
+}
+div.bxst-cursor-hint {
+	margin: 0px !important; padding: 4px 5px !important; border: 1px solid rgb(133, 133, 133) !important; border-image: none !important; left: 500px; top: 200px; text-align: left !important; color: black !important; line-height: normal; text-indent: 0px !important; letter-spacing: normal !important; overflow: visible; font-family: Tahoma, Arial, Verdana, Sans-Serif !important; font-size: 11px !important; font-style: normal !important; font-variant: normal !important; font-weight: normal; word-spacing: normal !important; display: none; position: absolute; z-index: 792; background-color: rgb(255, 255, 206) !important;
+}
+div.bxst-sticker-marker {
+	border-width: 1px; border-style: solid; display: none; position: absolute; opacity: 0.4;
+}
+div.bxst-cur-marker {
+	border-width: 1px; border-style: solid; display: none; position: absolute; opacity: 0.7;
+}
+div.bxst-marker-over {
+	border-width: 2px; border-style: solid; display: block !important; opacity: 0.4;
+}
+.bxst-sicked {
+	border: 2px solid rgb(255, 128, 0) !important; border-image: none !important;
+}
+div.bx-sticker .bxst-sicked {
+	border-width: 0px !important;
+}
+div.bxst-col-sel {
+	background: rgb(192, 192, 192); width: 43px; height: 64px; display: block; position: absolute;
+}
+div.bxst-col-sel span.bxst-col-pic {
+	margin: 1px 0px 0px 1px !important; padding: 0px !important; width: 18px; height: 18px; float: left; display: block; cursor: pointer !important;
+}
+div.bxst-col-sel span.bxst-yellow {
+	background: rgb(255, 252, 179) !important; border: 1px solid rgb(229, 226, 161) !important; border-image: none !important;
+}
+div.bxst-col-sel span.bxst-green {
+	background: rgb(219, 252, 205) !important; border: 1px solid rgb(197, 226, 184) !important; border-image: none !important;
+}
+div.bxst-col-sel span.bxst-blue {
+	background: rgb(220, 231, 247) !important; border: 1px solid rgb(198, 207, 222) !important; border-image: none !important;
+}
+div.bxst-col-sel span.bxst-red {
+	background: rgb(252, 223, 223) !important; border: 1px solid rgb(226, 200, 200) !important; border-image: none !important;
+}
+div.bxst-col-sel span.bxst-purple {
+	background: rgb(246, 218, 248) !important; border: 1px solid rgb(221, 196, 223) !important; border-image: none !important;
+}
+div.bxst-col-sel span.bxst-gray {
+	background: rgb(245, 245, 245) !important; border: 1px solid rgb(220, 220, 220) !important; border-image: none !important;
+}
+div.bxst-trans-overlay {
+	left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: absolute; opacity: 0.01; background-color: rgb(255, 255, 255); -moz-user-select: none; -moz-opacity: 0.01;
+}
+div.bxst-list {
+	
+}
+div.bxst-list table {
+	border-collapse: collapse !important;
+}
+div.bxst-list table td {
+	padding: 0px !important;
+}
+div.bxst-list div.bxst-list-filter {
+	margin: 0px 0px 35px !important;
+}
+div.bxst-list div.bxst-list-filter table.bxst-list-filter-tbl {
+	border-collapse: collapse !important;
+}
+div.bxst-list div.bxst-list-filter table td {
+	background: none !important; padding: 0px !important;
+}
+div.bxst-list div.bxst-list-filter table tr.bxst-list-filter-titles td {
+	background: none !important; border-width: 0px !important;
+}
+div.bxst-list div.bxst-list-filter table tr.bxst-list-filter-titles td div {
+	margin: 5px 0px 4px 6px !important; padding: 0px !important;
+}
+div.bxst-list div.bxst-list-filter table tr.bxst-list-filter-controls td {
+	padding: 3px 5px 0px 0px !important;
+}
+div.bxst-list div.bxstl-fil-cont-c {
+	border-width: 0px 1px 0px 0px !important; border-style: solid; border-color: rgb(229, 229, 229); margin: 4px 5px;
+}
+div.bxst-list div.bxstl-fil-cont {
+	margin: 8px 5px 0px;
+}
+div.bxst-list div.bxst-list-filter-hr {
+	background: rgb(229, 229, 229) !important; margin: 0px 5px 0px 0px; padding: 0px !important; top: 24px; height: 1px; line-height: 1px !important; overflow: hidden !important; position: relative;
+}
+div.bxst-list img.bxst-list-filter-hr {
+	background: rgb(255, 0, 0) !important; margin: 0px 5px 0px 0px; top: 24px; width: 200px; height: 1px; position: relative;
+}
+div.bxstl-but {
+	margin: 3px 1px !important; padding: 0px !important; cursor: pointer !important;
+}
+div.bxstl-but div.bxstl-but-l {
+	margin: 0px !important; padding: 0px !important; width: 3px; height: 18px !important; display: none; background-image: url("/bitrix/images/fileman/stickers_sprite.png") !important;
+}
+div.bxstl-but div.bxstl-but-r {
+	margin: 0px !important; padding: 0px !important; width: 3px; height: 18px !important; display: none; background-image: url("/bitrix/images/fileman/stickers_sprite.png") !important;
+}
+div.bxstl-but div.bxstl-but-l {
+	background-position: -20px -142px; float: left;
+}
+div.bxstl-but div.bxstl-but-r {
+	background-position: -26px -142px; float: right;
+}
+div.bxstl-but div.bxstl-but-c {
+	background: none; margin: 0px 3px; padding: 0px 3px !important; height: 18px !important; float: left;
+}
+div.bxstl-but div.bxstl-but-c span {
+	color: rgb(0, 0, 0) !important; line-height: 16px !important; font-family: Verdana !important; font-size: 13px !important; text-decoration: underline; cursor: pointer !important;
+}
+div.bxstl-but-checked div.bxstl-but-l {
+	display: block !important;
+}
+div.bxstl-but-checked div.bxstl-but-r {
+	display: block !important;
+}
+div.bxstl-but-checked div.bxstl-but-l {
+	display: block !important;
+}
+div.bxstl-but-checked div.bxstl-but-r {
+	display: block !important;
+}
+div.bxstl-but-checked div.bxstl-but-c {
+	background: url("/bitrix/images/fileman/stickers_sprite.png") repeat-x 0px -167px !important; margin: 0px !important;
+}
+div.bxstl-but-checked div.bxstl-but-c span {
+	text-decoration: none !important;
+}
+div.bxst-list div.bxst-list-color-cont {
+	width: 145px; height: 24px;
+}
+div.bxst-list div.bxst-list-color-cont div.bxstl-color-pick {
+	margin: 6px 2px 2px !important; padding: 0px !important; width: 18px; height: 18px; float: left; cursor: pointer !important;
+}
+div.bxst-list div.bxst-list-color-cont div.bxstl-color-pick div.bxstl-col-pic-l {
+	width: 3px; height: 18px; display: none; background-image: url("/bitrix/images/fileman/stickers_sprite.png") !important;
+}
+div.bxst-list div.bxst-list-color-cont div.bxstl-color-pick div.bxstl-col-pic-r {
+	width: 3px; height: 18px; display: none; background-image: url("/bitrix/images/fileman/stickers_sprite.png") !important;
+}
+div.bxst-list div.bxst-list-color-cont div.bxstl-color-pick div.bxstl-col-pic-l {
+	background-position: -10px -142px; float: left;
+}
+div.bxst-list div.bxst-list-color-cont div.bxstl-color-pick div.bxstl-col-pic-r {
+	background-position: -15px -142px; float: right;
+}
+div.bxst-list div.bxst-list-color-cont div.bxstl-color-pick div.bxstl-col-pic-c {
+	background: none; margin: 0px 3px; padding: 0px !important; height: 18px; line-height: 1px !important; overflow: hidden !important; float: left;
+}
+div.bxst-list div.bxst-list-color-cont div.bxstl-color-pick div.bxstl-col-pic-c div {
+	margin: 3px 0px 0px; padding: 0px !important; width: 10px; height: 10px; line-height: 1px !important; overflow: hidden !important;
+}
+div.bxst-list div.bxst-list-color-cont div.bxstl-color-pick-ch div.bxstl-col-pic-l {
+	display: block !important;
+}
+div.bxst-list div.bxst-list-color-cont div.bxstl-color-pick-ch div.bxstl-col-pic-r {
+	display: block !important;
+}
+div.bxst-list div.bxst-list-color-cont div.bxstl-color-pick-ch div.bxstl-col-pic-c {
+	background: url("/bitrix/images/fileman/stickers_sprite.png") repeat-x 0px -186px !important; margin: 0px !important;
+}
+div.bxst-list-items {
+	width: 100%; overflow: auto;
+}
+div.bxst-list-items table {
+	width: 100%; border-collapse: collapse !important; table-layout: fixed;
+}
+div.bxst-list-items table td {
+	padding: 0px !important;
+}
+div.bxst-list-items table tr.bxst-list-header td {
+	background: rgb(229, 229, 229) !important; vertical-align: top !important;
+}
+div.bxst-list-items table tr.bxst-list-header td div.bxstl-h-div {
+	margin: 7px 10px !important; font-family: Verdana; font-size: 11px; float: left; white-space: nowrap !important;
+}
+div.bxst-list-items table tr.bxst-list-item td {
+	padding: 4px 10px !important; font-family: Verdana; font-size: 12px;
+}
+div.bxst-list-items table tr.bxst-list-item td.bxst-list-it-link a {
+	color: rgb(0, 0, 0) !important; overflow: hidden; text-decoration: none; display: block; white-space: nowrap; -ms-text-overflow: ellipsis; -o-text-overflow: ellipsis; -moz-binding: url(/bitrix/js/fileman/text-overflow.xml#ellipsis);
+}
+div.bxst-list-items table tr.bxst-list-item td nobr {
+	color: rgb(0, 0, 0) !important; overflow: hidden; text-decoration: none; display: block; white-space: nowrap; -ms-text-overflow: ellipsis; -o-text-overflow: ellipsis; -moz-binding: url(/bitrix/js/fileman/text-overflow.xml#ellipsis);
+}
+div.bxst-list-items table tr.bxst-list-item td.bxst-list-it-link a.bxst-list-it-path {
+	color: rgb(102, 102, 102) !important;
+}
+div.bxst-list div.bxst-list-items table tr.bxst-list-item-closed td {
+	color: rgb(176, 176, 176) !important;
+}
+div.bxst-list div.bxst-list-items table tr.bxst-list-item-closed td * {
+	color: rgb(176, 176, 176) !important;
+}
+div.bxst-list div.bxst-list-items table tr.bxst-list-item-closed td a {
+	color: rgb(176, 176, 176) !important;
+}
+div.bxst-list div.bxst-list-items table tr.bxst-list-item-closed td nobr {
+	color: rgb(176, 176, 176) !important;
+}
+div.bxst-list div.bxst-list-items table tr.bxst-list-item-closed td a.bxst-list-it-path {
+	color: rgb(176, 176, 176) !important;
+}
+div.bxst-list div.bxst-list-items table tr.bxst-list-item-closed td.bxst-id-cell a {
+	color: rgb(176, 176, 176) !important;
+}
+div.bxst-list-items table tr.bxst-list-header td.bxst-id-cell div {
+	text-align: center;
+}
+div.bxst-list-items table tr.bxst-list-item td.bxst-id-cell {
+	text-align: center;
+}
+div.bxst-list-items table tr.bxst-list-item td.bxst-id-cell a {
+	color: rgb(63, 147, 199);
+}
+div.bxst-list div.bxst-list-items table tr.bxst-list-item-closed td.bxst-id-cell a {
+	text-decoration: line-through !important;
+}
+div.bxst-list-items table tr.bxst-list-item td {
+	background: none !important; border-width: 0px 0px 1px !important; border-style: solid !important; border-color: rgb(229, 229, 229) !important; padding: 5px 3px 3px 10px;
+}
+div.bxst-list-items table tr.bxst-list-item div.bxstl-color-ind {
+	margin: 5px 4px; width: 18px !important; height: 18px !important;
+}
+div.bxst-list div.bxst-list-action {
+	margin: 15px 15px 0px 0px; float: right;
+}
+tr.bxst-list-item div.bxstl-compl-icon {
+	background-position: -10px -209px; margin: -20px -8px 0px 0px; width: 12px; height: 10px; float: right; visibility: hidden;
+}
+tr.bxst-list-item td.bxstl-completed div.bxstl-compl-icon {
+	visibility: visible !important;
+}
+div.bxst-list-items tr.bxst-list-item-closed td.bxst-id-cell {
+	text-decoration: line-through !important;
+}
+div.bxst-list div.bxst-list-navi {
+	margin: 15px 0px 0px 2px; float: left;
+}
+div.bxstl-navi-prev-next-cnt a {
+	margin: 0px 5px 0px 3px !important; color: rgb(63, 147, 199) !important; font-family: Verdana !important; font-size: 14px !important;
+}
+div.bxstl-navi-pages-cnt {
+	margin: 5px 0px 0px !important;
+}
+div.bxstl-navi-pages-cnt div.bxstl-navi-item-cur {
+	margin: 0px 4px !important; color: rgb(63, 147, 199) !important; font-family: Verdana !important; font-size: 14px !important; float: left; display: block;
+}
+div.bxstl-navi-pages-cnt a.bxstl-navi-item {
+	margin: 0px 4px !important; color: rgb(63, 147, 199) !important; font-family: Verdana !important; font-size: 14px !important; float: left; display: block;
+}
+div.bxstl-navi-pages-cnt div.bxstl-navi-item-cur div.bxstl-navi-it-l {
+	width: 3px; height: 18px; background-image: url("/bitrix/images/fileman/stickers_sprite.png") !important;
+}
+div.bxstl-navi-pages-cnt div.bxstl-navi-item-cur div.bxstl-navi-it-r {
+	width: 3px; height: 18px; background-image: url("/bitrix/images/fileman/stickers_sprite.png") !important;
+}
+div.bxstl-navi-pages-cnt div.bxstl-navi-item-cur {
+	width: 20px;
+}
+div.bxstl-navi-pages-cnt div.bxstl-navi-item-cur div.bxstl-navi-it-l {
+	background-position: -20px -142px; float: left;
+}
+div.bxstl-navi-pages-cnt div.bxstl-navi-item-cur div.bxstl-navi-it-r {
+	background-position: -26px -142px; float: right;
+}
+div.bxstl-navi-pages-cnt div.bxstl-navi-item-cur div.bxstl-navi-it-c {
+	background: url("/bitrix/images/fileman/stickers_sprite.png") repeat-x 0px -167px !important; margin: 0px !important; padding: 0px 2px !important; height: 18px; color: rgb(0, 0, 0) !important; font-weight: bold !important; float: left; cursor: default !important;
+}
+div.bxstl-no-stickers {
+	margin: 20px 25px; color: rgb(102, 102, 102) !important; font-family: Verdana; font-size: 14px;
+}
+div.bxstl-sep {
+	margin: 5px 0px 0px !important; width: 1px !important; height: 18px !important; float: right; background-color: rgb(206, 206, 206);
+}
+div.bxst-marker-res-cont {
+	left: 0px; top: 0px; width: 1px; height: 1px; position: absolute; z-index: 750;
+}
+div.bxst-marker-res-t {
+	background: none !important; border: 0px currentColor !important; border-image: none !important; position: absolute; z-index: 750;
+}
+div.bxst-marker-res-b {
+	background: none !important; border: 0px currentColor !important; border-image: none !important; position: absolute; z-index: 750;
+}
+div.bxst-marker-res-l {
+	background: none !important; border: 0px currentColor !important; border-image: none !important; position: absolute; z-index: 750;
+}
+div.bxst-marker-res-r {
+	background: none !important; border: 0px currentColor !important; border-image: none !important; position: absolute; z-index: 750;
+}
+div.bxst-marker-res-t {
+	height: 10px !important;
+}
+div.bxst-marker-res-b {
+	height: 10px !important;
+}
+div.bxst-marker-res-l {
+	width: 10px !important; cursor: n-resize !important;
+}
+div.bxst-marker-res-r {
+	width: 10px !important; cursor: n-resize !important;
+}
+div.bxst-marker-res-t {
+	cursor: n-resize !important;
+}
+div.bxst-marker-res-b {
+	cursor: s-resize !important;
+}
+div.bxst-marker-res-l {
+	cursor: w-resize !important;
+}
+div.bxst-marker-res-r {
+	cursor: e-resize !important;
+}
+div.bxst-marker-res-lt {
+	background: none !important; border: 0px currentColor !important; border-image: none !important; width: 10px; height: 10px; position: absolute; z-index: 750;
+}
+div.bxst-marker-res-rt {
+	background: none !important; border: 0px currentColor !important; border-image: none !important; width: 10px; height: 10px; position: absolute; z-index: 750;
+}
+div.bxst-marker-res-lb {
+	background: none !important; border: 0px currentColor !important; border-image: none !important; width: 10px; height: 10px; position: absolute; z-index: 750;
+}
+div.bxst-marker-res-rb {
+	background: none !important; border: 0px currentColor !important; border-image: none !important; width: 10px; height: 10px; position: absolute; z-index: 750;
+}
+div.bxst-marker-res-lt {
+	cursor: nw-resize !important;
+}
+div.bxst-marker-res-rt {
+	cursor: ne-resize !important;
+}
+div.bxst-marker-res-lb {
+	cursor: sw-resize !important;
+}
+div.bxst-marker-res-rb {
+	cursor: se-resize !important;
+}
+#bx-panel {
+	background: repeat-x 0px 0px !important; list-style: none !important; margin: 0px !important; padding: 0px !important; border: currentColor !important; border-image: none !important; text-align: left !important; text-transform: none !important; text-indent: 0px !important; letter-spacing: normal !important; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; text-decoration: none !important; word-spacing: normal !important; vertical-align: baseline !important; float: none !important; white-space: normal !important; visibility: visible !important; position: static !important;
+}
+#bx-panel a {
+	background: repeat-x 0px 0px !important; list-style: none !important; margin: 0px !important; padding: 0px !important; border: currentColor !important; border-image: none !important; text-align: left !important; text-transform: none !important; text-indent: 0px !important; letter-spacing: normal !important; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; text-decoration: none !important; word-spacing: normal !important; vertical-align: baseline !important; float: none !important; white-space: normal !important; visibility: visible !important; position: static !important;
+}
+#bx-panel span {
+	background: repeat-x 0px 0px !important; list-style: none !important; margin: 0px !important; padding: 0px !important; border: currentColor !important; border-image: none !important; text-align: left !important; text-transform: none !important; text-indent: 0px !important; letter-spacing: normal !important; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; text-decoration: none !important; word-spacing: normal !important; vertical-align: baseline !important; float: none !important; white-space: normal !important; visibility: visible !important; position: static !important;
+}
+#bx-panel div {
+	background: repeat-x 0px 0px !important; list-style: none !important; margin: 0px !important; padding: 0px !important; border: currentColor !important; border-image: none !important; text-align: left !important; text-transform: none !important; text-indent: 0px !important; letter-spacing: normal !important; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; text-decoration: none !important; word-spacing: normal !important; vertical-align: baseline !important; float: none !important; white-space: normal !important; visibility: visible !important; position: static !important;
+}
+#bx-panel {
+	position: relative !important; z-index: 995 !important; cursor: default !important; box-shadow: 0px 0px 7px rgba(0,0,0,1) !important;
+}
+#bx-panel span {
+	display: inline !important;
+}
+#bx-panel a {
+	display: inline !important;
+}
+#bx-panel {
+	width: auto !important; display: block !important;
+}
+#bx-panel div {
+	width: auto !important; display: block !important;
+}
+.bx-panel-fixed#bx-panel {
+	left: 0px !important; top: 0px !important; width: 100% !important; position: fixed !important; z-index: 995 !important;
+}
+.bx-panel-fixed-ie#bx-panel {
+	left: 0px; top: 0px; width: 100% !important; position: absolute !important; z-index: 995 !important;
+}
+#bx-panel #bx-panel-top {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") repeat-x 0px 0px rgb(74, 82, 91) !important; margin: 0px !important; padding: 0px !important; height: 50px !important; overflow: hidden !important; position: relative !important; z-index: 110 !important; -webkit-font-smoothing: antialiased;
+}
+#bx-panel #bx-panel-top-gutter {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -37px -1297px !important; left: 6px !important; top: 0px !important; width: 4px !important; height: 39px !important; display: none !important; position: absolute !important; content: "" !important;
+}
+#bx-panel #bx-panel-tabs {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") repeat-x 0px 0px rgb(74, 82, 91) !important; font: 11px/normal "Helvetica Neue", Helvetica, Arial, sans-serif !important; margin: 0px !important; padding: 10px 10px 0px 0px !important; left: 0px !important; top: 0px !important; white-space: nowrap !important; position: absolute !important; z-index: 6 !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel #bx-panel-menu {
+	font: bold 12px/29px "Helvetica Neue", Helvetica, Arial, sans-serif !important; padding: 0px 0px 0px 3px !important; left: 12px !important; top: 10px !important; height: 31px !important; text-align: left !important; text-decoration: none !important; vertical-align: top !important; display: block !important; position: absolute !important; cursor: pointer !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel #bx-panel-menu-text {
+	font: bold 12px/29px "Helvetica Neue", Helvetica, Arial, sans-serif !important; padding: 0px 13px 0px 29px !important; height: 31px !important; color: rgb(221, 231, 233) !important; display: inline-block !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel #bx-panel-menu-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") -192px -1655px !important; left: 10px !important; top: 10px !important; width: 13px !important; height: 12px !important; display: block !important; position: absolute !important;
+}
+#bx-panel #bx-panel-menu:hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -1171px !important;
+}
+#bx-panel #bx-panel-menu:hover #bx-panel-menu-text {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -1171px !important; color: rgb(238, 238, 238) !important;
+}
+#bx-panel #bx-panel-menu:hover #bx-panel-menu-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") -192px -1695px !important;
+}
+#bx-panel #bx-panel-top .bx-pressed#bx-panel-menu {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -1213px !important;
+}
+#bx-panel #bx-panel-top .bx-pressed#bx-panel-menu #bx-panel-menu-text {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -1213px !important; color: rgb(238, 238, 238) !important;
+}
+#bx-panel #bx-panel-view-tab {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -980px !important; font: bold 17px/37px "Helvetica Neue", Helvetica, Arial, sans-serif !important; margin: 0px 9px 0px 109px !important; padding: 0px 0px 0px 2px !important; height: 40px !important; text-align: left !important; text-decoration: none !important; vertical-align: top !important; display: inline-block !important; cursor: pointer !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel #bx-panel-view-tab span {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -980px !important; font: bold 17px/37px "Helvetica Neue", Helvetica, Arial, sans-serif !important; padding: 0px 23px 0px 21px !important; height: 40px !important; color: rgb(22, 25, 26) !important; display: inline-block !important; font-size-adjust: none !important; font-stretch: normal !important; text-shadow: 1px 1px 0px rgba(221,223,233,0.29) !important;
+}
+#bx-panel #bx-panel-admin-tab {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -1029px !important; font: bold 17px/37px "Helvetica Neue", Helvetica, Arial, sans-serif !important; margin: 0px 19px 0px 0px !important; height: 40px !important; text-align: left !important; padding-left: 2px !important; text-decoration: none !important; vertical-align: top !important; display: inline-block !important; cursor: pointer !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+.bx-panel-admin-mode#bx-panel #bx-panel-admin-tab {
+	background: none !important; padding-left: 0px !important;
+}
+#bx-panel-admin-tab span {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -1029px !important; font: bold 17px/37px "Helvetica Neue", Helvetica, Arial, sans-serif !important; padding: 0px 20px 0px 18px !important; height: 40px !important; color: rgb(189, 193, 200) !important; display: inline-block !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel #bx-panel-admin-tab:hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -1078px !important;
+}
+#bx-panel #bx-panel-admin-tab:hover span {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -1078px !important; color: rgb(255, 255, 255) !important;
+}
+#bx-panel #bx-panel-clear-cache {
+	display: none !important;
+}
+#bx-panel #bx-panel-userinfo {
+	font: 11px/27px "Helvetica Neue", Helvetica, Arial, sans-serif !important; margin: 0px !important; padding: 0px !important; top: 10px !important; height: 31px !important; text-align: right !important; right: 32px !important; position: absolute !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel #bx-panel-hotkeys {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -307px -1644px !important; margin: 0px !important; padding: 0px 12px !important; width: auto !important; height: 29px !important; text-align: left !important; vertical-align: top !important; display: inline-block !important; cursor: pointer !important;
+}
+#bx-panel #bx-panel-hotkeys:hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -307px -1684px !important;
+}
+#bx-panel #bx-panel-pin {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -332px -1645px !important; margin: 0px 0px 0px 5px !important; padding: 0px 12px !important; width: auto !important; height: 29px !important; text-align: left !important; vertical-align: top !important; display: inline-block !important; cursor: pointer !important;
+}
+#bx-panel #bx-panel-pin:hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -332px -1685px !important;
+}
+#bx-panel .bx-panel-pin-fixed#bx-panel-pin {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -356px -1644px !important;
+}
+#bx-panel .bx-panel-pin-fixed#bx-panel-pin:hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -356px -1684px !important;
+}
+#bx-panel #bx-panel-user {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -1129px !important; font: bold 12px/29px "Helvetica Neue", Helvetica, Arial, sans-serif !important; padding: 0px 0px 0px 3px !important; height: 31px !important; text-align: left !important; text-decoration: none !important; vertical-align: top !important; display: inline-block !important; position: relative !important; cursor: pointer !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel #bx-panel-user-text {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -1129px !important; font: bold 12px/29px "Helvetica Neue", Helvetica, Arial, sans-serif !important; padding: 0px 13px 0px 29px !important; height: 31px !important; color: rgb(221, 231, 233) !important; overflow: hidden !important; display: inline-block !important; white-space: nowrap !important; position: relative !important; -ms-text-overflow: ellipsis !important; max-width: 345px !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel #bx-panel-user-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") -290px -1654px !important; left: 11px !important; top: 8px !important; width: 11px !important; height: 11px !important; display: block !important; position: absolute !important; z-index: 5 !important;
+}
+#bx-panel #bx-panel-user:hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -1171px !important;
+}
+#bx-panel #bx-panel-user:hover #bx-panel-user-text {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -1171px !important; color: rgb(255, 255, 255) !important;
+}
+#bx-panel #bx-panel-logout {
+	font: bold 12px/30px "Helvetica Neue", Helvetica, Arial, sans-serif !important; margin: 0px 22px 0px 21px !important; padding: 0px !important; color: rgb(177, 185, 189) !important; text-decoration: none !important; vertical-align: top !important; display: inline-block !important; cursor: pointer !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel #bx-panel-logout:hover {
+	color: rgb(255, 255, 255) !important;
+}
+#bx-panel .bx-panel-userinfo-separator {
+	display: none;
+}
+#bx-panel #bx-panel-site-toolbar {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") repeat-x 0px -50px rgb(118, 127, 140) !important; margin: 0px !important; padding: 0px !important; height: 97px !important; display: block !important; position: relative !important; z-index: 110 !important;
+}
+#bx-panel #bx-panel-buttons {
+	margin: 0px 0px 0px 11px !important; padding: 0px !important; height: 97px !important; overflow: hidden !important; position: relative;
+}
+#bx-panel #bx-panel-buttons-gutter {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -10px -1297px !important; left: 6px !important; top: 0px !important; width: 4px !important; height: 97px !important; display: block !important; position: absolute !important;
+}
+#bx-panel #bx-panel-buttons-inner {
+	font: 11px/28px "Helvetica Neue", Helvetica, Arial, sans-serif !important; margin: 0px !important; padding: 3px 0px 0px !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel .bx-panel-button-group {
+	font: 11px/28px "Helvetica Neue", Helvetica, Arial, sans-serif !important; margin: 0px 6px !important; padding: 0px !important; height: 94px !important; vertical-align: top !important; display: inline-block !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel .bx-panel-button {
+	margin: 0px !important; height: 88px !important; vertical-align: top !important; display: inline-block !important;
+}
+#bx-panel .bx-panel-button-inner {
+	margin: 0px 0px 0px 10px !important; padding: 0px 10px 0px 0px !important; height: 88px !important; text-align: center !important; text-decoration: none !important; display: inline-block !important;
+}
+#bx-panel .bx-panel-button-inner a {
+	font: 11px/9px "Helvetica Neue", Helvetica, Arial, sans-serif !important; margin: 0px !important; padding: 0px !important; text-align: center !important; color: rgb(72, 72, 71) !important; text-decoration: none !important; display: block !important; cursor: pointer !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel .bx-panel-button-inner a:hover {
+	color: rgb(72, 72, 71) !important;
+}
+#bx-panel .bx-panel-small-button-inner a {
+	margin: 0px !important; padding: 0px !important; height: 29px !important; text-align: left !important; color: rgb(72, 72, 71) !important; text-decoration: none !important; vertical-align: top !important; display: inline-block !important; cursor: pointer !important;
+}
+#bx-panel .bx-panel-small-button-inner a:hover {
+	color: rgb(72, 72, 71) !important;
+}
+#bx-panel .bx-panel-small-button {
+	margin: 0px !important; height: 29px !important; vertical-align: top !important; display: inline-block !important;
+}
+#bx-panel .bx-panel-small-button-inner {
+	margin: 0px 0px 0px 9px !important; padding: 0px 5px 0px 0px !important; height: 29px !important; text-align: left !important; text-decoration: none !important; display: inline-block !important;
+}
+#bx-panel .bx-panel-small-button-icon {
+	margin: 0px !important; padding: 0px !important; width: 22px !important; height: 29px !important; vertical-align: top !important; display: inline-block !important;
+}
+#bx-panel .bx-panel-small-button-text {
+	font: 11px/28px "Helvetica Neue", Helvetica, Arial, sans-serif !important; margin: 0px 1px 0px 0px !important; padding: 0px 0px 0px 3px !important; color: rgb(214, 223, 226) !important; vertical-align: top !important; display: inline-block !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel .bx-panel-small-button-text-hover .bx-panel-small-button-text {
+	color: rgb(255, 255, 255) !important;
+}
+#bx-panel .bx-panel-small-button-arrow-hover .bx-panel-small-button-text {
+	color: rgb(255, 255, 255) !important;
+}
+#bx-panel .bx-panel-small-button-hover .bx-panel-small-button-text {
+	color: rgb(255, 255, 255) !important;
+}
+#bx-panel span.bx-panel-small-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -347px -1741px !important; width: 14px !important; height: 29px !important; vertical-align: top !important; display: inline-block !important;
+}
+#bx-panel span.bx-panel-small-single-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -347px -1741px !important; width: 14px !important; height: 29px !important; vertical-align: top !important; display: inline-block !important;
+}
+#bx-panel .bx-panel-small-button-hover span.bx-panel-small-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -369px -1741px !important;
+}
+#bx-panel .bx-panel-small-button-hover span.bx-panel-small-single-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -369px -1741px !important;
+}
+#bx-panel .bx-panel-small-button-text-hover span.bx-panel-small-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -369px -1741px !important;
+}
+#bx-panel .bx-panel-small-button-text-hover span.bx-panel-small-single-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -369px -1741px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-hover span.bx-panel-small-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -369px -1741px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-hover span.bx-panel-small-single-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -369px -1741px !important;
+}
+#bx-panel span.bx-panel-small-single-button-arrow {
+	margin-right: -2px !important;
+}
+#bx-panel a.bx-panel-small-button-arrow {
+	margin: 0px -3px 0px 0px !important; width: 14px !important; display: inline-block !important;
+}
+#bx-panel .bx-panel-button-hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat 0px -558px !important;
+}
+#bx-panel .bx-panel-button-hover .bx-panel-button-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat right -558px !important;
+}
+#bx-panel .bx-panel-button-icon-hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat 0px -168px !important;
+}
+#bx-panel .bx-panel-button-icon-hover .bx-panel-button-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat right -168px !important;
+}
+#bx-panel .bx-panel-button-text-hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat 0px -265px !important;
+}
+#bx-panel .bx-panel-button-text-hover .bx-panel-button-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat right -265px !important;
+}
+#bx-panel .bx-panel-button-active {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat 0px -656px !important;
+}
+#bx-panel .bx-panel-button-active .bx-panel-button-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat right -656px !important;
+}
+#bx-panel .bx-panel-button-icon-active {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat 0px -363px !important;
+}
+#bx-panel .bx-panel-button-icon-active .bx-panel-button-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat right -363px !important;
+}
+#bx-panel .bx-panel-button-text-active {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat 0px -461px !important;
+}
+#bx-panel .bx-panel-button-text-active .bx-panel-button-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat right -461px !important;
+}
+#bx-panel .bx-panel-small-button-hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat 0px -903px !important;
+}
+#bx-panel .bx-panel-small-button-hover .bx-panel-small-button-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat right -903px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat 0px -753px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-hover .bx-panel-small-button-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat right -753px !important;
+}
+#bx-panel .bx-panel-small-button-text-hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat 0px -791px !important;
+}
+#bx-panel .bx-panel-small-button-text-hover .bx-panel-small-button-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat right -791px !important;
+}
+#bx-panel .bx-panel-small-button-active {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat 0px -943px !important;
+}
+#bx-panel .bx-panel-small-button-active .bx-panel-small-button-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat right -943px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-active {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat 0px -828px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-active .bx-panel-small-button-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat right -828px !important;
+}
+#bx-panel .bx-panel-small-button-text-active {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat 0px -865px !important;
+}
+#bx-panel .bx-panel-small-button-text-active .bx-panel-small-button-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat right -865px !important;
+}
+#bx-panel span.bx-panel-button-text {
+	font: 11px/11px "Helvetica Neue", Helvetica, Arial, sans-serif !important; padding: 7px 0px 8px !important; text-align: center !important; color: rgb(214, 223, 226) !important; vertical-align: top !important; display: block !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel .bx-panel-button-text-hover span.bx-panel-button-text {
+	color: rgb(255, 255, 255) !important;
+}
+#bx-panel .bx-panel-button-icon-hover span.bx-panel-button-text {
+	color: rgb(255, 255, 255) !important;
+}
+#bx-panel .bx-panel-button-hover span.bx-panel-button-text {
+	color: rgb(255, 255, 255) !important;
+}
+#bx-panel .bx-panel-button-icon {
+	margin: 0px !important; padding: 0px !important; width: 52px !important; height: 50px !important; display: inline-block !important;
+}
+#bx-panel .bx-panel-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -352px -1749px !important; margin: 0px !important; padding: 0px !important; width: 7px !important; height: 11px !important; font-size: 1px !important; vertical-align: top !important; display: inline-block !important;
+}
+#bx-panel .bx-panel-button-text-hover .bx-panel-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -374px -1749px !important;
+}
+#bx-panel .bx-panel-button-icon-hover .bx-panel-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -374px -1749px !important;
+}
+#bx-panel .bx-panel-button-hover .bx-panel-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -374px -1749px !important;
+}
+#bx-panel .bx-panel-button-separator {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -24px -1301px !important; width: 2px !important; height: 90px !important; display: inline-block !important;
+}
+#bx-panel .bx-panel-create-page-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -3px -1403px !important;
+}
+#bx-panel .bx-panel-create-section-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -61px -1405px !important;
+}
+#bx-panel .bx-panel-edit-page-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -197px -1460px !important;
+}
+#bx-panel .bx-panel-edit-section-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -261px -1462px !important;
+}
+#bx-panel .bx-panel-edit-secret-page-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -3px -1461px !important;
+}
+#bx-panel .bx-panel-edit-secret-section-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -67px -1462px !important;
+}
+#bx-panel .bx-panel-clear-cache-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -180px -1402px !important;
+}
+#bx-panel .bx-panel-stickers-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -242px -1399px !important;
+}
+#bx-panel .bx-panel-site-wizard-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -308px -1402px !important;
+}
+#bx-panel .bx-panel-install-solution-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -135px -1461px !important;
+}
+#bx-panel .bx-panel-menu-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -11px -1646px !important;
+}
+#bx-panel .bx-panel-site-structure-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -36px -1645px !important;
+}
+#bx-panel .bx-panel-seo-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -11px -1803px !important;
+}
+#bx-panel .bx-panel-components-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -60px -1647px !important;
+}
+#bx-panel .bx-panel-site-template-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -86px -1645px !important;
+}
+#bx-panel .bx-panel-performance-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -112px -1646px !important;
+}
+#bx-panel .bx-panel-translate-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -37px -1802px !important;
+}
+#bx-panel .bx-panel-statistics-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -165px -1644px !important;
+}
+#bx-panel .bx-panel-reindex-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -63px -1802px !important;
+}
+#bx-panel .bx-panel-iblock-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -88px -1802px !important;
+}
+#bx-panel .bx-panel-short-url-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -138px -1646px !important;
+}
+#bx-panel .icon-wizard {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -138px -1802px !important;
+}
+#bx-panel .bx-panel-small-stickers-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -113px -1802px !important;
+}
+#bx-panel .bx-panel-button-text-hover .bx-panel-create-page-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -3px -1517px !important;
+}
+#bx-panel .bx-panel-button-icon-hover .bx-panel-create-page-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -3px -1517px !important;
+}
+#bx-panel .bx-panel-button-hover .bx-panel-create-page-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -3px -1517px !important;
+}
+#bx-panel .bx-panel-button-text-hover .bx-panel-create-section-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -61px -1519px !important;
+}
+#bx-panel .bx-panel-button-icon-hover .bx-panel-create-section-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -61px -1519px !important;
+}
+#bx-panel .bx-panel-button-hover .bx-panel-create-section-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -61px -1519px !important;
+}
+#bx-panel .bx-panel-button-text-hover .bx-panel-edit-page-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -197px -1574px !important;
+}
+#bx-panel .bx-panel-button-icon-hover .bx-panel-edit-page-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -197px -1574px !important;
+}
+#bx-panel .bx-panel-button-hover .bx-panel-edit-page-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -197px -1574px !important;
+}
+#bx-panel .bx-panel-button-text-hover .bx-panel-edit-section-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -261px -1576px !important;
+}
+#bx-panel .bx-panel-button-icon-hover .bx-panel-edit-section-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -261px -1576px !important;
+}
+#bx-panel .bx-panel-button-hover .bx-panel-edit-section-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -261px -1576px !important;
+}
+#bx-panel .bx-panel-button-text-hover .bx-panel-edit-secret-page-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -3px -1575px !important;
+}
+#bx-panel .bx-panel-button-icon-hover .bx-panel-edit-secret-page-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -3px -1575px !important;
+}
+#bx-panel .bx-panel-button-hover .bx-panel-edit-secret-page-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -3px -1575px !important;
+}
+#bx-panel .bx-panel-button-text-hover .bx-panel-edit-secret-section-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -67px -1576px !important;
+}
+#bx-panel .bx-panel-button-icon-hover .bx-panel-edit-secret-section-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -67px -1576px !important;
+}
+#bx-panel .bx-panel-button-hover .bx-panel-edit-secret-section-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -67px -1576px !important;
+}
+#bx-panel .bx-panel-button-text-hover .bx-panel-clear-cache-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -180px -1516px !important;
+}
+#bx-panel .bx-panel-button-icon-hover .bx-panel-clear-cache-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -180px -1516px !important;
+}
+#bx-panel .bx-panel-button-hover .bx-panel-clear-cache-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -180px -1516px !important;
+}
+#bx-panel .bx-panel-button-text-hover .bx-panel-stickers-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -242px -1513px !important;
+}
+#bx-panel .bx-panel-button-icon-hover .bx-panel-stickers-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -242px -1513px !important;
+}
+#bx-panel .bx-panel-button-hover .bx-panel-stickers-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -242px -1513px !important;
+}
+#bx-panel .bx-panel-button-text-hover .bx-panel-site-wizard-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -308px -1516px !important;
+}
+#bx-panel .bx-panel-button-icon-hover .bx-panel-site-wizard-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -308px -1516px !important;
+}
+#bx-panel .bx-panel-button-hover .bx-panel-site-wizard-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -308px -1516px !important;
+}
+#bx-panel .bx-panel-button-text-hover .bx-panel-install-solution-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -135px -1575px !important;
+}
+#bx-panel .bx-panel-button-icon-hover .bx-panel-install-solution-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -135px -1575px !important;
+}
+#bx-panel .bx-panel-button-hover .bx-panel-install-solution-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -135px -1575px !important;
+}
+#bx-panel .bx-panel-small-button-text-hover .bx-panel-menu-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -11px -1686px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-hover .bx-panel-menu-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -11px -1686px !important;
+}
+#bx-panel .bx-panel-small-button-hover .bx-panel-menu-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -11px -1686px !important;
+}
+#bx-panel .bx-panel-small-button-text-hover .bx-panel-site-structure-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -36px -1685px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-hover .bx-panel-site-structure-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -36px -1685px !important;
+}
+#bx-panel .bx-panel-small-button-hover .bx-panel-site-structure-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -36px -1685px !important;
+}
+#bx-panel .bx-panel-small-button-text-hover .bx-panel-seo-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -11px -1838px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-hover .bx-panel-seo-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -11px -1838px !important;
+}
+#bx-panel .bx-panel-small-button-hover .bx-panel-seo-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -11px -1838px !important;
+}
+#bx-panel .bx-panel-small-button-text-hover .bx-panel-components-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -60px -1687px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-hover .bx-panel-components-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -60px -1687px !important;
+}
+#bx-panel .bx-panel-small-button-hover .bx-panel-components-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -60px -1687px !important;
+}
+#bx-panel .bx-panel-small-button-text-hover .bx-panel-site-template-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -86px -1685px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-hover .bx-panel-site-template-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -86px -1685px !important;
+}
+#bx-panel .bx-panel-small-button-hover .bx-panel-site-template-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -86px -1685px !important;
+}
+#bx-panel .bx-panel-small-button-text-hover .bx-panel-performance-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -112px -1686px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-hover .bx-panel-performance-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -112px -1686px !important;
+}
+#bx-panel .bx-panel-small-button-hover .bx-panel-performance-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -112px -1686px !important;
+}
+#bx-panel .bx-panel-small-button-text-hover .bx-panel-translate-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -37px -1837px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-hover .bx-panel-translate-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -37px -1837px !important;
+}
+#bx-panel .bx-panel-small-button-hover .bx-panel-translate-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -37px -1837px !important;
+}
+#bx-panel .bx-panel-small-button-text-hover .bx-panel-statistics-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -165px -1684px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-hover .bx-panel-statistics-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -165px -1684px !important;
+}
+#bx-panel .bx-panel-small-button-hover .bx-panel-statistics-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -165px -1684px !important;
+}
+#bx-panel .bx-panel-small-button-text-hover .bx-panel-reindex-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -63px -1837px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-hover .bx-panel-reindex-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -63px -1837px !important;
+}
+#bx-panel .bx-panel-small-button-hover .bx-panel-reindex-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -63px -1837px !important;
+}
+#bx-panel .bx-panel-small-button-text-hover .bx-panel-iblock-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -88px -1837px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-hover .bx-panel-iblock-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -88px -1837px !important;
+}
+#bx-panel .bx-panel-small-button-hover .bx-panel-iblock-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -88px -1837px !important;
+}
+#bx-panel .bx-panel-small-button-text-hover .bx-panel-short-url-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -138px -1686px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-hover .bx-panel-short-url-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -138px -1686px !important;
+}
+#bx-panel .bx-panel-small-button-hover .bx-panel-short-url-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -138px -1686px !important;
+}
+#bx-panel .bx-panel-small-button-text-hover .icon-wizard {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -138px -1837px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-hover .icon-wizard {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -138px -1837px !important;
+}
+#bx-panel .bx-panel-small-button-hover .icon-wizard {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -138px -1837px !important;
+}
+#bx-panel .bx-panel-small-button-text-hover .bx-panel-small-stickers-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -113px -1837px !important;
+}
+#bx-panel .bx-panel-small-button-arrow-hover .bx-panel-small-stickers-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -113px -1837px !important;
+}
+#bx-panel .bx-panel-small-button-hover .bx-panel-small-stickers-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -113px -1837px !important;
+}
+#bx-panel #bx-panel-switcher {
+	margin: 0px 0px 0px 17px !important; padding: 0px 19px !important; height: 79px !important; text-align: center !important; float: right !important; position: relative !important;
+}
+#bx-panel #bx-panel-switcher-gutter-left {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -10px -1297px !important; left: -6px !important; top: 0px !important; width: 4px !important; height: 97px !important; display: block !important; position: absolute !important;
+}
+#bx-panel #bx-panel-toggle {
+	background: repeat-x 0px 0px !important; font: 11px/9px "Helvetica Neue", Helvetica, Arial, sans-serif !important; margin: 13px 0px 0px !important; text-align: center !important; text-decoration: none !important; display: block !important; cursor: pointer !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel #bx-panel-switcher-gutter-right {
+	display: none !important;
+}
+#bx-panel #bx-panel-userinfo #bx-panel-toggle {
+	display: none !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-userinfo #bx-panel-toggle {
+	margin: 7px 24px 0px !important; display: inline-block !important; position: relative !important; -webkit-font-smoothing: auto;
+}
+#bx-panel #bx-panel-userinfo #bx-panel-switcher-gutter-left {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -37px -1297px !important; width: 4px !important; height: 39px !important; display: block !important; position: absolute !important; content: "" !important;
+}
+#bx-panel #bx-panel-userinfo #bx-panel-switcher-gutter-right {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -37px -1297px !important; width: 4px !important; height: 39px !important; display: block !important; position: absolute !important; content: "" !important;
+}
+#bx-panel #bx-panel-userinfo #bx-panel-switcher-gutter-left {
+	left: -24px !important; top: -12px !important;
+}
+#bx-panel #bx-panel-userinfo #bx-panel-switcher-gutter-right {
+	top: -12px !important; right: -24px !important;
+}
+#bx-panel #bx-panel-userinfo #bx-panel-toggle-caption {
+	margin: 0px 0px 0px 14px !important; padding: 1px 0px 11px !important; vertical-align: top !important; display: inline-block !important;
+}
+#bx-panel #bx-panel-userinfo #bx-panel-toggle-caption-mode {
+	margin: 0px 0px 0px 4px !important; padding: 1px 0px 0px !important; vertical-align: top !important; display: inline-block !important;
+}
+#bx-panel #bx-panel-userinfo #bx-panel-toggle-caption-mode-on {
+	vertical-align: top !important; display: block !important;
+}
+#bx-panel #bx-panel-userinfo #bx-panel-toggle-caption-mode-off {
+	vertical-align: top !important; display: block !important;
+}
+#bx-panel #bx-panel-userinfo .bx-panel-toggle-off #bx-panel-toggle-caption-mode-on {
+	visibility: hidden !important;
+}
+#bx-panel #bx-panel-userinfo .bx-panel-toggle-on #bx-panel-toggle-caption-mode-off {
+	visibility: hidden !important;
+}
+#bx-panel #bx-panel-userinfo #bx-panel-toggle .bx-panel-break {
+	display: none !important;
+}
+#bx-panel #bx-panel-toggle span {
+	font: 11px/11px "Helvetica Neue", Helvetica, Arial, sans-serif !important; color: rgb(221, 231, 233) !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel #bx-panel-toggle-indicator {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -281px -1751px !important; width: 32px !important; height: 15px !important; display: inline-block !important; position: relative !important;
+}
+#bx-panel #bx-panel-toggle-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -284px -1721px !important; left: 17px !important; top: -4px !important; width: 24px !important; height: 24px !important; display: block !important; position: absolute !important;
+}
+#bx-panel #bx-panel-toggle-icon-overlay {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -280px -1775px !important; width: 32px !important; height: 15px !important; display: inline-block !important;
+}
+#bx-panel .bx-panel-toggle-on #bx-panel-toggle-indicator {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -270px -1751px !important;
+}
+#bx-panel .bx-panel-toggle-off #bx-panel-toggle-indicator {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -290px -1751px !important;
+}
+#bx-panel .bx-panel-toggle-on #bx-panel-toggle-icon {
+	left: 17px !important;
+}
+#bx-panel .bx-panel-toggle-off #bx-panel-toggle-icon {
+	left: -3px !important;
+}
+#bx-panel .bx-panel-toggle-animate #bx-panel-toggle-indicator {
+	transition:background-position 0.15s ease-in !important; -webkit-transition: background-position 0.15s ease-in;
+}
+#bx-panel .bx-panel-toggle-animate #bx-panel-toggle-icon {
+	transition:left 0.15s ease-in !important; -webkit-transition: left 0.15s ease-in;
+}
+#bx-panel #bx-panel-toggle-caption {
+	padding: 5px 0px 0px !important; display: inline-block !important;
+}
+#bx-panel #bx-panel-toggle-caption-mode {
+	padding: 2px 0px 0px !important; display: inline-block !important;
+}
+#bx-panel #bx-panel-toggle-caption-mode-on {
+	display: block !important;
+}
+#bx-panel #bx-panel-toggle-caption-mode-off {
+	display: block !important;
+}
+#bx-panel .bx-panel-toggle-on #bx-panel-toggle-caption-mode-off {
+	display: none !important;
+}
+#bx-panel .bx-panel-toggle-off #bx-panel-toggle-caption-mode-on {
+	display: none !important;
+}
+#bx-panel .bx-panel-toggle-on #bx-panel-toggle-caption-mode-on {
+	color: rgb(221, 231, 233) !important;
+}
+#bx-panel .bx-panel-toggle-off #bx-panel-toggle-caption-mode-off {
+	color: rgb(11, 18, 33) !important;
+}
+#bx-panel #bx-panel-hider {
+	background: repeat-x 0px 0px !important; font: 11px/normal "Helvetica Neue", Helvetica, Arial, sans-serif !important; margin: 15px 0px 0px !important; padding: 0px !important; text-align: left !important; color: rgb(221, 231, 233) !important; text-decoration: none !important; display: inline-block !important; position: relative !important; cursor: pointer !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel #bx-panel-hider:hover {
+	color: rgb(255, 255, 255) !important; text-decoration: underline !important;
+}
+#bx-panel #bx-panel-hider-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -373px -1789px !important; left: -12px !important; top: 5px !important; width: 8px !important; height: 5px !important; display: inline-block !important; position: absolute !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-top {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") repeat-x 0px -1250px rgb(119, 127, 140) !important; height: 39px !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-top-gutter {
+	display: block !important; z-index: 7 !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-userinfo {
+	top: 5px !important; height: 33px !important; right: 14px !important; position: relative !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-tabs {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") repeat-x 0px -1250px rgb(119, 127, 140) !important; margin: 0px !important; padding: 5px 10px 4px 16px !important; height: auto !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-menu {
+	margin: 0px 9px 0px 0px !important; left: auto !important; top: auto !important; height: 29px !important; display: inline-block !important; position: relative !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-menu-text {
+	font: bold 12px/27px "Helvetica Neue", Helvetica, Arial, sans-serif !important; height: 29px !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-menu:hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -1978px !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-menu:hover #bx-panel-menu-text {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -1978px !important; color: rgb(238, 238, 238) !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-top .bx-pressed#bx-panel-menu {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -2017px !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-top .bx-pressed#bx-panel-menu #bx-panel-menu-text {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -2017px !important; color: rgb(238, 238, 238) !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-menu-icon {
+	top: 9px !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-admin-tab {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -1938px !important; font: bold 12px/27px "Helvetica Neue", Helvetica, Arial, sans-serif !important; margin: 0px 10px 0px 0px !important; padding: 0px 0px 0px 3px !important; height: 29px !important; text-align: left !important; text-decoration: none !important; vertical-align: top !important; display: inline-block !important; cursor: pointer !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-admin-tab span {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -1938px !important; font: bold 12px/27px "Helvetica Neue", Helvetica, Arial, sans-serif !important; padding: 0px 13px 0px 10px !important; height: 29px !important; color: rgb(221, 231, 233) !important; display: inline-block !important; position: relative; font-size-adjust: none !important; font-stretch: normal !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-admin-tab:hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -1978px !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-admin-tab:hover span {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -1978px !important; color: rgb(255, 255, 255) !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-clear-cache {
+	margin: 6px 0px 0px 19px !important; display: inline-block !important; cursor: pointer !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-clear-cache-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -159px -1735px !important; margin: 0px !important; padding: 0px !important; width: 18px !important; height: 18px !important; display: inline-block !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-clear-cache-text {
+	font: 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif !important; margin: 0px 0px 0px 8px !important; height: 18px !important; color: rgb(221, 231, 233) !important; vertical-align: top !important; display: inline-block !important; font-size-adjust: none !important; font-stretch: normal !important; -webkit-font-smoothing: auto;
+}
+.bx-panel-folded#bx-panel #bx-panel-clear-cache:hover #bx-panel-clear-cache-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -159px -1765px !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-clear-cache:hover #bx-panel-clear-cache-text {
+	color: rgb(255, 255, 255) !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-user {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -1938px !important; font: bold 12px/27px "Helvetica Neue", Helvetica, Arial, sans-serif !important; height: 29px !important; display: inline-block !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-user-text {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -1938px !important; font: bold 12px/27px "Helvetica Neue", Helvetica, Arial, sans-serif !important; height: 28px !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-user-icon {
+	top: 7px !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-user:hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -1978px !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-user:hover #bx-panel-user-text {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -1978px !important; color: rgb(255, 255, 255) !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-logout {
+	color: rgb(221, 231, 233) !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-logout:hover {
+	color: rgb(255, 255, 255) !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-site-toolbar {
+	display: none !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-view-tab {
+	display: none !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-hotkeys {
+	display: none !important;
+}
+#bx-panel .bx-panel-toggle-on #bx-panel-small-toggle-caption {
+	color: rgb(28, 186, 28) !important;
+}
+#bx-panel #bx-panel-expander {
+	margin: 0px 8px 0px 32px !important; vertical-align: top !important; display: none !important; position: relative !important; cursor: pointer !important;
+}
+#bx-panel #bx-panel-expander-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -350px -1791px !important; left: -12px !important; top: 13px !important; width: 8px !important; height: 5px !important; vertical-align: top !important; display: block !important; position: absolute !important;
+}
+#bx-panel #bx-panel-expander-text {
+	font: bold 11px/28px "Helvetica Neue", Helvetica, Arial, sans-serif !important; height: 18px !important; color: rgb(221, 231, 233) !important; vertical-align: top !important; display: inline-block !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel #bx-panel-expander:hover #bx-panel-expander-text {
+	color: rgb(255, 255, 255) !important; text-decoration: underline !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-expander {
+	display: inline-block !important;
+}
+#bx-panel .bx-panel-break {
+	display: block !important;
+}
+#bx-panel-error {
+	background: rgb(255, 235, 141) !important; padding: 10px !important; color: rgb(0, 0, 0) !important;
+}
+#bx-panel .adm-warning-block {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") repeat-x 0px -2473px !important; transition:height 0.3s ease-in, opacity 0.3s ease-in !important; height: 36px !important; text-align: center !important; overflow: hidden !important; padding-right: 40px !important; position: relative !important; -webkit-transition: height 0.3s ease-in, opacity 0.3s ease-in; -moz-transition: height 0.3s ease-in, opacity 0.3s ease-in; -o-transition: height 0.3s ease-in, opacity 0.3s ease-in;
+}
+#bx-panel .adm-warning-block-red {
+	background-position: 0px -2517px !important;
+}
+#bx-panel .adm-warning-text {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -374px -2563px !important; font: bold 14px/normal "Helvetica Neue", Helvetica, Arial, sans-serif !important; padding: 10px 0px 0px 26px !important; color: rgb(43, 78, 12) !important; margin-left: -6px !important; display: inline-block !important; font-size-adjust: none !important; font-stretch: normal !important; text-shadow: 0px 1px rgba(255,255,255,0.4) !important;
+}
+#bx-panel .adm-warning-block-red .adm-warning-text {
+	background-position: -374px -2592px !important; color: rgb(113, 8, 25) !important;
+}
+#bx-panel .adm-warning-text a {
+	color: rgb(19, 72, 137) !important; font-weight: normal !important; text-decoration: none !important; margin-left: 8px !important;
+}
+#bx-panel .adm-warning-close {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -365px -2622px !important; top: 0px !important; width: 40px !important; height: 36px !important; right: 0px !important; position: absolute !important; cursor: pointer !important;
+}
+#bx-panel .adm-warning-close:hover {
+	background-position: -365px -2649px !important;
+}
+#bx-panel .adm-warning-block-red .adm-warning-close {
+	background-position: -365px -2678px !important;
+}
+#bx-panel .adm-warning-block-red .adm-warning-close:hover {
+	background-position: -365px -2705px !important;
+}
+#bx-panel .adm-warning-animate {
+	height: 0px !important; opacity: 0.3 !important;
+}
+.bx-quirks #bx-panel .adm-warning-animate {
+	display: none !important;
+}
+div.bx-component-opener {
+	position: absolute !important; z-index: 996 !important;
+}
+span.bx-context-toolbar {
+	margin: 0px !important; padding: 0px !important; height: 43px !important; vertical-align: top !important; display: inline-block !important; position: static !important; box-shadow: 0px 2px 6px rgba(0,0,0,0.3) !important;
+}
+span.bx-context-toolbar {
+	font: 11px/43px "Helvetica Neue", Helvetica, Arial, sans-serif !important; list-style: none !important; text-align: left !important; text-transform: none !important; text-indent: 0px !important; letter-spacing: normal !important; text-decoration: none !important; word-spacing: normal !important; float: none !important; white-space: normal !important; visibility: visible !important; position: static !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+span.bx-context-toolbar a {
+	font: 11px/43px "Helvetica Neue", Helvetica, Arial, sans-serif !important; list-style: none !important; text-align: left !important; text-transform: none !important; text-indent: 0px !important; letter-spacing: normal !important; text-decoration: none !important; word-spacing: normal !important; float: none !important; white-space: normal !important; visibility: visible !important; position: static !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+span.bx-context-toolbar-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") repeat-x 0px -2358px rgb(100, 108, 122) !important; margin: 0px !important; padding: 0px !important; border: currentColor !important; border-image: none !important; height: 43px !important; vertical-align: top !important; display: inline-block !important; white-space: nowrap !important; position: static !important;
+}
+span.bx-context-toolbar-drag-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -53px -1296px !important; margin: 0px !important; padding: 0px !important; border: currentColor !important; border-image: none !important; width: 13px !important; height: 43px !important; vertical-align: top !important; display: inline-block !important; position: static !important; cursor: move !important;
+}
+span.bx-context-toolbar-vertical-line {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") repeat-x 0px -2407px !important; left: 0px; top: 41px !important; width: 100% !important; height: 2px !important; display: none !important; position: absolute !important;
+}
+span.bx-context-toolbar-button-wrapper {
+	background: repeat-x 0px 0px !important; margin: 0px !important; padding: 0px !important; border: currentColor !important; border-image: none !important; height: 43px !important; text-decoration: none !important; vertical-align: top !important; display: inline-block !important; position: static !important; cursor: default !important;
+}
+span.bx-context-toolbar-button {
+	background: repeat-x 0px 0px !important; margin: 0px !important; padding: 0px !important; border: currentColor !important; border-image: none !important; height: 43px !important; text-decoration: none !important; vertical-align: top !important; display: inline-block !important; position: static !important; cursor: default !important;
+}
+span.bx-context-toolbar-button-wrapper {
+	
+}
+span.bx-context-toolbar-button-inner {
+	background: repeat-x 0px 0px !important; margin: 0px 0px 0px 3px !important; padding: 0px 5px 0px 0px !important; border: currentColor !important; border-image: none !important; height: 43px !important; text-align: left !important; text-decoration: none !important; vertical-align: top !important; display: inline-block !important; position: static !important;
+}
+span.bx-context-toolbar-button-inner a {
+	background: none; margin: 0px !important; padding: 0px !important; height: 43px !important; text-align: left !important; color: rgb(221, 231, 233) !important; text-decoration: none !important; vertical-align: top !important; display: inline-block !important; position: static !important; cursor: pointer !important;
+}
+span.bx-context-toolbar-button-inner a:hover {
+	color: rgb(255, 255, 255) !important;
+}
+span.bx-context-toolbar-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -349px -1734px !important; width: 14px !important; height: 43px !important; vertical-align: top !important; display: inline-block !important; position: static !important;
+}
+span.bx-context-toolbar-single-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -349px -1734px !important; width: 14px !important; height: 43px !important; vertical-align: top !important; display: inline-block !important; position: static !important;
+}
+span.bx-context-toolbar-single-button-arrow {
+	width: 13px !important;
+}
+span.bx-context-toolbar a.bx-context-toolbar-button-arrow {
+	margin: 0px -5px 0px 0px !important; width: 14px !important; display: inline-block !important;
+}
+span.bx-context-toolbar-single-button-arrow {
+	
+}
+span.bx-context-toolbar-button-settings {
+	margin-right: 4px !important;
+}
+span.bx-context-toolbar-button-hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat 0px -2089px !important;
+}
+span.bx-context-toolbar-button-hover span.bx-context-toolbar-button-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat right -2089px !important;
+}
+span.bx-context-toolbar-button-arrow-hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat 0px -2185px !important;
+}
+span.bx-context-toolbar-button-arrow-hover span.bx-context-toolbar-button-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat right -2185px !important;
+}
+span.bx-context-toolbar-button-text-hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat 0px -2227px !important;
+}
+span.bx-context-toolbar-button-text-hover span.bx-context-toolbar-button-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat right -2227px !important;
+}
+span.bx-context-toolbar-button-active {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat 0px -2133px !important;
+}
+span.bx-context-toolbar-button-active span.bx-context-toolbar-button-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat right -2133px !important;
+}
+span.bx-context-toolbar-button-arrow-active {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat 0px -2268px !important;
+}
+span.bx-context-toolbar-button-arrow-active span.bx-context-toolbar-button-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat right -2268px !important;
+}
+span.bx-context-toolbar-button-text-active {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat 0px -2311px !important;
+}
+span.bx-context-toolbar-button-text-active span.bx-context-toolbar-button-inner {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat right -2311px !important;
+}
+span.bx-context-toolbar-button-hover span.bx-context-toolbar-button-text {
+	color: rgb(255, 255, 255) !important;
+}
+span.bx-context-toolbar-button-arrow-hover span.bx-context-toolbar-button-text {
+	color: rgb(255, 255, 255) !important;
+}
+span.bx-context-toolbar-button-text-hover span.bx-context-toolbar-button-text {
+	color: rgb(255, 255, 255) !important;
+}
+span.bx-context-toolbar-button-hover span.bx-context-toolbar-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -371px -1734px !important;
+}
+span.bx-context-toolbar-button-arrow-hover span.bx-context-toolbar-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -371px -1734px !important;
+}
+span.bx-context-toolbar-button-text-hover span.bx-context-toolbar-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -371px -1734px !important;
+}
+span.bx-context-toolbar-button-hover span.bx-context-toolbar-single-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -371px -1734px !important;
+}
+span.bx-context-toolbar-button-arrow-hover span.bx-context-toolbar-single-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -371px -1734px !important;
+}
+span.bx-context-toolbar-button-text-hover span.bx-context-toolbar-single-button-arrow {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -371px -1734px !important;
+}
+.bx-context-toolbar-button-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -178px -1725px !important; margin: 0px !important; padding: 0px !important; border: currentColor !important; border-image: none !important; width: 24px !important; height: 43px !important; vertical-align: top !important; display: inline-block !important; position: static !important;
+}
+span.bx-context-toolbar-separator {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -81px -1299px !important; margin: 0px !important; padding: 0px !important; border: currentColor !important; border-image: none !important; width: 2px !important; height: 43px !important; vertical-align: top !important; display: inline-block !important; position: static !important;
+}
+.bx-context-toolbar-settings-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -127px -1724px !important;
+}
+.bx-context-toolbar-create-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -5px -1724px !important;
+}
+.bx-context-toolbar-edit-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -32px -1725px !important;
+}
+.bx-context-toolbar-delete-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -59px -1724px !important;
+}
+.bx-context-toolbar-empty-area {
+	background: url("/bitrix/js/main/core/css/../images/panel/empty-area.gif") no-repeat 0px 0px !important;
+}
+.bx-context-toolbar-edit-visual {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -32px -1725px !important;
+}
+span.bx-context-toolbar-button-hover .bx-context-toolbar-button-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -178px -1755px !important;
+}
+span.bx-context-toolbar-button-arrow-hover .bx-context-toolbar-button-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -178px -1755px !important;
+}
+span.bx-context-toolbar-button-text-hover .bx-context-toolbar-button-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -178px -1755px !important;
+}
+span.bx-context-toolbar-button-hover .bx-context-toolbar-settings-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -127px -1754px !important;
+}
+span.bx-context-toolbar-button-arrow-hover .bx-context-toolbar-settings-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -127px -1754px !important;
+}
+span.bx-context-toolbar-button-text-hover .bx-context-toolbar-settings-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -127px -1754px !important;
+}
+span.bx-context-toolbar-button-hover .bx-context-toolbar-create-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -5px -1754px !important;
+}
+span.bx-context-toolbar-button-arrow-hover .bx-context-toolbar-create-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -5px -1754px !important;
+}
+span.bx-context-toolbar-button-text-hover .bx-context-toolbar-create-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -5px -1754px !important;
+}
+span.bx-context-toolbar-button-hover .bx-context-toolbar-edit-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -32px -1755px !important;
+}
+span.bx-context-toolbar-button-arrow-hover .bx-context-toolbar-edit-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -32px -1755px !important;
+}
+span.bx-context-toolbar-button-text-hover .bx-context-toolbar-edit-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -32px -1755px !important;
+}
+span.bx-context-toolbar-button-hover .bx-context-toolbar-delete-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -59px -1754px !important;
+}
+span.bx-context-toolbar-button-arrow-hover .bx-context-toolbar-delete-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -59px -1754px !important;
+}
+span.bx-context-toolbar-button-text-hover .bx-context-toolbar-delete-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -59px -1754px !important;
+}
+.bx-popup-item .bx-context-toolbar-create-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -5px -1724px !important;
+}
+.bx-popup-item .bx-context-toolbar-edit-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -32px -1725px !important;
+}
+.bx-popup-item .bx-context-toolbar-delete-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -59px -1723px !important;
+}
+.bx-popup-item .bx-context-toolbar-settings-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -127px -1724px !important;
+}
+span.bx-context-toolbar-button-text {
+	background: repeat-x 0px 0px !important; font: 11px/41px "Helvetica Neue", Helvetica, Arial, sans-serif !important; margin: 0px 3px 0px 0px !important; padding: 0px !important; border: currentColor !important; border-image: none !important; color: rgb(221, 231, 233) !important; vertical-align: top !important; display: inline-block !important; white-space: nowrap !important; position: static !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+span.bx-context-toolbar-icons {
+	margin: 0px 0px 0px 5px !important; top: auto !important; right: auto !important; vertical-align: top; display: inline-block !important; white-space: nowrap !important; position: static !important;
+}
+a.bx-context-toolbar-pin {
+	background: repeat-x 0px 0px !important; margin: 0px !important; padding: 0px !important; border: currentColor !important; border-image: none !important; width: 25px !important; height: 43px !important; vertical-align: top !important; display: inline-block !important; position: static !important;
+}
+a.bx-context-toolbar-pin-fixed {
+	background: repeat-x 0px 0px !important; margin: 0px !important; padding: 0px !important; border: currentColor !important; border-image: none !important; width: 25px !important; height: 43px !important; vertical-align: top !important; display: inline-block !important; position: static !important;
+}
+a.bx-context-toolbar-pin {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -83px -1724px !important;
+}
+a.bx-context-toolbar-pin-fixed {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -105px -1724px !important;
+}
+a.bx-context-toolbar-pin:hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -83px -1754px !important;
+}
+a.bx-context-toolbar-pin-fixed:hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -105px -1754px !important;
+}
+span.bx-context-toolbar-switcher-separator {
+	width: 3px !important; height: 24px !important; vertical-align: top !important; display: inline-block !important;
+}
+a.bx-context-toolbar-switcher {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -380px -1634px !important; margin: 0px !important; padding: 0px !important; border: currentColor !important; border-image: none !important; width: 14px !important; height: 43px !important; vertical-align: top !important; display: inline-block !important; position: static !important;
+}
+a.bx-context-toolbar-switcher:hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -380px -1684px !important;
+}
+span.bx-context-toolbar br {
+	margin: 0px !important; padding: 0px !important; display: none !important;
+}
+span.bx-context-toolbar-vertical-mode br {
+	display: inline !important;
+}
+span.bx-context-toolbar-vertical-mode.bx-context-toolbar {
+	height: auto !important; border-bottom-color: rgb(105, 112, 123); border-bottom-width: 1px; border-bottom-style: solid;
+}
+span.bx-context-toolbar-vertical-mode span.bx-context-toolbar-button {
+	position: relative !important;
+}
+span.bx-context-toolbar-vertical-mode span.bx-context-toolbar-button-wrapper {
+	margin: 0px 2px !important; height: 44px !important; display: inline-block !important;
+}
+span.bx-context-toolbar-vertical-mode span.bx-context-toolbar-inner {
+	height: auto !important; position: relative !important; min-width: 110px;
+}
+span.bx-context-toolbar-vertical-mode span.bx-context-toolbar-icons {
+	top: 0px !important; width: 110px !important; height: 43px !important; text-align: right !important; right: 0px !important; position: absolute !important;
+}
+span.bx-context-toolbar-vertical-mode span.bx-context-toolbar-separator {
+	display: none !important;
+}
+span.bx-context-toolbar-vertical-mode span.bx-context-toolbar-separator-switcher {
+	display: inline-block !important;
+}
+span.bx-context-toolbar-vertical-mode span.bx-context-toolbar-vertical-line {
+	display: block !important;
+}
+span.bx-context-toolbar-button-underlay {
+	display: none !important;
+}
+span.bx-context-toolbar-vertical-mode span.bx-context-toolbar-button-underlay {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") repeat-x 0px -2416px rgb(119, 127, 140) !important; margin: 0px !important; padding: 0px !important; width: 100% !important; height: 44px !important; display: block !important; position: absolute !important;
+}
+.bx-popup-item-delete-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -59px -1723px !important;
+}
+.bx-popup-item-create-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -5px -1724px !important;
+}
+.bx-popup-item-edit-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -32px -1725px !important;
+}
+#bx-panel .adm-header-notif-block {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -1129px !important; font: bold 12px/30px "Helvetica Neue", Helvetica, Arial, sans-serif !important; padding: 0px 0px 0px 9px !important; height: 31px !important; text-align: left !important; text-decoration: none !important; vertical-align: top !important; display: inline-block !important; cursor: pointer !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#bx-panel .adm-header-notif-block:hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -1171px !important;
+}
+#bx-panel .adm-header-notif-block:hover .adm-header-notif-counter {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -1171px !important; color: rgb(238, 238, 238) !important;
+}
+#bx-panel #bx-panel-tabs .adm-header-notif-block-active.adm-header-notif-block {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -1213px !important;
+}
+#bx-panel #bx-panel-tabs .adm-header-notif-block-active.adm-header-notif-block .adm-header-notif-counter {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -1213px !important; color: rgb(238, 238, 238) !important;
+}
+#bx-panel .adm-header-notif-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -265px -1645px !important; margin: 0px !important; padding: 0px !important; width: 16px !important; height: 31px !important; vertical-align: top !important; display: inline-block !important;
+}
+#bx-panel .adm-header-notif-counter {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -1129px !important; font: bold 12px/29px "Helvetica Neue", Helvetica, Arial, sans-serif !important; padding: 0px 12px 0px 7px !important; height: 31px !important; color: rgb(221, 231, 233) !important; display: inline-block !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+.bx-panel-folded#bx-panel .adm-header-notif-block {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -1938px !important; font: bold 12px/25px "Helvetica Neue", Helvetica, Arial, sans-serif !important; height: 29px !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+.bx-panel-folded#bx-panel .adm-header-notif-counter {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -1938px !important; font: bold 12px/25px "Helvetica Neue", Helvetica, Arial, sans-serif !important; padding: 0px 12px 0px 7px !important; height: 29px !important; display: inline-block !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+.bx-panel-folded#bx-panel .adm-header-notif-icon {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") no-repeat -265px -1646px !important;
+}
+.bx-panel-folded#bx-panel .adm-header-notif-block:hover {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -1978px !important;
+}
+.bx-panel-folded#bx-panel .adm-header-notif-block:hover .adm-header-notif-counter {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -1978px !important; color: rgb(238, 238, 238) !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-tabs .adm-header-notif-block-active.adm-header-notif-block {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") 0px -2017px !important;
+}
+.bx-panel-folded#bx-panel #bx-panel-tabs .adm-header-notif-block-active.adm-header-notif-block .adm-header-notif-counter {
+	background: url("/bitrix/js/main/core/css/../images/panel/top-panel-sprite.png") right -2017px !important; color: rgb(238, 238, 238) !important;
+}
+.popup-window {
+	border-width: 1px; border-style: solid; border-color: rgb(225, 225, 225) rgb(209, 209, 209) rgb(209, 209, 209); border-radius: 4px; border-image: none; box-shadow: 0px 6px 11px rgba(0,0,0,0.17); background-color: rgb(255, 255, 255); -moz-box-shadow: 0 6px 11px rgba(0, 0, 0, .17); -webkit-box-shadow: 0 6px 11px rgba(0, 0, 0, .17); -webkit-border-radius: 4px;
+}
+.popup-window-top-row .popup-window-left-column {
+	border-top-left-radius: 4px;
+}
+.popup-window-top-row .popup-window-right-column {
+	border-top-right-radius: 4px;
+}
+.popup-window-bottom-row .popup-window-left-column {
+	border-bottom-left-radius: 4px;
+}
+.popup-window-bottom-row .popup-window-right-column {
+	border-bottom-right-radius: 4px;
+}
+.popup-window-top-row {
+	height: 7px;
+}
+.popup-window-bottom-row {
+	height: 2px;
+}
+.popup-window-bottom-row .popup-window-left-column {
+	height: 2px;
+}
+.popup-window-bottom-row .popup-window-right-column {
+	height: 2px;
+}
+.popup-window-left-column {
+	padding: 0px; width: 5px; height: 7px; text-align: left; min-width: 5px;
+}
+.popup-window-right-column {
+	padding: 0px; width: 3px; height: 7px; text-align: left; min-width: 3px;
+}
+.popup-window-center-column {
+	padding: 0px; text-align: left;
+}
+.popup-window-left-spacer {
+	width: 5px; height: 1px; font-size: 1px;
+}
+.popup-window-right-spacer {
+	width: 3px; height: 1px; font-size: 1px;
+}
+.popup-window-top-row .popup-window-left-column {
+	background-position: 0px 0px; background-repeat: no-repeat;
+}
+.popup-window-top-row .popup-window-center-column {
+	background-position: 0px -29px; height: 2px; background-repeat: repeat-x;
+}
+.popup-window-top-row .popup-window-right-column {
+	background-position: -7px 0px; background-repeat: no-repeat;
+}
+.popup-window-content-row .popup-window-left-column {
+	background-position: 0px -144px; background-repeat: no-repeat;
+}
+.popup-window-content-row .popup-window-center-column {
+	background: rgb(255, 255, 255); vertical-align: top;
+}
+.popup-window-content-row .popup-window-right-column {
+	background-position: -7px -144px; background-repeat: no-repeat;
+}
+.popup-window-content {
+	margin: 0px 2px;
+}
+.popup-window-hr {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat 0px -396px rgb(235, 235, 235); margin: 0px; padding: 0px; height: 1px; line-height: 1px; overflow: hidden; font-size: 1px; display: block;
+}
+.popup-window-hr i {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat right -398px; margin: 0px; padding: 0px; height: 1px; line-height: 1px; overflow: hidden; font-size: 1px; display: block;
+}
+.popup-window-delimiter {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat 0px -396px rgb(235, 235, 235); margin: 0px; padding: 0px; height: 1px; line-height: 1px; overflow: hidden; font-size: 1px; display: block;
+}
+.popup-window-delimiter i {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat right -398px; margin: 0px; padding: 0px; height: 1px; line-height: 1px; overflow: hidden; font-size: 1px; display: block;
+}
+.popup-window-bottom-row .popup-window-left-column {
+	background-position: 0px -9px; background-repeat: no-repeat;
+}
+.popup-window-bottom-row .popup-window-center-column {
+	background-position: 0px -18px; background-repeat: repeat-x;
+}
+.popup-window-bottom-row .popup-window-right-column {
+	background-position: -7px -9px; background-repeat: no-repeat;
+}
+.popup-window-buttons-hr {
+	margin: 9px 2px 0px;
+}
+.popup-window-buttons {
+	margin: 10px 10px 7px; padding: 0px; text-align: center; position: relative; -ms-zoom: 1;
+}
+.popup-window-button {
+	font: 13px/24px Arial, Helvetica; margin: 0px 2px 0px 3px; font-size-adjust: none; font-stretch: normal;
+}
+.popup-window-button {
+	height: 27px; line-height: 27px; vertical-align: top; display: inline-block; cursor: pointer;
+}
+.popup-window-button-left {
+	height: 27px; line-height: 27px; vertical-align: top; display: inline-block; cursor: pointer;
+}
+.popup-window-button-right {
+	height: 27px; line-height: 27px; vertical-align: top; display: inline-block; cursor: pointer;
+}
+.popup-window-button-text {
+	height: 27px; line-height: 27px; vertical-align: top; display: inline-block; cursor: pointer;
+}
+.popup-window-button-text {
+	font: 13px/24px Arial, Helvetica, sans-serif; padding: 0px 8px; font-size-adjust: none; font-stretch: normal;
+}
+.popup-window-button {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") repeat-x 0px -551px;
+}
+.popup-window-button-left {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat -15px -493px; width: 4px;
+}
+.popup-window-button-text {
+	color: rgb(0, 0, 0);
+}
+.popup-window-button-right {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat -22px -493px; width: 6px;
+}
+.popup-window-button:hover {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") repeat-x 0px -985px;
+}
+.popup-window-button:hover .popup-window-button-left {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat -15px -927px;
+}
+.popup-window-button:hover .popup-window-button-right {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat -22px -927px;
+}
+.popup-window-button-accept {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") repeat-x 0px -356px;
+}
+.popup-window-button-create {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") repeat-x 0px -356px;
+}
+.popup-window-button-accept .popup-window-button-left {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat 0px -328px;
+}
+.popup-window-button-create .popup-window-button-left {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat 0px -328px;
+}
+.popup-window-button-accept .popup-window-button-text {
+	color: rgb(255, 255, 255); text-shadow: -1px -1px 0px #75ab6f;
+}
+.popup-window-button-create .popup-window-button-text {
+	color: rgb(255, 255, 255); text-shadow: -1px -1px 0px #75ab6f;
+}
+.popup-window-button-accept .popup-window-button-right {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat -6px -328px;
+}
+.popup-window-button-create .popup-window-button-right {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat -6px -328px;
+}
+.popup-window-button-accept:hover {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") repeat-x 0px -1044px;
+}
+.popup-window-button-create:hover {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") repeat-x 0px -1044px;
+}
+.popup-window-button-accept:hover .popup-window-button-left {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat 0px -1016px;
+}
+.popup-window-button-create:hover .popup-window-button-left {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat 0px -1016px;
+}
+.popup-window-button-accept:hover .popup-window-button-right {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat -6px -1016px;
+}
+.popup-window-button-create:hover .popup-window-button-right {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat -6px -1016px;
+}
+.popup-window-button-decline {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") repeat-x 0px -522px;
+}
+.popup-window-button-decline .popup-window-button-left {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat 0px -493px;
+}
+.popup-window-button-decline .popup-window-button-text {
+	color: rgb(255, 255, 255); text-shadow: -1px -1px 0px #e15252;
+}
+.popup-window-button-decline .popup-window-button-right {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat -6px -493px;
+}
+.popup-window-button-decline:hover {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") repeat-x 0px -956px;
+}
+.popup-window-button-decline:hover .popup-window-button-left {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat 0px -927px;
+}
+.popup-window-button-decline:hover .popup-window-button-right {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat -6px -927px;
+}
+.popup-window-button-cancel .popup-window-button-text {
+	color: rgb(216, 62, 62); font-weight: bold;
+}
+.popup-window-button-link {
+	cursor: default;
+}
+.popup-window-button-link-text {
+	cursor: pointer;
+}
+.popup-window-button-link {
+	background: none;
+}
+.popup-window-button-link:hover {
+	background: none;
+}
+.popup-window-button-link-cancel .popup-window-button-link-text {
+	color: rgb(216, 62, 62); text-decoration: underline;
+}
+.popup-window-button-link-cancel {
+	background: none;
+}
+.popup-window-light {
+	border-width: 1px; border-style: solid; border-color: rgb(216, 216, 216) rgb(189, 189, 189) rgb(189, 189, 189); border-image: none; box-shadow: 0px 2px 5px rgba(0,0,0,0.18); -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, .18); -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .18);
+}
+.popup-window-light .popup-window-top-row .popup-window-left-column {
+	
+}
+.popup-window-light .popup-window-top-row .popup-window-center-column {
+	
+}
+.popup-window-light .popup-window-top-row .popup-window-right-column {
+	
+}
+.popup-window-light .popup-window-content-row .popup-window-left-column {
+	
+}
+.popup-window-light .popup-window-content-row .popup-window-right-column {
+	
+}
+.popup-window-light .popup-window-bottom-row .popup-window-left-column {
+	
+}
+.popup-window-light .popup-window-bottom-row .popup-window-center-column {
+	
+}
+.popup-window-light .popup-window-bottom-row .popup-window-right-column {
+	
+}
+.popup-window-titlebar .popup-window-top-row .popup-window-left-column {
+	background-position: 0px 0px; height: 36px; border-bottom-color: rgb(214, 214, 214); border-bottom-width: 1px; border-bottom-style: solid; box-shadow: inset 0px 1px #f9f9f9; background-image: linear-gradient(rgb(245, 245, 245), rgb(229, 229, 229)); background-color: rgb(237, 237, 237); -webkit-box-shadow: 0 1px #f9f9f9;
+}
+.popup-window-titlebar .popup-window-top-row .popup-window-center-column {
+	background-position: 0px 0px; height: 36px; border-bottom-color: rgb(214, 214, 214); border-bottom-width: 1px; border-bottom-style: solid; box-shadow: inset 0px 1px #f9f9f9; background-image: linear-gradient(rgb(245, 245, 245), rgb(229, 229, 229)); background-color: rgb(237, 237, 237); -webkit-box-shadow: 0 1px #f9f9f9;
+}
+.popup-window-titlebar .popup-window-top-row .popup-window-right-column {
+	background-position: 0px 0px; height: 36px; border-bottom-color: rgb(214, 214, 214); border-bottom-width: 1px; border-bottom-style: solid; box-shadow: inset 0px 1px #f9f9f9; background-image: linear-gradient(rgb(245, 245, 245), rgb(229, 229, 229)); background-color: rgb(237, 237, 237); -webkit-box-shadow: 0 1px #f9f9f9;
+}
+.popup-window-titlebar-light .popup-window-top-row .popup-window-left-column {
+	background-position: 0px 0px; height: 36px; border-bottom-color: rgb(214, 214, 214); border-bottom-width: 1px; border-bottom-style: solid; box-shadow: inset 0px 1px #f9f9f9; background-image: linear-gradient(rgb(245, 245, 245), rgb(229, 229, 229)); background-color: rgb(237, 237, 237); -webkit-box-shadow: 0 1px #f9f9f9;
+}
+.popup-window-titlebar-light .popup-window-top-row .popup-window-center-column {
+	background-position: 0px 0px; height: 36px; border-bottom-color: rgb(214, 214, 214); border-bottom-width: 1px; border-bottom-style: solid; box-shadow: inset 0px 1px #f9f9f9; background-image: linear-gradient(rgb(245, 245, 245), rgb(229, 229, 229)); background-color: rgb(237, 237, 237); -webkit-box-shadow: 0 1px #f9f9f9;
+}
+.popup-window-titlebar-light .popup-window-top-row .popup-window-right-column {
+	background-position: 0px 0px; height: 36px; border-bottom-color: rgb(214, 214, 214); border-bottom-width: 1px; border-bottom-style: solid; box-shadow: inset 0px 1px #f9f9f9; background-image: linear-gradient(rgb(245, 245, 245), rgb(229, 229, 229)); background-color: rgb(237, 237, 237); -webkit-box-shadow: 0 1px #f9f9f9;
+}
+.popup-window-close-icon {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat 0px -283px; top: 5px; width: 13px; height: 13px; right: 10px; margin-right: -5px; position: absolute; cursor: pointer;
+}
+.popup-window-titlebar-close-icon {
+	margin-top: 3px; margin-right: -3px;
+}
+.popup-window-close-icon:hover {
+	background: url("/bitrix/js/main/core/css/../images/controls-sprite.png") no-repeat -17px -283px;
+}
+.popup-window-angly {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-angles-sprite.png") no-repeat -27px -105px; display: none; position: absolute;
+}
+.popup-window-angly-top {
+	background-position: -27px -105px; margin: 0px; left: 10px; top: -9px; width: 19px; height: 10px; display: block;
+}
+.popup-window-angly-right {
+	background-position: -10px -103px; top: 10px; width: 13px; height: 30px; right: -12px; display: block;
+}
+.popup-window-angly-bottom {
+	background-position: -7px -135px; width: 21px; height: 19px; margin-top: -1px; margin-left: 10px; display: block;
+}
+.popup-window-angly-left {
+	background-position: -28px -127px; left: -12px; top: 10px; width: 13px; height: 28px; display: block;
+}
+.popup-window-light-angly {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-angles-sprite.png") no-repeat -27px -14px; display: none; position: absolute;
+}
+.popup-window-light-angly-top {
+	background-position: -27px -14px; margin: 0px; left: 7px; top: -9px; width: 18px; height: 10px; display: block;
+}
+.popup-window-light-angly-right {
+	background-position: -9px -13px; top: 2px; width: 11px; height: 19px; right: -10px; display: block;
+}
+.popup-window-light-angly-bottom {
+	background-position: -6px -43px; width: 20px; height: 12px; margin-top: -1px; margin-left: 7px; display: block;
+}
+.popup-window-light-angly-left {
+	background-position: -31px -37px; left: -9px; top: 2px; width: 10px; height: 18px; display: block;
+}
+.popup-window-overlay {
+	background: rgb(51, 51, 51); left: 0px; top: 0px; display: none; position: absolute; opacity: 0.5; -moz-opacity: 0.5; -khtml-opacity: 0.5;
+}
+.menu-popup {
+	margin: -4px 4px 0px -2px;
+}
+.menu-popup-title {
+	font: 12px/normal Arial, Helvetica, sans-serif; margin: 0px 0px 7px; padding: 0px 0px 0px 4px; color: rgb(76, 76, 76); white-space: nowrap; font-size-adjust: none; font-stretch: normal;
+}
+.menu-popup .menu-popup-item {
+	margin: 4px 0px; text-decoration: none; display: block; white-space: nowrap; position: relative; cursor: pointer;
+}
+.menu-popup-item-left {
+	height: 23px; vertical-align: middle; display: inline-block;
+}
+.menu-popup-item-icon {
+	height: 23px; vertical-align: middle; display: inline-block;
+}
+.menu-popup-item-text {
+	height: 23px; vertical-align: middle; display: inline-block;
+}
+.menu-popup-item-right {
+	height: 23px; vertical-align: middle; display: inline-block;
+}
+.menu-popup-item-left {
+	width: 3px;
+}
+.menu-popup-item-right {
+	width: 3px;
+}
+.menu-popup-item-icon {
+	width: 19px; height: 16px;
+}
+.menu-popup-item-text {
+	font: 12px/23px Arial, Helvetica, sans-serif; margin: 0px 5px 0px 7px; color: rgb(73, 73, 73); text-decoration: none; font-size-adjust: none; font-stretch: normal;
+}
+.menu-popup-item-right {
+	top: 0px; right: 0px; position: absolute;
+}
+.menu-popup-item:hover {
+	background: rgb(240, 240, 240) !important;
+}
+.bx-admin-submenu-opened {
+	background: rgb(240, 240, 240) !important;
+}
+.menu-popup-item:hover .menu-popup-item-left {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -28px -420px !important;
+}
+.bx-admin-submenu-opened .menu-popup-item-left {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -28px -420px !important;
+}
+.menu-popup-item:hover .menu-popup-item-right {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -35px -420px !important;
+}
+.bx-admin-submenu-opened .menu-popup-item-right {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -35px -420px !important;
+}
+.menu-popup-no-icon .menu-popup-item-icon {
+	display: none;
+}
+.menu-popup-item-view .menu-popup-item-icon {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -45px -271px;
+}
+.menu-popup-item-edit .menu-popup-item-icon {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -43px -291px;
+}
+.menu-popup-item-create .menu-popup-item-icon {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -44px -311px;
+}
+.menu-popup-item-create-quick .menu-popup-item-icon {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -43px -329px;
+}
+.menu-popup-item-take .menu-popup-item-icon {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -43px -347px;
+}
+.menu-popup-item-begin .menu-popup-item-icon {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -44px -367px;
+}
+.menu-popup-item-decline .menu-popup-item-icon {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -44px -383px;
+}
+.menu-popup-item-reopen .menu-popup-item-icon {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -42px -484px;
+}
+.menu-popup-item-complete .menu-popup-item-icon {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -42px -502px;
+}
+.menu-popup-item-hold .menu-popup-item-icon {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -44px -520px;
+}
+.menu-popup-item-accept .menu-popup-item-icon {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -43px -347px;
+}
+.menu-popup-item-remake .menu-popup-item-icon {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -44px -383px;
+}
+.menu-popup-item-delete .menu-popup-item-icon {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -44px -535px;
+}
+.menu-popup-item-copy .menu-popup-item-icon {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -42px -595px;
+}
+.menu-popup-item-delegate .menu-popup-item-icon {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -42px -615px;
+}
+.menu-popup-item-add-to-tm .menu-popup-item-icon {
+	background: url("/bitrix/js/main/core/css/../images/popup/popup-menu-sprite.2.png") no-repeat -42px -634px;
+}
+.bx-user-info-shadow {
+	background: url("/bitrix/components/bitrix/main.user.link/templates/.default/images/cloud-left-top.png") no-repeat;
+}
+.bx-user-info-shadow-ie {
+	background: none;
+}
+.bx-user-info-shadow-hv {
+	background: url("/bitrix/components/bitrix/main.user.link/templates/.default/images/cloud-right-bottom.png") no-repeat; padding-top: 40px;
+}
+.bx-user-info-shadow-hv-ie {
+	background: none; padding-top: 40px;
+}
+.bx-user-info-shadow-h {
+	background: url("/bitrix/components/bitrix/main.user.link/templates/.default/images/cloud-right-top.png") no-repeat;
+}
+.bx-user-info-shadow-h-ie {
+	background: none;
+}
+.bx-user-info-shadow-v {
+	background: url("/bitrix/components/bitrix/main.user.link/templates/.default/images/cloud-left-bottom.png") no-repeat; padding-top: 40px;
+}
+.bx-user-info-shadow-v-ie {
+	background: none; padding-top: 40px;
+}
+.bx-user-info-shadow-anim {
+	
+}
+.bx-user-info-shadow-anim-ie {
+	background: url("/bitrix/components/bitrix/main.user.link/templates/.default/images/anim-cloud-left-top.gif") no-repeat;
+}
+.bx-user-info-shadow-hv-anim {
+	
+}
+.bx-user-info-shadow-hv-anim-ie {
+	background: url("/bitrix/components/bitrix/main.user.link/templates/.default/images/anim-cloud-right-bottom.gif") no-repeat; padding-top: 40px;
+}
+.bx-user-info-shadow-h-anim {
+	
+}
+.bx-user-info-shadow-h-anim-ie {
+	background: url("/bitrix/components/bitrix/main.user.link/templates/.default/images/anim-cloud-right-top.gif") no-repeat;
+}
+.bx-user-info-shadow-v-anim {
+	
+}
+.bx-user-info-shadow-v-anim-ie {
+	background: url("/bitrix/components/bitrix/main.user.link/templates/.default/images/anim-cloud-left-bottom.gif") no-repeat; padding-top: 40px;
+}
+.bx-user-info-shadow-v-ie6 {
+	
+}
+.bx-user-info-shadow-hv-ie6 {
+	
+}
+.bx-user-info-shadow-v-anim-ie6 {
+	
+}
+.bx-user-info-shadow-hv-anim-ie6 {
+	
+}
+.bx-user-info-data-photo img {
+	border: 1px solid rgb(196, 196, 196); border-image: none;
+}
+div.bx-user-photo a.no-photo {
+	border: 1px solid rgb(196, 196, 196); border-image: none;
+}
+.bx-user-info-data {
+	padding-left: 137px;
+}
+.bx-user-info-data .bx-user-info-data-info {
+	font-size: 0.85em;
+}
+.bx-user-info-data .bx-user-info-data-info .field-name {
+	font-weight: normal;
+}
+.bx-user-info-data-loading {
+	padding: 10px 0px 0px 40px; font-size: 0.85em;
+}
+.bx-user-info-leftcolumn {
+	padding-left: 25px; float: left;
+}
+.bx-user-info-data-photo {
+	width: 104px; height: 102px; text-align: center; padding-top: 2px; margin-right: 12px; display: block;
+}
+.bx-user-photo .no-photo {
+	background-position: center; background-image: url("/bitrix/components/bitrix/main.user.link/templates/.default/images/nopic_user_100_noborder.gif"); background-repeat: no-repeat;
+}
+.bx-user-info-data .bx-user-info-data-clear {
+	clear: both;
+}
+.bx-user-info-data .bx-user-info-data-separator {
+	padding: 0px !important; width: 218px; height: 1px !important; font-size: 0px !important; margin-top: 5px; margin-bottom: 2px; background-color: rgb(224, 224, 224);
+}
+.bx-user-info-data .bx-user-info-data-cont {
+	width: 223px; height: 152px; overflow: auto; -ms-overflow-x: auto; -ms-overflow-y: auto;
+}
+.bx-user-info-data .bx-user-info-data-cont-video {
+	width: 223px; height: 147px; overflow: auto; -ms-overflow-x: auto; -ms-overflow-y: auto;
+}
+.bx-user-info-data-tools {
+	padding: 0px 20px 0px 0px;
+}
+.bx-user-info-data .bx-user-info-data-cont .bx-user-info-data-name {
+	margin-bottom: 10px;
+}
+.bx-user-info-data .bx-user-info-data-cont .bx-user-info-data-name-extranet {
+	background-position: left; padding-left: 18px; vertical-align: middle; background-image: url("/bitrix/components/bitrix/main.user.link/templates/.default/images/icon_extranet_user.gif"); background-repeat: no-repeat;
+}
+.bx-user-info-data .bx-user-info-data-cont .bx-user-info-data-name a {
+	font-size: 1.2em; font-weight: bold; text-decoration: none;
+}
+.bx-user-info-data .bx-user-info-data-cont .bx-user-info-data-name a:hover {
+	text-decoration: underline;
+}
+.bx-user-info-wrap {
+	text-align: left; color: rgb(0, 0, 0); padding-top: 40px; position: relative;
+}
+.bx-user-info-bottomarea {
+	width: 370px; height: 35px; overflow: auto; position: relative;
+}
+.bx-user-tb-control ul {
+	list-style: none; margin: 0px; padding: 0px; font-size: 0.85em;
+}
+.bx-user-info-leftcolumn .bx-user-tb-control-left {
+	width: 105px; height: 100px;
+}
+.bx-user-tb-control ul li.bx-icon {
+	color: rgb(127, 127, 127); line-height: 12px; padding-top: 6px; padding-left: 22px !important; display: block !important; background-image: url("/bitrix/components/bitrix/main.user.link/templates/.default/images/icons_all.png") !important; background-repeat: no-repeat !important;
+}
+.bx-user-tb-control-right ul li.bx-icon-message {
+	line-height: 15px;
+}
+.bx-user-tb-control-right ul li.bx-icon-video {
+	line-height: 15px;
+}
+.bx-user-tb-control .bx-icon-message {
+	background-position: 0px 3px;
+}
+.bx-user-tb-control .bx-icon-online {
+	background-position: 0px -20px;
+}
+.bx-user-tb-control .bx-icon-away {
+	background-position: 0px -57px; line-height: 15px !important;
+}
+.bx-user-tb-control .bx-icon-birth {
+	background-position: 0px -87px;
+}
+.bx-user-tb-control .bx-icon-featured {
+	background-position: 0px -117px;
+}
+.bx-user-tb-control .bx-icon-video {
+	background-position: 0px -178px;
+}
+li.bx-icon-message span {
+	text-decoration: none; cursor: pointer;
+}
+li.bx-icon-video span {
+	text-decoration: none; cursor: pointer;
+}
+li.bx-icon-message span.bx-icon-underline {
+	text-decoration: underline; cursor: pointer;
+}
+li.bx-icon-video span.bx-icon-underline {
+	text-decoration: underline; cursor: pointer;
+}
+.bx-images-viewer-lock-scroll {
+	overflow: hidden;
+}
+.bx-images-viewer-overlay {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: fixed; z-index: 1001; background-color: rgba(0, 0, 0, 0.6);
+}
+.bx-ie8 .bx-images-viewer-overlay {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_ie8bg.png");
+}
+.bx-quirks .bx-images-viewer-overlay {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_ie8bg.png");
+}
+.bx-quirks .bx-images-viewer-overlay {
+	position: absolute;
+}
+.bx-images-viewer-lock-scroll .bx-images-viewer-overlay {
+	-ms-overflow-x: auto; -ms-overflow-y: auto;
+}
+.bx-images-viewer-wrap-outer {
+	transition:top 0.15s ease-in, left 0.15s ease-in; left: 40%; top: 30%; position: absolute; -webkit-transition: top 0.15s ease-in, left 0.15s ease-in; -moz-transition: top 0.15s ease-in, left 0.15s ease-in; -o-transition: top 0.15s ease-in, left 0.15s ease-in;
+}
+.bx-images-viewer-wrap-inner {
+	border-radius: 5px; position: relative; box-shadow: 1px 1px 0px rgba(0,0,0,0.21); background-color: white; -webkit-box-shadow: 1px 1px 0 rgba(0, 0, 0, .21);
+}
+.bx-images-viewer-wrap {
+	transition:width 0.15s ease-in, height 0.15s ease-in; width: 100px; height: 100px; overflow: hidden; -webkit-transition: width 0.15s ease-in, height 0.15s ease-in; -moz-transition: width 0.15s ease-in, height 0.15s ease-in; -o-transition: width 0.15s ease-in, height 0.15s ease-in;
+}
+.bx-images-viewer-wrap-loading {
+	background: url("/bitrix/js/main/core/css/../images/wait-big.gif") no-repeat center white; min-height: 100px; min-width: 100px;
+}
+.bx-images-viewer-image {
+	transition:opacity 0.15s ease-in; width: 100%; height: 100%; display: block; max-height: 100%; max-width: 100%; -webkit-transition: opacity 0.15s ease-in; -moz-transition: opacity 0.15s ease-in; -o-transition: opacity 0.15s ease-in;
+}
+.bx-images-viewer-prev-outer {
+	transition:opacity 0.15s ease-in; width: 200px; height: 100%; display: block; position: absolute; z-index: 1; cursor: pointer; opacity: 0; -webkit-transition: opacity 0.15s ease-in; -moz-transition: opacity 0.15s ease-in; -o-transition: opacity 0.15s ease-in;
+}
+.bx-images-viewer-next-outer {
+	transition:opacity 0.15s ease-in; width: 200px; height: 100%; display: block; position: absolute; z-index: 1; cursor: pointer; opacity: 0; -webkit-transition: opacity 0.15s ease-in; -moz-transition: opacity 0.15s ease-in; -o-transition: opacity 0.15s ease-in;
+}
+.bx-images-viewer-wrap-outer:hover .bx-images-viewer-prev-outer {
+	opacity: 1;
+}
+.bx-images-viewer-wrap-outer:hover .bx-images-viewer-next-outer {
+	opacity: 1;
+}
+.bx-ie8 .bx-images-viewer-prev-outer .bx-images-viewer-prev {
+	
+}
+.bx-ie8 .bx-images-viewer-next-outer .bx-images-viewer-next {
+	
+}
+.bx-quirks .bx-images-viewer-prev-outer .bx-images-viewer-prev {
+	
+}
+.bx-quirks .bx-images-viewer-next-outer .bx-images-viewer-next {
+	
+}
+.bx-images-viewer-prev-outer {
+	left: -140px;
+}
+.bx-images-viewer-next-outer {
+	right: -140px;
+}
+.bx-images-viewer-prev-outer:hover {
+	opacity: 1 !important;
+}
+.bx-images-viewer-next-outer:hover {
+	opacity: 1 !important;
+}
+.bx-ie8 .bx-images-viewer-prev-outer:hover .bx-images-viewer-prev {
+	filter: none;
+}
+.bx-ie8 .bx-images-viewer-next-outer:hover .bx-images-viewer-next {
+	filter: none;
+}
+.bx-quirks .bx-images-viewer-prev-outer:hover .bx-images-viewer-prev {
+	filter: none;
+}
+.bx-quirks .bx-images-viewer-next-outer:hover .bx-images-viewer-next {
+	filter: none;
+}
+.bx-images-viewer-prev {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_sprite.png") no-repeat 0px 0px rgb(84, 84, 84); border-radius: 20px; top: 45%; width: 40px; height: 40px; display: block; position: absolute; box-shadow: inset 0px 0px 0px 2px white, 0px 1px 1px 0px rgba(0,0,0,0.21); -webkit-box-shadow: 0 0 0 2px white inset, 0 1px 1px 0 rgba(0, 0, 0, 0.21);
+}
+.bx-images-viewer-next {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_sprite.png") no-repeat 0px 0px rgb(84, 84, 84); border-radius: 20px; top: 45%; width: 40px; height: 40px; display: block; position: absolute; box-shadow: inset 0px 0px 0px 2px white, 0px 1px 1px 0px rgba(0,0,0,0.21); -webkit-box-shadow: 0 0 0 2px white inset, 0 1px 1px 0 rgba(0, 0, 0, 0.21);
+}
+.bx-ie10 .bx-images-viewer-prev {
+	transition:top 0.15s ease-in;
+}
+.bx-ie10 .bx-images-viewer-next {
+	transition:top 0.15s ease-in;
+}
+.bx-images-viewer-next {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_sprite.png") no-repeat -30px 0px rgb(79, 79, 79); left: 80px;
+}
+.bx-images-viewer-prev {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_sprite.png") no-repeat -70px 0px rgb(79, 79, 79); right: 80px;
+}
+.bx-ie8 .bx-images-viewer-prev {
+	border: 1px solid white; border-image: none;
+}
+.bx-ie8 .bx-images-viewer-next {
+	border: 1px solid white; border-image: none;
+}
+.bx-quirks .bx-images-viewer-prev {
+	border: 1px solid white; border-image: none;
+}
+.bx-quirks .bx-images-viewer-next {
+	border: 1px solid white; border-image: none;
+}
+.bx-images-viewer-close {
+	top: -33px; width: 60px; height: 60px; right: -33px; display: inline-block; position: absolute; cursor: pointer;
+}
+.bx-images-viewer-close-inner {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_sprite.png") no-repeat 0px 1px rgb(84, 84, 84); border-radius: 15px; left: 15px; top: 15px; width: 30px; height: 30px; display: inline-block; position: absolute; box-shadow: inset 0px 0px 0px 2px white, 0px 1px 1px 0px rgba(0,0,0,0.21); -webkit-box-shadow: 0 0 0 2px white inset, 0 1px 1px 0 rgba(0, 0, 0, 0.21);
+}
+.bx-ie8 .bx-images-viewer-close-inner {
+	border: 1px solid white; border-image: none;
+}
+.bx-quirks .bx-images-viewer-close-inner {
+	border: 1px solid white; border-image: none;
+}
+.bx-images-viewer-close:hover .bx-images-viewer-close-inner {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_sprite.png") no-repeat 0px 1px rgb(25, 25, 25);
+}
+.bx-images-viewer-title {
+	border-radius: 0px 0px 5px 5px; transition:bottom 0.15s ease-in, opacity 0.15s ease-in; width: 100%; position: absolute; background-color: rgba(0, 0, 0, 0.35); -webkit-transition: bottom 0.15s ease-in, opacity 0.15s ease-in; -moz-transition: bottom 0.15s ease-in, opacity 0.15s ease-in; -o-transition: bottom 0.15s ease-in, opacity 0.15s ease-in;
+}
+.bx-images-viewer-title-item {
+	margin: 0px 15px; color: white; line-height: 32px; overflow: hidden; font-size: 13px; font-weight: bold; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.bx-images-viewer-full-link {
+	color: white !important; text-decoration: none !important; border-bottom-color: white; border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.bx-ie8 .bx-images-viewer-title {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_ie8bg.png");
+}
+.bx-quirks .bx-images-viewer-title {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_ie8bg.png");
+}
+.bx-images-viewer-size-toggle {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_sprite.png") no-repeat right bottom; width: 29px; height: 29px; position: absolute; cursor: pointer; opacity: 0.35;
+}
+.bx-images-viewer-size-toggle:hover {
+	opacity: 1;
+}
+.sonet-popup-title {
+	margin: 2px 0px 0px 8px; font-family: Arial,sans-serif; font-size: 14px;
+}
+span.date-interval-hellip {
+	width: 20px; text-align: center; display: inline-block;
+}
+img.calendar-icon {
+	margin: 1px 1px 1px 2px; border: 0px currentColor; border-image: none; width: 19px; height: 19px; vertical-align: top; cursor: pointer;
+}
+img.calendar-icon-hover {
+	margin: 0px 0px 0px 1px; border: 1px solid rgb(174, 182, 194); border-image: none; background-color: rgb(219, 227, 242);
+}
+.bx-calendar {
+	width: 200px; color: rgb(0, 0, 0); font-family: Arial, sans-serif;
+}
+.bx-calendar-header {
+	padding-bottom: 5px; margin-top: -2px;
+}
+.bx-calendar-left-arrow {
+	background: url("/bitrix/js/main/core/images/calendar-sprite.png") no-repeat; border-radius: 4px; width: 19px; height: 28px; font-size: 1px; vertical-align: top; display: inline-block; cursor: pointer;
+}
+.bx-calendar-right-arrow {
+	background: url("/bitrix/js/main/core/images/calendar-sprite.png") no-repeat; border-radius: 4px; width: 19px; height: 28px; font-size: 1px; vertical-align: top; display: inline-block; cursor: pointer;
+}
+.bx-calendar-left-arrow:hover {
+	background-color: rgb(237, 237, 237);
+}
+.bx-calendar-right-arrow:hover {
+	background-color: rgb(237, 237, 237);
+}
+.bx-calendar-left-arrow {
+	background-position: 7px -183px; margin-left: -3px; vertical-align: top;
+}
+.bx-calendar-right-arrow {
+	background-position: 8px -205px;
+}
+.bx-calendar-header-content {
+	width: 165px; text-align: center; display: inline-block;
+}
+.bx-calendar-top-month {
+	background: url("/bitrix/js/main/core/images/calendar-sprite.png") no-repeat right -223px; margin: 0px 1px; padding: 5px 15px 3px 7px; border-radius: 3px; color: rgb(0, 0, 0) !important; line-height: 20px; font-size: 16px; text-decoration: none !important; display: inline-block; cursor: pointer;
+}
+.bx-calendar-top-year {
+	background: url("/bitrix/js/main/core/images/calendar-sprite.png") no-repeat right -223px; margin: 0px 1px; padding: 5px 15px 3px 7px; border-radius: 3px; color: rgb(0, 0, 0) !important; line-height: 20px; font-size: 16px; text-decoration: none !important; display: inline-block; cursor: pointer;
+}
+.bx-calendar-top-month:hover {
+	text-decoration: none; background-color: rgb(237, 237, 237);
+}
+.bx-calendar-top-year:hover {
+	text-decoration: none; background-color: rgb(237, 237, 237);
+}
+.bx-calendar-cell-block {
+	overflow: hidden; padding-bottom: 5px; position: relative;
+}
+.bx-calendar-cell {
+	margin: 0px 3px 0px 2px; width: 23px; height: 19px; text-align: center; line-height: 15px; padding-top: 4px; font-size: 12px; text-decoration: none; vertical-align: top; display: inline-block; cursor: pointer;
+}
+.bx-calendar-cell {
+	
+}
+.bx-calendar-cell {
+	color: rgb(0, 0, 0);
+}
+.bx-calendar-cell:link {
+	color: rgb(0, 0, 0);
+}
+.bx-calendar-cell:active {
+	color: rgb(0, 0, 0);
+}
+.bx-calendar-cell:visited {
+	color: rgb(0, 0, 0);
+}
+.bx-calendar-cell:hover {
+	color: rgb(0, 0, 0); text-decoration: none; background-color: rgb(238, 238, 238);
+}
+.bx-calendar-name-day {
+	margin: 0px 3px 0px 2px; width: 23px; height: 13px; text-align: center; color: rgb(169, 169, 169); padding-top: 0px; font-size: 10px; vertical-align: top; display: inline-block;
+}
+.bx-calendar-range {
+	margin: 0px -5px 0px -7px; padding: 1px 7px 1px 8px; border-bottom-color: rgb(243, 242, 237); border-bottom-width: 1px; border-bottom-style: solid; position: relative; z-index: 5;
+}
+.bx-calendar-weekend {
+	color: rgb(210, 80, 80);
+}
+.bx-calendar-weekend:link {
+	color: rgb(210, 80, 80);
+}
+.bx-calendar-weekend:active {
+	color: rgb(210, 80, 80);
+}
+.bx-calendar-weekend:visited {
+	color: rgb(210, 80, 80);
+}
+.bx-calendar-weekend:hover {
+	color: rgb(210, 80, 80);
+}
+.bx-calendar-date-hidden {
+	color: rgb(204, 204, 204);
+}
+.bx-calendar-date-hidden:link {
+	color: rgb(204, 204, 204);
+}
+.bx-calendar-date-hidden:active {
+	color: rgb(204, 204, 204);
+}
+.bx-calendar-date-hidden:visited {
+	color: rgb(204, 204, 204);
+}
+.bx-calendar-active {
+	background-color: rgb(220, 227, 234);
+}
+.bx-calendar-active:hover {
+	background-color: rgb(220, 227, 234);
+}
+.bx-calendar-name-day-wrap {
+	margin: 0px -5px 3px -7px; padding: 1px 7px 0px 8px; height: 12px; line-height: 12px; position: relative; z-index: 5; background-color: rgb(238, 238, 238);
+}
+.bx-calendar-range-noline {
+	border: currentColor; border-image: none;
+}
+.bx-calendar-set-time-wrap {
+	margin: -5px 3px 0px 0px; text-decoration: none; border-top-color: rgb(242, 242, 242); border-bottom-color: rgb(242, 242, 242); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; position: relative;
+}
+.bx-calendar-set-time {
+	padding: 1px 0px 0px; height: 14px; text-align: center; color: rgb(178, 178, 178) !important; font-size: 11px; text-decoration: none; margin-right: 3px; display: block; cursor: pointer;
+}
+.bx-calendar-set-time:hover {
+	color: rgb(140, 140, 140) !important; text-decoration: none !important;
+}
+.bx-calendar-set-time-opened .bx-calendar-set-time {
+	display: none;
+}
+.bx-calendar-set-time-opened .bx-calendar-form-block {
+	display: block;
+}
+.bx-calendar-set-time {
+	padding: 1px 0px 0px; height: 14px; text-align: center; color: rgb(178, 178, 178); font-size: 11px; margin-right: 3px; cursor: pointer;
+}
+.bx-calendar-set-time i {
+	background: url("/bitrix/js/main/core/images/calendar-sprite.png") no-repeat 0px 0px; margin: 2px 3px 0px 0px; width: 9px; height: 9px; vertical-align: top; display: inline-block;
+}
+.bx-calendar-button-block {
+	padding: 9px 0px 8px; text-align: center;
+}
+.bx-calendar-button {
+	text-decoration: none; vertical-align: top; display: inline-block; cursor: pointer;
+}
+.bx-calendar-button-select {
+	text-align: right; margin-right: 8px;
+}
+.bx-calendar-button-left {
+	background: url("/bitrix/js/main/core/images/calendar-sprite.png") no-repeat; width: 4px; height: 23px; vertical-align: top; display: inline-block;
+}
+.bx-calendar-button-right {
+	background: url("/bitrix/js/main/core/images/calendar-sprite.png") no-repeat; width: 4px; height: 23px; vertical-align: top; display: inline-block;
+}
+.bx-calendar-button-text {
+	background: url("/bitrix/js/main/core/images/calendar-sprite.png") repeat-x 0px -99px; padding: 4px 10px 0px; height: 19px; color: rgb(0, 0, 0); line-height: 16px; font-size: 12px; vertical-align: top; display: inline-block;
+}
+.bx-calendar-button-left {
+	background-position: 0px -45px;
+}
+.bx-calendar-button-right {
+	background-position: -5px -45px;
+}
+.bx-calendar-button:hover .bx-calendar-button-left {
+	background-position: 0px -15px;
+}
+.bx-calendar-button:hover .bx-calendar-button-right {
+	background-position: -5px -15px;
+}
+.bx-calendar-button:hover .bx-calendar-button-text {
+	background-position: 0px -74px;
+}
+.bx-calendar-button:active .bx-calendar-button-text {
+	background-position: 0px -74px;
+}
+.bx-calendar-form-block {
+	display: none;
+}
+.bx-calendar-form-text {
+	padding: 0px 0px 0px 5px; width: 38px; color: rgb(166, 166, 166); font-size: 11px; margin-top: 10px; vertical-align: top; display: inline-block;
+}
+.bx-calendar-form {
+	vertical-align: top; display: inline-block;
+}
+.bx-calendar-form-arrow-l {
+	vertical-align: top; display: inline-block;
+}
+.bx-calendar-form-arrow-r {
+	vertical-align: top; display: inline-block;
+}
+.bx-calendar-form-arrow-l {
+	margin-left: 2px;
+}
+.bx-calendar-form-arrow-top {
+	width: 15px; height: 17px; display: block;
+}
+.bx-calendar-form-arrow-bottom {
+	width: 15px; height: 17px; display: block;
+}
+.bx-calendar-form-arrow-top {
+	height: 14px; padding-top: 4px;
+}
+.bx-calendar-form-arrow-l .bx-calendar-form-arrow-top {
+	padding-left: 5px;
+}
+.bx-calendar-form-arrow-l .bx-calendar-form-arrow-bottom {
+	padding-left: 5px;
+}
+.bx-calendar-form-arrow-r .bx-calendar-form-arrow-top {
+	padding-right: 5px; padding-left: 1px;
+}
+.bx-calendar-form-arrow-r .bx-calendar-form-arrow-bottom {
+	padding-right: 5px; padding-left: 1px;
+}
+.bx-calendar-form-arrow-top i {
+	background: url("/bitrix/js/main/core/images/calendar-sprite.png") no-repeat; width: 14px; height: 13px; display: block;
+}
+.bx-calendar-form-arrow-bottom i {
+	background: url("/bitrix/js/main/core/images/calendar-sprite.png") no-repeat; width: 14px; height: 13px; display: block;
+}
+.bx-calendar-form-arrow-top i {
+	background-position: 4px -125px;
+}
+.bx-calendar-form-arrow-bottom i {
+	background-position: 4px -137px;
+}
+.bx-calendar-form-arrow-top:hover i {
+	background-position: 4px -275px; background-color: rgb(242, 242, 242);
+}
+.bx-calendar-form-arrow-bottom:hover i {
+	background-position: 4px -286px; background-color: rgb(242, 242, 242);
+}
+.bx-calendar-form-input {
+	background: rgb(255, 255, 255); padding: 0px; border: 1px solid rgb(209, 209, 209); border-image: none; width: 28px; height: 21px; text-align: center; font-size: 15px; margin-top: 6px; vertical-align: top; display: inline-block; box-shadow: inset 1px 1px 0px #f7f7f7; -moz-box-shadow: inset 1px 1px 0 #f7f7f7; -webkit-box-shadow: inset 1px 1px 0 #f7f7f7;
+}
+.bx-calendar-form-separator {
+	background: url("/bitrix/js/main/core/images/calendar-sprite.png") no-repeat 0px -246px; width: 8px; height: 23px; text-align: center; color: rgb(170, 170, 170); padding-top: 7px; font-size: 14px; font-weight: bold; vertical-align: top; display: inline-block;
+}
+.bx-calendar-form-close {
+	top: 0px; width: 20px; height: 35px; right: -8px; font-size: 1px; display: block; position: absolute;
+}
+.bx-calendar-form-close i {
+	background: url("/bitrix/js/main/core/images/calendar-sprite.png") no-repeat 4px -151px; margin: 10px 0px 0px; width: 15px; height: 15px; display: block;
+}
+.bx-calendar-form-close:hover i {
+	background-position: 4px -169px; background-color: rgb(232, 232, 232);
+}
+.bx-calendar-AM-PM-block {
+	margin-left: -4px; vertical-align: top; display: inline-block; cursor: pointer;
+}
+.bx-calendar-AM-PM-text {
+	color: rgb(51, 51, 51); text-transform: uppercase; line-height: 15px; font-family: Arial, sans-serif; font-size: 13px; margin-top: 11px; vertical-align: top; display: inline-block;
+}
+.bx-calendar-AM-PM-block .bx-calendar-form-arrow-r {
+	width: 19px;
+}
+.bx-calendar-year-popup {
+	width: 45px; padding-bottom: 7px; font-family: arial, sans-serif; margin-top: -2px;
+}
+.bx-calendar-month-popup {
+	width: 85px; padding-bottom: 7px; font-family: arial, sans-serif; margin-top: -2px;
+}
+.bx-calendar-year-title {
+	color: rgb(0, 0, 0); line-height: 20px; padding-bottom: 5px; font-size: 16px;
+}
+.bx-calendar-month-title {
+	color: rgb(0, 0, 0); line-height: 20px; padding-bottom: 5px; font-size: 16px;
+}
+.bx-calendar-year-content {
+	padding: 5px 0px 0px 2px; color: rgb(0, 0, 0); font-size: 13px; border-top-color: rgb(229, 229, 229); border-top-width: 1px; border-top-style: solid;
+}
+.bx-calendar-month-content {
+	padding: 5px 0px 0px 2px; color: rgb(0, 0, 0); font-size: 13px; border-top-color: rgb(229, 229, 229); border-top-width: 1px; border-top-style: solid;
+}
+.bx-calendar-year-number {
+	margin: 0px 0px 2px -5px; padding: 2px 0px 2px 4px; border-radius: 3px; text-decoration: none !important; display: block; cursor: pointer;
+}
+.bx-calendar-month {
+	margin: 0px 0px 2px -5px; padding: 2px 0px 2px 4px; border-radius: 3px; text-decoration: none !important; display: block; cursor: pointer;
+}
+.bx-calendar-month {
+	color: rgb(0, 0, 0);
+}
+.bx-calendar-month:link {
+	color: rgb(0, 0, 0);
+}
+.bx-calendar-month:active {
+	color: rgb(0, 0, 0);
+}
+.bx-calendar-month:visited {
+	color: rgb(0, 0, 0);
+}
+.bx-calendar-year-number {
+	color: rgb(0, 0, 0);
+}
+.bx-calendar-year-number:link {
+	color: rgb(0, 0, 0);
+}
+.bx-calendar-year-number:active {
+	color: rgb(0, 0, 0);
+}
+.bx-calendar-year-number:visited {
+	color: rgb(0, 0, 0);
+}
+.bx-calendar-month:hover {
+	text-decoration: none; background-color: rgb(237, 237, 237);
+}
+.bx-calendar-year-number:hover {
+	text-decoration: none; background-color: rgb(237, 237, 237);
+}
+.bx-calendar-month-active {
+	color: rgb(202, 7, 7);
+}
+.bx-calendar-month-active:link {
+	color: rgb(202, 7, 7);
+}
+.bx-calendar-month-active:active {
+	color: rgb(202, 7, 7);
+}
+.bx-calendar-month-active:visited {
+	color: rgb(202, 7, 7);
+}
+.bx-calendar-year-active {
+	color: rgb(202, 7, 7);
+}
+.bx-calendar-year-active:link {
+	color: rgb(202, 7, 7);
+}
+.bx-calendar-year-active:active {
+	color: rgb(202, 7, 7);
+}
+.bx-calendar-year-active:visited {
+	color: rgb(202, 7, 7);
+}
+.bx-calendar-year-input {
+	background: rgb(255, 255, 255); border-radius: 2px; border: 1px solid rgb(181, 181, 181); border-image: none; width: 41px; height: 19px; text-align: center; font-size: 16px; margin-top: 10px; box-shadow: inset 2px 2px 1px #ededed;
+}
+.bx-calendar-month-input {
+	background: rgb(255, 255, 255); border-radius: 2px; border: 1px solid rgb(181, 181, 181); border-image: none; width: 41px; height: 19px; text-align: center; font-size: 16px; margin-top: 10px; box-shadow: inset 2px 2px 1px #ededed;
+}
+.bx-calendar-time-disabled .bx-calendar-button-block {
+	display: none;
+}
+.bx-calendar-time-disabled .bx-calendar-set-time-wrap {
+	display: none;
+}
+.bx-tm-popup-clock {
+	padding: 10px;
+}
+* html .bx-calendar-month-title {
+	margin-top: -2px;
+}
+* html .bx-calendar-year-title {
+	margin-top: -2px;
+}
+* html .bx-calendar-month-popup {
+	margin-left: -2px;
+}
+* html .bx-calendar-year-popup {
+	margin-left: -2px;
+}
+* + html .bx-calendar-month-title {
+	margin-top: -2px;
+}
+* + html .bx-calendar-year-title {
+	margin-top: -2px;
+}
+* + html .bx-calendar-month-popup {
+	margin-left: -2px;
+}
+* + html .bx-calendar-year-popup {
+	margin-left: -2px;
+}
+* + html .bx-calendar-form-input {
+	height: 17px; padding-top: 4px;
+}
+* html .bx-calendar-button-text {
+	height: 23px;
+}
+* html .bx-calendar-name-day {
+	padding-top: 3px;
+}
+* html .bx-calendar-cell {
+	height: 23px;
+}
+* html .bx-calendar-form-arrow-top {
+	font-size: 0px;
+}
+* html .bx-calendar-form-arrow-bottom {
+	font-size: 0px;
+}
+* html .bx-calendar-form-arrow-top {
+	width: 20px;
+}
+* html .bx-calendar-form-arrow-bottom {
+	width: 20px;
+}
+* html .bx-calendar-button-text {
+	padding-top: 3px;
+}
+* html .bx-calendar-left-arrow {
+	width: 17px; margin-left: 0px;
+}
+* html .bx-calendar-right-arrow {
+	width: 17px; margin-left: 0px;
+}
+* html .bx-calendar-form-text {
+	width: 46px;
+}
+.bx-viewer-lock-scroll {
+	overflow: hidden;
+}
+.bx-viewer-overlay {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: fixed; z-index: 1001; background-color: rgba(0, 0, 0, 0.6);
+}
+.bx-ie8 .bx-viewer-overlay {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_ie8bg.png");
+}
+.bx-quirks .bx-viewer-overlay {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_ie8bg.png");
+}
+.bx-quirks .bx-viewer-overlay {
+	position: absolute;
+}
+.bx-viewer-lock-scroll .bx-viewer-overlay {
+	-ms-overflow-x: auto; -ms-overflow-y: auto;
+}
+.bx-viewer-wrap-outer {
+	transition:top 0.15s ease-in, left 0.15s ease-in; left: 40%; top: 30%; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; position: absolute; z-index: 10; -webkit-transition: top 0.15s ease-in, left 0.15s ease-in; -moz-transition: top 0.15s ease-in, left 0.15s ease-in; -o-transition: top 0.15s ease-in, left 0.15s ease-in;
+}
+.bx-viewer-wrap-inner {
+	border-radius: 5px; position: relative; box-shadow: 1px 1px 0px rgba(0,0,0,0.21); background-color: white; -webkit-box-shadow: 1px 1px 0 rgba(0, 0, 0, .21);
+}
+.bx-viewer-wrap {
+	transition:width 0.15s ease-in, height 0.15s ease-in; width: 100px; height: 100px; overflow: hidden; -webkit-transition: width 0.15s ease-in, height 0.15s ease-in; -moz-transition: width 0.15s ease-in, height 0.15s ease-in; -o-transition: width 0.15s ease-in, height 0.15s ease-in;
+}
+.bx-viewer-wrap-loading-white {
+	background: url("/bitrix/js/main/core/css/../images/wait-big.gif") no-repeat center rgb(255, 255, 255) !important; min-height: 50px; min-width: 50px;
+}
+.bx-viewer-wrap-loading {
+	background: url("/bitrix/js/main/core/css/../images/waiter-f5.gif") no-repeat center rgb(245, 245, 245) !important; min-height: 50px; min-width: 50px;
+}
+.bx-viewer-image {
+	margin: 0px auto; transition:opacity 0.15s ease-in; width: 100%; height: 100%; display: block; max-height: 100%; max-width: 100%; -webkit-transition: opacity 0.15s ease-in; -moz-transition: opacity 0.15s ease-in; -o-transition: opacity 0.15s ease-in;
+}
+.bx-viewer-prev-outer {
+	transition:opacity 0.15s ease-in; width: 50%; height: 100%; display: block; position: absolute; z-index: 1; cursor: pointer; opacity: 0; -webkit-transition: opacity 0.15s ease-in; -moz-transition: opacity 0.15s ease-in; -o-transition: opacity 0.15s ease-in;
+}
+.bx-viewer-next-outer {
+	transition:opacity 0.15s ease-in; width: 50%; height: 100%; display: block; position: absolute; z-index: 1; cursor: pointer; opacity: 0; -webkit-transition: opacity 0.15s ease-in; -moz-transition: opacity 0.15s ease-in; -o-transition: opacity 0.15s ease-in;
+}
+.bx-viewer-wrap-outer:hover .bx-viewer-prev-outer {
+	opacity: 1;
+}
+.bx-viewer-wrap-outer:hover .bx-viewer-next-outer {
+	opacity: 1;
+}
+.bx-ie8 .bx-viewer-prev-outer .bx-viewer-prev {
+	
+}
+.bx-ie8 .bx-viewer-next-outer .bx-viewer-next {
+	
+}
+.bx-quirks .bx-viewer-prev-outer .bx-viewer-prev {
+	
+}
+.bx-quirks .bx-viewer-next-outer .bx-viewer-next {
+	
+}
+.bx-viewer-prev-outer {
+	left: -10px;
+}
+.bx-viewer-next-outer {
+	right: -10px;
+}
+.bx-viewer-prev-outer:hover {
+	opacity: 1 !important;
+}
+.bx-viewer-next-outer:hover {
+	opacity: 1 !important;
+}
+.bx-ie8 .bx-viewer-prev-outer:hover .bx-viewer-prev {
+	filter: none;
+}
+.bx-ie8 .bx-viewer-next-outer:hover .bx-viewer-next {
+	filter: none;
+}
+.bx-quirks .bx-viewer-prev-outer:hover .bx-viewer-prev {
+	filter: none;
+}
+.bx-quirks .bx-viewer-next-outer:hover .bx-viewer-next {
+	filter: none;
+}
+.bx-viewer-prev {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_sprite.png") no-repeat 0px 0px rgb(84, 84, 84); border-radius: 20px; top: 45%; width: 40px; height: 40px; display: block; position: absolute; box-shadow: inset 0px 0px 0px 2px white, 0px 1px 1px 0px rgba(0,0,0,0.21); -webkit-box-shadow: 0 0 0 2px white inset, 0 1px 1px 0 rgba(0, 0, 0, 0.21);
+}
+.bx-viewer-next {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_sprite.png") no-repeat 0px 0px rgb(84, 84, 84); border-radius: 20px; top: 45%; width: 40px; height: 40px; display: block; position: absolute; box-shadow: inset 0px 0px 0px 2px white, 0px 1px 1px 0px rgba(0,0,0,0.21); -webkit-box-shadow: 0 0 0 2px white inset, 0 1px 1px 0 rgba(0, 0, 0, 0.21);
+}
+.bx-ie10 .bx-viewer-prev {
+	transition:top 0.15s ease-in;
+}
+.bx-ie10 .bx-viewer-next {
+	transition:top 0.15s ease-in;
+}
+.bx-viewer-next {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_sprite.png") no-repeat -30px 0px rgb(79, 79, 79); right: 10%;
+}
+.bx-viewer-prev {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_sprite.png") no-repeat -70px 0px rgb(79, 79, 79); left: 10%;
+}
+.bx-ie8 .bx-viewer-prev {
+	border: 1px solid white; border-image: none;
+}
+.bx-ie8 .bx-viewer-next {
+	border: 1px solid white; border-image: none;
+}
+.bx-quirks .bx-viewer-prev {
+	border: 1px solid white; border-image: none;
+}
+.bx-quirks .bx-viewer-next {
+	border: 1px solid white; border-image: none;
+}
+.bx-viewer-close {
+	top: -33px; width: 60px; height: 60px; right: -33px; display: inline-block; position: absolute; cursor: pointer;
+}
+.bx-viewer-close-inner {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_sprite.png") no-repeat 0px 1px rgb(84, 84, 84); border-radius: 15px; left: 15px; top: 15px; width: 30px; height: 30px; display: inline-block; position: absolute; box-shadow: inset 0px 0px 0px 2px white, 0px 1px 1px 0px rgba(0,0,0,0.21); -webkit-box-shadow: 0 0 0 2px white inset, 0 1px 1px 0 rgba(0, 0, 0, 0.21);
+}
+.bx-ie8 .bx-viewer-close-inner {
+	border: 1px solid white; border-image: none;
+}
+.bx-quirks .bx-viewer-close-inner {
+	border: 1px solid white; border-image: none;
+}
+.bx-viewer-close:hover .bx-viewer-close-inner {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_sprite.png") no-repeat 0px 1px rgb(25, 25, 25);
+}
+.bx-viewer-title {
+	padding: 2px 15px 0px; top: 0px; width: 100%; height: 30px; text-align: center; position: absolute; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.bx-viewer-title-2-btns {
+	padding-right: 230px;
+}
+.bx-ie8 .bx-viewer-title {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_ie8bg.png");
+}
+.bx-quirks .bx-viewer-title {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_ie8bg.png");
+}
+.bx-viewer-size-toggle {
+	background: url("/bitrix/js/main/core/css/../images/imageviewer_sprite.png") no-repeat right bottom; width: 29px; height: 29px; position: absolute; cursor: pointer; opacity: 0.35;
+}
+.bx-viewer-size-toggle:hover {
+	opacity: 1;
+}
+.bx-viewer-top-right {
+	left: 12px; top: 8px; display: inline-block; position: absolute;
+}
+.bx-viewer-file-name {
+	color: rgb(83, 83, 83); overflow: hidden; font-size: 14px; font-weight: bold; margin-top: 11px; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis; max-width: 100%;
+}
+.bx-viewer-size {
+	color: rgb(133, 133, 133); padding-top: 7px; font-size: 12px; text-decoration: underline; vertical-align: top; display: inline-block;
+}
+.bx-viewer-size:hover {
+	color: rgb(0, 0, 0);
+}
+.bx-viewer-cap {
+	background: rgb(245, 245, 245); border: 1px solid rgb(238, 238, 238); border-image: none; height: 348px; color: rgb(0, 0, 0); position: relative;
+}
+.bx-viewer-cap-file .bx-viewer-cap {
+	height: 318px; margin-top: 30px;
+}
+.bx-viewer-icon {
+	background: url("/bitrix/js/main/core/css/../images/bx-viewer-icons.png?4") no-repeat center -129px; left: 47px; top: 85px; width: 130px; height: 120px; position: absolute;
+}
+.bx-viewer-folder .bx-viewer-icon {
+	background-position: center 0px;
+}
+.bx-viewer-icon-txt {
+	background-position: center -286px;
+}
+.bx-viewer-icon-archive {
+	background-position: center -440px;
+}
+.bx-viewer-icon-rar {
+	background-position: center -593px;
+}
+.bx-viewer-icon-zip {
+	background-position: center -747px;
+}
+.bx-viewer-icon-ppt {
+	background-position: center -901px;
+}
+.bx-viewer-icon-doc {
+	background-position: center -1055px;
+}
+.bx-viewer-icon-xls {
+	background-position: center -1208px;
+}
+.bx-viewer-icon-pdf {
+	background-position: center -1362px;
+}
+.bx-viewer-cap-text-block {
+	top: 83px; width: 300px; right: 25px; position: absolute;
+}
+.bx-viewer-too-big-title {
+	background: url("/bitrix/js/main/core/css/../images/bx-viewer-icons.png?4") no-repeat -58px -1524px; padding: 0px 0px 10px 20px; color: rgb(153, 153, 153); font-size: 12px; margin-top: -3px; text-shadow: 0px 1px rgba(255,255,255,0.7);
+}
+.bx-viewer-cap-title {
+	overflow: hidden; padding-bottom: 9px; font-size: 19px; font-weight: bold; white-space: nowrap; -ms-text-overflow: ellipsis; text-shadow: 0px 1px #fff;
+}
+.bx-viewer-cap-text {
+	line-height: 28px; font-size: 15px; text-shadow: 0px 1px #fff;
+}
+.bx-viewer-cap-text-title {
+	color: rgb(128, 128, 128);
+}
+.bx-viewer-btn {
+	background: linear-gradient(rgb(249, 250, 250), rgb(222, 233, 236)); border-width: 1px; border-style: solid; border-color: rgb(241, 241, 241) rgb(216, 216, 216) rgb(169, 169, 169); border-radius: 4px; border-image: none; box-shadow: 0px 1px 0px rgba(0,0,0,0.12), inset 0px 1px 0px #fff, inset 0px 0px 0px 1px rgba(255,255,255,0.3); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .12), inset 0 1px 0 #fff, inset 0 0 1px rgba(255, 255, 255, .3);
+}
+.bx-viewer-btn-split-bg {
+	background: linear-gradient(rgb(249, 250, 250), rgb(222, 233, 236)); border-width: 1px; border-style: solid; border-color: rgb(241, 241, 241) rgb(216, 216, 216) rgb(169, 169, 169); border-radius: 4px; border-image: none; box-shadow: 0px 1px 0px rgba(0,0,0,0.12), inset 0px 1px 0px #fff, inset 0px 0px 0px 1px rgba(255,255,255,0.3); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .12), inset 0 1px 0 #fff, inset 0 0 1px rgba(255, 255, 255, .3);
+}
+.bx-viewer-btn {
+	padding: 0px 10px; height: 25px; text-align: center; color: rgb(85, 85, 85); line-height: 24px; font-size: 14px; font-weight: bold; text-decoration: none; margin-right: 5px; vertical-align: top; display: inline-block; cursor: pointer; min-width: 70px; text-shadow: 0px 1px #fff;
+}
+.bx-viewer-btn:hover {
+	background: linear-gradient(rgb(250, 250, 250), rgb(241, 246, 247)); color: rgb(85, 85, 85); text-decoration: none;
+}
+.bx-viewer-btn-split-l:hover .bx-viewer-btn-split-bg {
+	background: linear-gradient(rgb(250, 250, 250), rgb(241, 246, 247)); color: rgb(85, 85, 85); text-decoration: none;
+}
+.bx-viewer-btn-split-r:hover .bx-viewer-btn-split-bg {
+	background: linear-gradient(rgb(250, 250, 250), rgb(241, 246, 247)); color: rgb(85, 85, 85); text-decoration: none;
+}
+.bx-viewer-btn:active {
+	background: linear-gradient(rgb(203, 215, 219), rgb(219, 229, 231)); border-color: rgb(140, 147, 158) rgb(159, 167, 176) rgb(200, 209, 213); border-radius: 2px; height: 24px; line-height: 23px; margin-top: 1px; box-shadow: inset 0px 1px 1px #878e96; -webkit-box-shadow: 0 1px 1px #878e96 inset;
+}
+.bx-viewer-btn-split-l:active .bx-viewer-btn-split-bg {
+	background: linear-gradient(rgb(203, 215, 219), rgb(219, 229, 231)); border-color: rgb(140, 147, 158) rgb(159, 167, 176) rgb(200, 209, 213); border-radius: 2px; height: 24px; line-height: 23px; margin-top: 1px; box-shadow: inset 0px 1px 1px #878e96; -webkit-box-shadow: 0 1px 1px #878e96 inset;
+}
+.bx-viewer-btn-split-r:active .bx-viewer-btn-split-bg {
+	background: linear-gradient(rgb(203, 215, 219), rgb(219, 229, 231)); border-color: rgb(140, 147, 158) rgb(159, 167, 176) rgb(200, 209, 213); border-radius: 2px; height: 24px; line-height: 23px; margin-top: 1px; box-shadow: inset 0px 1px 1px #878e96; -webkit-box-shadow: 0 1px 1px #878e96 inset;
+}
+.bx-viewer-cap-text-block .bx-viewer-btn {
+	margin-top: 20px; border-top-color: rgb(234, 235, 235);
+}
+.bx-viewer-cap-text-block .bx-viewer-btn:active {
+	margin-top: 21px; border-top-color: rgb(140, 147, 158);
+}
+.bx-viewer-cap-wrap {
+	width: 100%; height: 100%;
+}
+.bx-viewer-pseudo-center {
+	margin: 0px auto; top: 50%; position: absolute;
+}
+.bx-viewer-full-title {
+	border-radius: 0px 0px 5px 5px; transition:bottom 0.15s ease-in, opacity 0.15s ease-in; width: 100%; position: absolute; background-color: rgba(0, 0, 0, 0.35); -webkit-transition: bottom 0.15s ease-in, opacity 0.15s ease-in; -moz-transition: bottom 0.15s ease-in, opacity 0.15s ease-in; -o-transition: bottom 0.15s ease-in, opacity 0.15s ease-in;
+}
+.bx-viewer-full-item {
+	margin: 0px 15px; color: white; line-height: 32px; overflow: hidden; font-size: 13px; font-weight: bold; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.bx-viewer-full-link {
+	color: white !important; text-decoration: underline !important;
+}
+.bx-viewer-btn-split {
+	vertical-align: top; display: inline-block;
+}
+.bx-viewer-btn-split-l {
+	height: 28px; overflow: hidden; vertical-align: top; display: inline-block; position: relative; cursor: pointer;
+}
+.bx-viewer-btn-split-r {
+	height: 28px; overflow: hidden; vertical-align: top; display: inline-block; position: relative; cursor: pointer;
+}
+.bx-viewer-btn-split-l::before {
+	top: 2px; width: 1px; height: 24px; right: 0px; border-right-color: rgb(204, 209, 211); border-right-width: 1px; border-right-style: solid; position: absolute; z-index: 2; content: "";
+}
+.bx-viewer-btn-split-text {
+	padding: 0px 15px; text-align: center; color: rgb(85, 85, 85); line-height: 25px; font-size: 14px; font-weight: bold; display: inline-block; position: relative; z-index: 1; min-width: 70px; text-shadow: 0px 1px #fff;
+}
+.bx-viewer-btn-split-l:active .bx-viewer-btn-split-text {
+	margin-top: 1px;
+}
+.bx-viewer-btn-split-bg {
+	left: 0px; top: 0px; width: 100%; height: 25px; padding-right: 10px; position: absolute; z-index: 0;
+}
+.bx-viewer-btn-split-r {
+	width: 20px;
+}
+.bx-viewer-btn-split-r::before {
+	left: 0px; top: 1px; width: 1px; height: 25px; border-left-color: rgb(255, 255, 255); border-left-width: 1px; border-left-style: solid; position: absolute; z-index: 2; content: "";
+}
+.bx-viewer-btn-split-r:active::before {
+	display: none;
+}
+.bx-viewer-btn-split-r .bx-viewer-btn-split-bg {
+	padding: 0px 0px 0px 10px; left: auto; right: 0px;
+}
+.bx-viewer-btn-split-r .bx-viewer-btn-split-bg::before {
+	background: url("/bitrix/js/main/core/css/../images/bx-viewer-icons.png?4") no-repeat -59px -1563px; top: 10px; width: 10px; height: 7px; right: 5px; position: absolute; content: "";
+}
+.viewer-toggle-popup-cont {
+	padding: 7px 11px 11px;
+}
+.viewer-toggle-popup-title {
+	color: rgb(129, 129, 129); padding-bottom: 12px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 12px; border-bottom-color: rgb(226, 236, 239); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.viewer-toggle-popup-btn-block {
+	padding: 5px 0px;
+}
+.viewer-toggle-popup-btn {
+	margin: 7px 0px; padding: 6px 5px 0px 2px; border-radius: 2px; border: 1px solid rgb(255, 255, 255); border-image: none; height: 23px; cursor: pointer;
+}
+.status-sky-drive {
+	padding: 1px 0px 0px 21px; height: 15px; color: rgb(85, 85, 85); font-size: 13px; position: relative; text-shadow: 0px 1px #fff;
+}
+.status-google {
+	padding: 1px 0px 0px 21px; height: 15px; color: rgb(85, 85, 85); font-size: 13px; position: relative; text-shadow: 0px 1px #fff;
+}
+.viewer-toggle-popup-btn .status-sky-drive {
+	padding-left: 38px;
+}
+.viewer-toggle-popup-btn .status-google {
+	padding-left: 38px;
+}
+.status-sky-drive::before {
+	background: url("/bitrix/js/main/core/css/../images/bx-viewer-icons.png?4") no-repeat 100px 100px; left: 0px; top: 2px; width: 20px; height: 13px; position: absolute; content: "";
+}
+.status-google::before {
+	background: url("/bitrix/js/main/core/css/../images/bx-viewer-icons.png?4") no-repeat 100px 100px; left: 0px; top: 2px; width: 20px; height: 13px; position: absolute; content: "";
+}
+.status-sky-drive::before {
+	background-position: -51px -1614px; width: 63px;
+}
+.status-google::before {
+	background-position: -51px -1586px; width: 88px;
+}
+.viewer-toggle-popup-btn:hover {
+	border-color: rgb(229, 229, 229) rgb(238, 238, 238) rgb(244, 244, 244); box-shadow: inset 0px 1px 1px #eeeeee; background-color: rgb(247, 247, 247); -webkit-box-shadow: 0 1px 1px #eeeeee inset;
+}
+.viewer-toggle-popup-btn-active {
+	border-color: rgb(193, 202, 204) rgb(209, 219, 222) rgb(220, 230, 234) !important; box-shadow: inset 0px 1px 1px #c9d3d6 !important; background-color: rgb(226, 236, 239) !important; -webkit-box-shadow: 0 1px 1px #c9d3d6 inset;
+}
+.viewer-toggle-popup-checkbox {
+	padding: 13px 0px 13px 11px; border-top-color: rgb(226, 236, 239); border-bottom-color: rgb(226, 236, 239); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.viewer-checkbox {
+	margin: 1px 5px 0px 0px; vertical-align: top;
+}
+.viewer-checkbox {
+	margin: 0px 5px 0px 0px;
+}
+.viewer-checkbox-label {
+	vertical-align: top;
+}
+.viewer-toggle-bottom-btn-block .webform-small-button-text {
+	margin: 0px 12px;
+}
+.viewer-toggle-bottom-btn-block .webform-small-button-link {
+	color: rgb(86, 86, 86);
+}
+.viewer-toggle-bottom-btn-block .webform-small-button-link:hover {
+	color: rgb(41, 41, 41);
+}
+.viewer-toggle-bottom-btn-block {
+	text-align: center; padding-top: 14px;
+}
+.viewer-toggle-bottom-btn-block .webform-small-button-accept {
+	margin: 0px 12px 0px 0px;
+}
+.viewer-toggle-bottom-btn-block .task-button-delegate-link {
+	margin: 0px;
+}
+.bx-viewer-cap {
+	opacity: 1 !important;
+}

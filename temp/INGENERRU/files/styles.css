@@ -1,0 +1,735 @@
+html {
+	background: rgb(231, 228, 221); margin: 0px auto; padding: 0px; width: 100%; font-family: Arial, sans-serif; position: relative;
+}
+body {
+	background: rgb(231, 228, 221); margin: 0px auto; padding: 0px; width: 100%; font-family: Arial, sans-serif; position: relative;
+}
+table.all td.content {
+	background: url("/upload/img/bg-content.jpg") no-repeat top; color: rgb(51, 51, 51); font-size: 12pt; font-weight: normal;
+}
+table.all td.content p {
+	padding: 3px 20px; text-align: justify; line-height: 16pt;
+}
+div.news-detail p {
+	padding: 3px 20px; text-align: justify; line-height: 16pt;
+}
+div.news-detail div {
+	padding: 3px 20px; text-align: justify; line-height: 16pt;
+}
+div.clear {
+	clear: both;
+}
+a {
+	color: rgb(64, 29, 10); font-weight: bold;
+}
+a:hover {
+	color: rgb(223, 58, 0);
+}
+h2 {
+	background: url("/lexa/bg-h2-full.png") no-repeat left bottom; margin: 5px 0px; padding: 0px 0px 7px 15px; width: 100%; text-align: left; color: rgb(75, 58, 50); line-height: 36px; font-family: Times New Roman, serif; font-size: 34px; font-weight: normal; display: block;
+}
+h1 {
+	background: url("/lexa/bg-h2-full.png") no-repeat left bottom; margin: 5px 0px; padding: 0px 0px 7px 15px; width: 100%; text-align: left; color: rgb(75, 58, 50); line-height: 36px; font-family: Times New Roman, serif; font-size: 34px; font-weight: normal; display: block;
+}
+.blog-post-title {
+	background: url("/lexa/bg-h2-full.png") no-repeat left bottom; margin: 5px 0px; padding: 0px 0px 7px 15px; width: 100%; text-align: left; color: rgb(75, 58, 50); line-height: 36px; font-family: Times New Roman, serif; font-size: 34px; font-weight: normal; display: block;
+}
+h3 {
+	margin: 10px 0px; padding: 3px 10px 3px 20px; width: 95%; text-align: left; color: rgb(64, 29, 10); line-height: 20px; font-family: Times New Roman; font-size: 24px; font-weight: normal; border-top-color: rgb(126, 94, 79); border-top-width: 1px; border-top-style: solid; background-color: rgb(183, 176, 168);
+}
+h2.news a {
+	font-weight: normal; text-decoration: none;
+}
+h2.anonce a {
+	font-weight: normal; text-decoration: none;
+}
+h4 {
+	color: rgb(64, 29, 10); text-transform: uppercase; padding-left: 20px;
+}
+h5 {
+	padding: 10px 0px 0px; text-transform: uppercase; line-height: 23px !important; font-size: 14px !important; font-weight: bold !important;
+}
+strong {
+	background-color: rgb(243, 239, 231);
+}
+table.all td.content ul {
+	margin: 20px 40px; padding: 10px; color: rgb(64, 29, 10); line-height: 15px; font-size: 13px; font-weight: bold; border-left-color: rgb(153, 147, 135); border-left-width: 1px; border-left-style: solid; display: block; list-style-image: url("/upload/img/ul.jpg"); background-color: rgb(243, 239, 231);
+}
+table.all td.content ul li {
+	padding: 5px;
+}
+div#dark-beg {
+	margin: 5px; border: 1px solid rgb(126, 94, 79); border-image: none; text-align: center; background-color: rgb(183, 176, 168);
+}
+div#dark-beg h3 {
+	margin: 10px 10px 10px -10px; padding: 3px 10px 3px 20px; width: 95%; text-align: left; color: rgb(255, 255, 255); text-transform: uppercase; font-family: Times New Roman; font-size: 14px; background-color: rgb(64, 29, 10);
+}
+div.vector {
+	width: 96%; display: inline-table;
+}
+div.vector div.one {
+	display: inline-table;
+}
+div#gray {
+	margin: 5px; border: 1px solid rgb(167, 167, 167); border-image: none; height: auto; text-align: center; display: block; position: relative; background-color: rgb(201, 201, 201);
+}
+div#gray h3 {
+	margin: 10px 10px 10px -10px; padding: 3px 10px 3px 20px; width: 96%; text-align: left; color: rgb(255, 255, 255); text-transform: uppercase; font-family: Times New Roman; font-size: 14px; background-color: rgb(126, 94, 79);
+}
+div#gray h3 a {
+	color: rgb(255, 255, 255); text-decoration: underline;
+}
+div#gray h3 a:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+div#doska-po4 {
+	padding: 0px 0px 20px 20px; width: 440px; float: left; display: block; background-color: rgb(203, 201, 201);
+}
+div#doska-po4-big {
+	padding: 20px; width: 100%; margin-bottom: 40px;
+}
+div#doska-po4 div.people {
+	background: url("/upload/img/bg-po4.jpg") no-repeat center rgb(253, 253, 245); margin: 2px; padding: 5px; border: 1px solid rgb(126, 94, 79); border-image: none; width: 120px; height: 50px; text-align: center; float: left; display: block; box-shadow: 0px 0px 10px rgba(0,0,0,0.5); -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+div#doska-po4-big div.people {
+	background: url("/upload/img/bg-po4.jpg") no-repeat center rgb(253, 253, 245); margin: 2px; padding: 5px; border: 1px solid rgb(126, 94, 79); border-image: none; width: 120px; height: 50px; text-align: center; float: left; display: block; box-shadow: 0px 0px 10px rgba(0,0,0,0.5); -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+div#doska-po4 div.people img {
+	border: 0px currentColor; border-image: none; width: 110px; height: 154px; display: block;
+}
+div#doska-po4-big div.people img {
+	border: 0px currentColor; border-image: none; width: 110px; height: 154px; display: block;
+}
+div#doska-po4 div.people p {
+	text-align: center; color: rgb(126, 94, 79); font-size: 12px; font-weight: bold;
+}
+div#doska-po4-big div.people p {
+	text-align: center; color: rgb(126, 94, 79); font-size: 12px; font-weight: bold;
+}
+div.header-sm {
+	background: url("/upload/img/header-sm-light.jpg") no-repeat top; margin: 0px; padding: 0px; width: 1024px; height: 118px;
+}
+div.header-sm div.header-block {
+	width: 1024px; height: inherit; margin-right: 36px; display: block;
+}
+div.header-sm div.logo {
+	margin: 0px 0px 0px 2px; width: 288px; height: 47px; float: left;
+}
+div.enter-portal img {
+	width: 180px !important; height: 32px !important;
+}
+div.header-sm ul#vert-multilevel-menu {
+	list-style: none; margin: 5px 20px 0px 400px; float: left; display: block;
+}
+div.header-sm ul#vert-multilevel-menu li.root-item a {
+	padding: 2px 0px; color: rgb(53, 24, 8); font-weight: bold; text-decoration: none; display: block; text-shadow: 1px 1px 2px #cccccc, 0px 0px 1em #fcf6e8;
+}
+div.header-sm ul#vert-multilevel-menu li.root-item a:hover {
+	color: rgb(223, 58, 0); font-size: 20px; font-weight: normal; margin-left: -15px;
+}
+div.header-sm ul#vert-multilevel-menu li a {
+	padding: 2px 0px; color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; display: block; text-shadow: 1px 1px 2px black, 0px 0px 1em #4a4b45;
+}
+div.header-sm div.enter-portal {
+	width: 180px; padding-top: 10px; display: inline-block;
+}
+div.header-sm div.header-block div.input .button {
+	margin: 0px 0px 0px -5px; padding: 3px; border: 1px solid rgb(83, 82, 78); border-image: none; background-color: rgb(162, 158, 147);
+}
+div.header-sm div.header-block div.input input[type='text'] {
+	background: url("/upload/img/bg-input.jpg") no-repeat left top; margin: 5px 0px; border: 1px solid rgb(77, 84, 88); border-image: none; height: 24px; color: rgb(142, 147, 149); padding-left: 5px;
+}
+div.header-sm div.header-block div.input input[type='submit'] {
+	background: url("/upload/img/but-search.png") no-repeat left top !important; margin: 0px 0px 0px -5px; padding: 2px 10px; border: 0px currentColor; border-image: none; width: 58px; height: 33px; color: rgb(53, 24, 8); text-transform: uppercase; line-height: 0px; font-size: 11px; font-weight: bold;
+}
+div.header-sm div.header-block div.but {
+	margin: 3px 70px 3px 3px; width: 110px; float: right; display: block;
+}
+div.header-sm div.header-block div.but img {
+	margin: 0px 0px 0px 3px; width: 32px; height: 31px;
+}
+div.header {
+	background: url("/upload/img/header-light.jpg") no-repeat top; margin: 0px; padding: 100px 0px 30px; width: 1024px; height: 144px;
+}
+div.header div.header-block {
+	width: 340px; height: inherit; margin-right: 18px; float: right; display: block;
+}
+div.header ul#vert-multilevel-menu {
+	list-style: none; margin: 0px 20px 0px 0px; float: left; display: block;
+}
+div.header ul#vert-multilevel-menu li.root-item a {
+	padding: 2px 0px; color: rgb(53, 24, 8); font-weight: bold; text-decoration: none; display: block; text-shadow: 1px 1px 2px #cccccc, 0px 0px 1em #fcf6e8;
+}
+div.header ul#vert-multilevel-menu li.root-item a:hover {
+	color: rgb(223, 58, 0); font-size: 20px; font-weight: normal; margin-left: -15px;
+}
+div.header div.header-block div.input input[type='submit'] {
+	background: url("/upload/img/but-search.png") no-repeat left top !important; margin: 0px 0px 0px -5px; padding: 0px 10px; border: 0px currentColor; border-image: none; width: 58px; height: 32px; color: rgb(53, 24, 8); text-transform: uppercase; line-height: 0px; font-size: 11px; font-weight: bold;
+}
+div.header div.header-block div.input input[type='text'] {
+	background: url("/upload/img/bg-input.jpg") no-repeat left top; margin: 5px 0px; border: 1px solid rgb(77, 84, 88); border-image: none; height: 24px; color: rgb(142, 147, 149); padding-left: 5px;
+}
+div.header div.header-block div.but {
+	margin: 3px 70px 3px 3px; width: 110px; float: right; display: block;
+}
+div.header div.header-block div.but img {
+	margin: 0px 0px 0px 3px; width: 32px; height: 31px;
+}
+div.david-bot {
+	margin-top: -3px !important;
+}
+table.all td {
+	margin: 0px; padding: 0px;
+}
+table.all td.line-run {
+	background: url("/upload/img/bg-line-run.jpg") repeat-x left top;
+}
+div.run {
+	width: 630px; height: 20px; color: white; font-style: italic; font-weight: bold; margin-top: 5px; float: right; display: inline;
+}
+div.run-vacancy {
+	width: 1000px; height: 20px; color: white; padding-bottom: 7px; font-style: italic; font-weight: bold; margin-bottom: 20px; display: inline;
+}
+div.run-order {
+	width: 1000px; height: 20px; color: white; font-style: italic; font-weight: bold; margin-top: 13px; margin-bottom: 30px; float: right; display: inline;
+}
+h2.news {
+	background: url("/upload/img/bg-h2.jpg") no-repeat left bottom; margin: 5px 0px; padding: 0px 0px 7px 15px; width: 480px; color: rgb(75, 58, 50); font-family: Times New Roman, serif; font-size: 34px; font-weight: normal; display: inline-block;
+}
+div#block-news {
+	background: url("/upload/img/line-break-vert.jpg") repeat-y right; width: 508px; height: inherit;
+}
+div#block-news a {
+	text-decoration: none;
+}
+div#block-news div.block {
+	margin: 8px; border: 1px solid rgb(167, 167, 167); border-image: none; width: 225px; height: 110px; float: left; background-color: rgb(203, 201, 201);
+}
+div#block-news div.data {
+	padding: 2px 2px 2px 7px; color: rgb(54, 37, 29); font-size: 10px; font-weight: bold !important;
+}
+div#block-news div.block h3 {
+	margin: 0px 0px 0px -10px; padding: 2px 13px 5px 14px; width: 205px; color: rgb(228, 228, 228); line-height: 12px; font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; text-decoration: underline; display: block; background-color: rgb(61, 57, 43);
+}
+div#block-news div.block div.pick {
+	margin: 0px 10px 0px -10px; padding: 0px; border: 0px currentColor; border-image: none; float: left;
+}
+div#block-news a div.block div.text {
+	height: 70px; color: rgb(54, 37, 29); overflow: hidden; padding-top: 5px; font-size: 11px;
+}
+div.projects-detail {
+	width: inherit;
+}
+div.news-list-detail {
+	margin: 0px 10px 10px 0px; width: 200px; border-right-color: rgb(142, 137, 131); border-right-width: 1px; border-right-style: solid; float: left; display: inline-table;
+}
+div.news-detail {
+	width: 800px !important; overflow: hidden; display: inline-table;
+}
+div.news-detail ul {
+	margin: 20px 40px; padding: 10px; width: 670px; color: rgb(64, 29, 10); line-height: 15px; font-size: 13px; font-weight: bold; border-left-color: rgb(153, 147, 135); border-left-width: 1px; border-left-style: solid; display: block; list-style-image: url("/upload/img/ul.jpg"); background-color: rgb(243, 239, 231);
+}
+div.news-detail ul li {
+	padding: 5px;
+}
+div.news-detail h3 {
+	width: 95%;
+}
+div.news-list-detail p.news-item {
+	padding: 10px !important; text-align: left !important; line-height: 13px !important; font-size: 12px; margin-bottom: -26px !important; border-bottom-color: rgb(175, 168, 158); border-bottom-width: 1px; border-bottom-style: dashed; background-color: rgb(253, 253, 245);
+}
+div.news-list-detail p.news-item span.news-date-time {
+	color: rgb(255, 255, 255); padding-left: 3px; font-weight: bold; display: block; background-color: rgb(179, 172, 162);
+}
+div.news-list-detail p.news-item img {
+	margin-right: 3px; display: block;
+}
+div.main-news-list div.news-item div.news-picture {
+	margin-right: 10px; float: left; dispaly: block;
+}
+div.news-detail p.news-item span.news-date-time {
+	color: rgb(255, 255, 255); padding-left: 3px; font-weight: bold; display: block; background-color: rgb(183, 176, 168);
+}
+div.main-news-list div.news-item span.news-date-time {
+	color: rgb(255, 255, 255); padding-left: 3px; font-weight: bold; display: block; background-color: rgb(183, 176, 168);
+}
+div.news-detail span.news-date-time {
+	color: rgb(159, 151, 143); padding-left: 3px; font-weight: bold; display: block; background-color: rgb(231, 228, 221);
+}
+div.news-detail img.detail_picture {
+	width: 400px; height: inherit;
+}
+div.news-list p.news-item {
+	padding: 10px; height: inherit; color: rgb(64, 29, 10); font-size: 13px; font-weight: bold; margin-bottom: -10px; border-top-color: rgb(153, 147, 135); border-top-width: 1px; border-top-style: solid; display: block; box-shadow: 0px 0px 5px rgba(0,0,0,0.2); background-color: rgb(243, 239, 231); -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+div.news-list p a {
+	display: block; marginn-bottom: 3px;
+}
+div.main-news-list div.news-item {
+	padding: 10px; height: inherit; color: rgb(64, 29, 10); font-size: 13px; font-weight: bold; margin-bottom: 10px; border-top-color: rgb(153, 147, 135); border-top-width: 1px; border-top-style: solid; display: block; box-shadow: 0px 0px 5px rgba(0,0,0,0.2); background-color: rgb(243, 239, 231); -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+div.news-list p.news-item img {
+	margin: 0px 15px 5px 0px; border: 5px solid rgb(210, 207, 200); border-image: none; display: block;
+}
+div.news-list p.news-item span.news-date-time {
+	color: rgb(153, 147, 135);
+}
+div.news-list p.news-item b {
+	font-size: 16px; display: block; background-color: rgb(231, 228, 221);
+}
+h2.anonce {
+	background: url("/upload/img/bg-h2.jpg") no-repeat left bottom; margin: 5px 0px; padding: 0px 0px 7px 15px; width: 480px; color: rgb(75, 58, 50); font-family: Times New Roman, serif; font-size: 34px; font-weight: normal; display: inline-block;
+}
+div#two-anonce {
+	margin: 0px; padding: 0px; width: 230px; float: left;
+}
+div#two-anonce a {
+	text-decoration: none;
+}
+div#two-anonce div.news-list p.news-item {
+	margin: 8px 5px 0px; border: 1px solid rgb(126, 94, 79); border-image: none; width: 210px; height: 110px; line-height: 12px; float: left; background-color: rgb(183, 176, 168);
+}
+div#two-anonce div.news-list p.news-item a img.preview_picture {
+	width: 0px; height: 0px; visibility: collapse;
+}
+div#two-anonce div.news-list p {
+	height: 0px; line-height: 0px; display: block;
+}
+div#two-anonce a div.block div.data {
+	padding: 2px 2px 0px 7px; color: rgb(54, 37, 29); font-size: 10px; font-weight: bold !important; display: block;
+}
+div#two-anonce div.block h3 {
+	margin: 2px 0px 0px -10px; padding: 2px 13px 5px 14px; width: 190px; color: rgb(228, 219, 209); line-height: 12px; font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; text-decoration: underline; display: block; background-color: rgb(64, 29, 10);
+}
+div#two-anonce div.block div.text {
+	padding: 2px 5px 5px 10px; color: rgb(54, 37, 29); overflow: hidden; font-size: 11px;
+}
+div#video {
+	margin: 8px 0px 0px; width: 280px; height: 240px; text-align: center; float: right; background-color: black;
+}
+div#video a {
+	color: rgb(249, 239, 215);
+}
+div#video h4 {
+	margin: 1px; color: rgb(199, 187, 173); font-family: Times New Roman, serif; font-size: 12px;
+}
+div#video p {
+	padding: 0px; height: 40px; color: white; line-height: 11px; overflow: hidden; font-size: 12px; margin-top: -3px; display: block;
+}
+div#block-project {
+	margin: 0px -2px 0px 0px; padding: 0px; width: 510px; clear: both; float: right; display: block;
+}
+div#block-project a {
+	text-decoration: none;
+}
+div#block-project div.block-pr {
+	margin: 3px; padding: 0px; border: 1px solid rgb(71, 38, 21); border-image: none; width: 162px; height: 118px; text-align: center; float: left; display: block; background-color: rgb(126, 94, 81);
+}
+div#block-project div.block-pr img {
+	border: 1px solid rgb(71, 36, 17); border-image: none; width: 148px; height: 85px;
+}
+div#block-project div.block-pr h4 {
+	margin: 0px; padding: 0px; color: rgb(249, 239, 215); text-transform: none; line-height: 11px; font-size: 12px; font-weight: bold;
+}
+#footer {
+	text-align: center; background-color: rgb(64, 29, 10);
+}
+#footer div#menu-bot {
+	margin: 0px auto; padding: 0px; display: block;
+}
+#footer div#menu-bot li {
+	float: left; display: block;
+}
+#footer div#menu-bot {
+	margin: 0px auto; color: white;
+}
+#footer div#menu-bot a {
+	color: white; font-size: 12px; font-weight: bold; text-decoration: none;
+}
+#footer p {
+	color: rgb(198, 187, 169); font-size: 12px; display: block;
+}
+#footer div.but-soc {
+	margin: 0px 0px 10px; padding: 0px; width: 100%; text-align: center; display: block;
+}
+div.photo-gal-comp {
+	margin: 0px; padding: 0px; width: 550px; text-align: center; float: right;
+}
+div.gal-proj-id {
+	margin: 0px 20px 20px 0px; width: 500px; height: 300px; float: left; display: block;
+}
+table#object {
+	text-align: left;
+}
+table#object td {
+	padding: 3px 10px; height: 30px; border-right-color: rgb(183, 176, 168); border-left-color: rgb(183, 176, 168); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+table#object td.light {
+	background-color: rgb(253, 253, 245);
+}
+table#object td.dark {
+	background-color: rgb(231, 228, 221);
+}
+table.form {
+	width: 800px;
+}
+table.form td {
+	border-bottom-color: rgb(175, 168, 158); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+table.form td.form-label {
+	text-align: right;
+}
+div.news-detail-proj span.news-date-time {
+	padding: 2px 6px; width: 80px; text-align: center; color: rgb(231, 228, 221) !important; display: block; background-color: rgb(53, 24, 8) !important;
+}
+div.reviews-reply-form {
+	width: 820px; float: right; display: inline-table;
+}
+div.reviews-reply-form div.reviews-reply-header {
+	width: 764px; float: right; display: block;
+}
+div.reviews-collapse {
+	padding: 5px; width: 820px !important; font-size: 16px; margin-bottom: 10px; border-top-color: rgb(142, 137, 131); border-bottom-color: rgb(175, 168, 158); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: dashed; float: right !important; display: block; background-color: rgb(253, 253, 245);
+}
+div.reviews-minimized {
+	padding: 5px; width: 820px !important; font-size: 16px; margin-bottom: 10px; border-top-color: rgb(142, 137, 131); border-bottom-color: rgb(175, 168, 158); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: dashed; float: right !important; display: block; background-color: rgb(253, 253, 245);
+}
+td.content div.search-page {
+	margin-top: 40px;
+}
+div.gdcontent ul {
+	margin-left: 10px !important;
+}
+table.sonet-user-short td.sonet-user-avatar {
+	padding: 10px 20px !important; border-right-color: rgb(175, 168, 158) !important; border-right-width: 1px !important; border-right-style: dashed !important; background-color: rgb(243, 239, 231) !important;
+}
+table.sonet-user-short td.sonet-user-text {
+	padding-left: 20px !important; background-color: rgb(243, 239, 231) !important;
+}
+table.sonet-user-short td.sonet-user-avatar ul {
+	padding: 0px !important; border: currentColor !important; border-image: none !important; margin-left: -10px !important;
+}
+table.sonet-user-short {
+	border-bottom-color: rgb(175, 168, 158); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+div.bx-user-control ul {
+	background-color: rgb(255, 255, 255);
+}
+div.bx-user-control ul li {
+	margin: 2px !important; padding: 0px !important; overfow: hidden;
+}
+div.bx-group-control ul li.bx-icon-edit {
+	padding-left: 24px !important; display: inline-block;
+}
+li.bx-icon-settings {
+	padding-left: 24px !important; display: inline-block;
+}
+div.bx-user-control ul li.bx-icon-action {
+	padding-left: 24px !important; display: inline-block;
+}
+li.bx-icon-message {
+	padding-left: 24px !important; display: inline-block;
+}
+li.bx-icon-online.bx-icon {
+	padding-left: 24px !important; display: inline-block;
+}
+li.bx-icon-del {
+	padding-left: 24px !important; display: inline-block;
+}
+div.bx-group-control ul li.bx-icon-memb-view {
+	padding-left: 24px !important; display: inline-block;
+}
+li.bx-icon-join {
+	padding-left: 24px !important; display: inline-block;
+}
+li.bx-icon-subscribe {
+	padding-left: 24px !important; display: inline-block;
+}
+li.bx-icon-invite {
+	padding-left: 24px !important; display: inline-block;
+}
+li.bx-icon-requests {
+	padding-left: 24px !important; display: inline-block;
+}
+li.bx-icon-leave {
+	padding-left: 24px !important; display: inline-block;
+}
+a.feed-post-user-name {
+	color: rgb(86, 30, 2) !important; font-weight: bold;
+}
+a.feed-post-user-name:hover {
+	color: rgb(223, 58, 0) !important; font-weight: bold;
+}
+.feed-join-group .feed-add-post-destination-title {
+	color: rgb(125, 125, 125) !important;
+}
+.gdheader {
+	margin: 1px; padding: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 16px !important; font-weight: normal !important; background-color: rgb(204, 202, 196) !important;
+}
+.gdparent {
+	border: 1px solid rgb(196, 194, 188) !important; border-image: none !important; position: relative; background-color: rgb(253, 253, 245) !important;
+}
+a.feed-add-post-destination-users {
+	background-color: rgb(213, 212, 208) !important;
+}
+div.forum-navigation-box div.feed-add-post-micro {
+	background-color: rgb(255, 255, 255) !important;
+}
+div.feed-add-post-form-but-more {
+	background-color: rgb(255, 255, 255) !important;
+}
+div.feed-comments-block {
+	margin-bottom: 10px; background-color: rgb(255, 255, 255);
+}
+.body-blog {
+	
+}
+.blog-comment-cont {
+	border: 1px solid rgb(175, 168, 158) !important; border-image: none !important;
+}
+.blog-comment-content {
+	padding: 0px 40px;
+}
+.blog-post-title {
+	margin: 5px 0px !important; padding: 0px 0px 7px 15px !important; color: rgb(75, 58, 50) !important; font-family: Times New Roman, serif !important; font-size: 34px !important; font-weight: normal !important; display: inline-block !important; background-color: transparent !important;
+}
+h2.blog-post-title {
+	margin: 5px 0px !important; padding: 0px 0px 7px 15px !important; color: rgb(75, 58, 50) !important; font-family: Times New Roman, serif !important; font-size: 34px !important; font-weight: normal !important; display: inline-block !important; background-color: transparent !important;
+}
+div.microblog-link {
+	background: url("/upload/img/comm-title.png") no-repeat left; color: rgb(223, 58, 0) !important; padding-left: 30px; font-size: 24px; font-weight: normal; text-decoration: underline;
+}
+div.feed-add-post-title {
+	background: url("/upload/img/comm-title.png") no-repeat left; color: rgb(223, 58, 0) !important; padding-left: 30px; font-size: 24px; font-weight: normal; text-decoration: underline;
+}
+.feed-inform-comments {
+	color: rgb(223, 58, 0) !important;
+}
+.feed-inform-ilike {
+	color: rgb(223, 58, 0) !important;
+}
+.feed-inform-follow {
+	color: rgb(223, 58, 0) !important;
+}
+blog-tab-content {
+	border-right-color: rgb(142, 137, 131) !important; border-right-width: 1px !important; border-right-style: solid !important;
+}
+.body-blog a:link {
+	color: rgb(86, 30, 2) !important;
+}
+.body-blog a:visited {
+	color: rgb(86, 30, 2) !important;
+}
+.body-blog a:active {
+	color: rgb(86, 30, 2) !important;
+}
+.blog-navigation-box li a {
+	color: rgb(86, 30, 2) !important;
+}
+div.blog-line {
+	background: none !important; border-top-color: rgb(175, 168, 158) !important; border-top-width: 1px !important; border-top-style: dashed !important;
+}
+div.blog-mainpage-item {
+	border: 1px solid rgb(175, 168, 158) !important; border-image: none !important; padding-left: 7px; margin-top: 5px; background-color: rgb(243, 239, 231);
+}
+div.blog-mainpage-item .blog-author {
+	width: 100%; color: rgb(64, 29, 10) !important; font-size: 13px !important; display: block; background-color: rgb(204, 202, 196);
+}
+blog-comment-info {
+	width: 100%; color: rgb(64, 29, 10) !important; font-size: 13px !important; display: block; background-color: rgb(204, 202, 196);
+}
+div.blog-mainpage-item .blog-author a {
+	color: rgb(64, 29, 10) !important;
+}
+h2.blog-post-title span {
+	color: rgb(64, 29, 10) !important;
+}
+.blog-mainpage-meta {
+	font-size: 11px !important; margin-top: 10px !important; border-top-color: rgb(175, 168, 158) !important; border-top-width: 1px !important; border-top-style: dashed !important;
+}
+.blog-comment-meta {
+	font-size: 11px !important; margin-top: 10px !important; border-top-color: rgb(175, 168, 158) !important; border-top-width: 1px !important; border-top-style: dashed !important;
+}
+.blog-post-meta-util {
+	font-size: 11px !important; margin-top: 10px !important; border-top-color: rgb(175, 168, 158) !important; border-top-width: 1px !important; border-top-style: dashed !important;
+}
+a.bx-vote-block-link {
+	color: rgb(86, 30, 2) !important;
+}
+a.bx-vote-block-link:hover {
+	color: rgb(223, 58, 0) !important;
+}
+div.gdcontent h4 {
+	margin: 20px 0px; padding: 0px 0px 4px 10px; width: 98%; text-align: left; color: rgb(86, 30, 2) !important; font-family: Times New Roman, serif; font-size: 16px; font-weight: bold; border-bottom-color: rgb(204, 202, 196) !important; border-bottom-width: 1px !important; border-bottom-style: solid !important; display: block;
+}
+table.sonet-user-short h4 {
+	margin: 20px 0px; padding: 0px 0px 4px 10px; width: 98%; text-align: left; color: rgb(86, 30, 2) !important; font-family: Times New Roman, serif; font-size: 16px; font-weight: bold; border-bottom-color: rgb(204, 202, 196) !important; border-bottom-width: 1px !important; border-bottom-style: solid !important; display: block;
+}
+table.sonet-group-short h4 {
+	margin: 20px 0px; padding: 0px 0px 4px 10px; width: 98%; text-align: left; color: rgb(86, 30, 2) !important; font-family: Times New Roman, serif; font-size: 16px; font-weight: bold; border-bottom-color: rgb(204, 202, 196) !important; border-bottom-width: 1px !important; border-bottom-style: solid !important; display: block;
+}
+h4.bx-sonet-user-desc-username {
+	margin: 20px 0px; padding: 0px 0px 4px 10px; width: 98%; text-align: left; color: rgb(86, 30, 2) !important; font-family: Times New Roman, serif; font-size: 16px; font-weight: bold; border-bottom-color: rgb(204, 202, 196) !important; border-bottom-width: 1px !important; border-bottom-style: solid !important; display: block;
+}
+div.sonet-members-item-menu span {
+	color: rgb(101, 101, 101) !important;
+}
+div.sonet-members-separator {
+	border-bottom-color: rgb(175, 168, 158) !important; border-bottom-width: 1px !important; border-bottom-style: dashed !important;
+}
+td.sonet-group-avatar img {
+	margin: 10px 10px 10px 20px !important;
+}
+div.feed-post-block {
+	border-bottom-color: rgb(175, 168, 158); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+table.sonet-user-profile-friend-box {
+	border-bottom-color: rgb(175, 168, 158); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.bx-vote-result-bar {
+	background: rgb(217, 205, 146) !important;
+}
+.search-tags-cloud a {
+	color: rgb(141, 118, 48) !important;
+}
+div.forum-header-box {
+	border: currentColor !important; border-image: none !important; background-color: rgb(64, 29, 10) !important;
+}
+table.forum-table th {
+	background-color: rgb(149, 128, 117) !important;
+}
+div.forum-block-container {
+	background: rgb(243, 239, 231) !important;
+}
+div.forum-navigation-top.forum-navigation-box {
+	background: rgb(243, 239, 231) !important;
+}
+table.forum-table {
+	border-right-color: rgb(205, 185, 176) !important; border-right-width: 1px !important; border-right-style: solid !important;
+}
+table.forum-table td {
+	border-bottom-color: rgb(205, 185, 176) !important; border-left-color: rgb(205, 185, 176) !important; border-bottom-width: 1px !important; border-left-width: 1px !important; border-bottom-style: solid !important; border-left-style: solid !important;
+}
+table.forum-users td {
+	border-bottom-color: rgb(205, 185, 176) !important; border-left-color: rgb(205, 185, 176) !important; border-bottom-width: 1px !important; border-left-width: 1px !important; border-bottom-style: solid !important; border-left-style: solid !important;
+}
+table.forum-table th {
+	border: 1px solid rgb(205, 185, 176) !important; border-image: none !important; color: rgb(25, 11, 4) !important; font-weight: bold !important; background-color: rgb(162, 141, 132) !important;
+}
+div.forum-reply-header {
+	border: 1px solid rgb(205, 185, 176) !important; border-image: none !important; color: rgb(25, 11, 4) !important; font-weight: bold !important; background-color: rgb(162, 141, 132) !important;
+}
+div.forum-bbcode-line a:hover {
+	border: 1px solid rgb(205, 185, 176) !important; border-image: none !important; color: rgb(25, 11, 4) !important; font-weight: bold !important; background-color: rgb(162, 141, 132) !important;
+}
+div.forum-bbcode-line a:hover img {
+	border: 1px solid rgb(205, 185, 176) !important; border-image: none !important; color: rgb(25, 11, 4) !important; font-weight: bold !important; background-color: rgb(162, 141, 132) !important;
+}
+div.forum-info-box {
+	padding: 20px 60px !important; background-color: rgb(243, 239, 231) !important;
+}
+div.forum-reply-form {
+	padding: 20px 60px !important; background-color: rgb(243, 239, 231) !important;
+}
+div.forum-tabs {
+	margin: 0px; width: 1024px !important; overflow: hidden;
+}
+div.forum-tabs-body {
+	margin-left: 270px !important;
+}
+.forum-column-footer {
+	background-color: rgb(199, 196, 191) !important;
+}
+table.top_konkurs th {
+	background: rgb(205, 91, 7) !important;
+}
+table.top_konkurs td {
+	padding: 6px 11px 11px; color: rgb(65, 65, 65); font-size: 12px; vertical-align: top; border-bottom-color: rgb(92, 86, 53) !important; border-bottom-width: 1px !important; border-bottom-style: solid !important;
+}
+.total {
+	padding: 20px 0px !important; border: 1px dashed rgb(152, 152, 152) !important; border-image: none !important; margin-top: 15px !important; background-color: rgb(215, 213, 205) !important;
+}
+.total p {
+	font-size: 30px !important;
+}
+.data-block-bottom {
+	background: rgb(253, 253, 245) !important; padding: 20px 10px; width: 1004px !important; position: relative;
+}
+.data-right {
+	width: 300px; color: rgb(25, 25, 25); float: right; display: block;
+}
+.detail-vkp-item {
+	vertical-align: middle; border-bottom-color: rgb(152, 152, 152); border-bottom-width: 1px; border-bottom-style: dotted; display: table-cell;
+}
+div.detail-vkp-name {
+	margin: 10px 0px; width: 300px; text-align: right; padding-right: 40px; font-size: 16px; font-weight: bold; float: left; display: block;
+}
+.detail-vkp-value {
+	margin: 10px 0px; width: 600px; text-align: left; float: right; display: block;
+}
+table.data-table td.data-name {
+	padding: 5px; border-bottom-color: rgb(152, 152, 152); border-bottom-width: 1px; border-bottom-style: dotted; background-color: rgb(243, 239, 231);
+}
+td.data-add {
+	padding: 5px; border-bottom-color: rgb(152, 152, 152); border-bottom-width: 1px; border-bottom-style: dotted; background-color: rgb(243, 239, 231);
+}
+td.data-status {
+	padding: 5px; border-bottom-color: rgb(152, 152, 152); border-bottom-width: 1px; border-bottom-style: dotted; background-color: rgb(243, 239, 231);
+}
+td.data-dell {
+	padding: 5px; border-bottom-color: rgb(152, 152, 152); border-bottom-width: 1px; border-bottom-style: dotted; background-color: rgb(243, 239, 231);
+}
+.data-status {
+	color: rgb(188, 38, 44);
+}
+table.data-table td {
+	padding: 7px;
+}
+table.data-table td.data-add a.data-add-href {
+	background: url("/upload/img/edit.png") no-repeat left; padding-left: 20px; font-size: 12px; display: block;
+}
+table.data-table td.data-dell a.data-dell-href {
+	background: url("/upload/img/delete.png") no-repeat left; padding-left: 20px; font-size: 12px; display: block;
+}
+table.data-table td a.add-mess-board {
+	background: url("/upload/img/add.png") no-repeat left; text-transform: uppercase; padding-left: 20px; font-size: 12px; display: block;
+}
+.mf-viral {
+	padding-bottom: 10px; border-bottom-color: rgb(152, 152, 152) !important; border-bottom-width: 1px !important; border-bottom-style: dashed !important;
+}
+.gdrssitem {
+	padding-bottom: 5px; font-size: 13px !important; border-bottom-color: rgb(152, 152, 152) !important; border-bottom-width: 1px !important; border-bottom-style: dashed !important;
+}
+div.board-section table td {
+	background-color: rgb(240, 238, 231) !important;
+}
+.board-title {
+	margin: -10px 0px 10px; padding: 5px; border-top-color: rgb(126, 94, 79); border-top-width: 1px; border-top-style: solid; background-color: rgb(199, 196, 191) !important;
+}
+span.board-date {
+	color: rgb(188, 38, 44); padding-left: 20px; font-size: 12px; font-weight: bold;
+}
+span.properties {
+	color: rgb(135, 135, 135); padding-left: 20px; font-size: 12px;
+}
+div.board-text {
+	padding: 20px; width: 1024px; border-bottom-color: rgb(152, 152, 152) !important; border-bottom-width: 1px !important; border-bottom-style: dashed !important; display: block; background-color: rgb(253, 253, 245) !important;
+}
+div.rss-show div.news-list div.news-item-rss {
+	height: auto; border-top-color: rgb(152, 152, 152) !important; border-bottom-color: rgb(152, 152, 152) !important; border-top-width: 1px !important; border-bottom-width: 1px !important; border-top-style: solid !important; border-bottom-style: dashed !important; display: block; background-color: rgb(253, 253, 245) !important;
+}
+div.rss-show div.news-list div.news-item-rss img {
+	margin: 0px 10px 10px 0px; width: 140px !important; height: inherit; float: left; display: inline-block;
+}
+div.rss-show div.news-list div#news-item-rss-date p {
+	
+}
+div#news-item-rss-url {
+	margin: 0px 0px 15px 10px; display: block;
+}
+div#news-item-rss-descr {
+	margin: 8px 5px; width: 210px; height: 110px; float: left; display: none;
+}
+.small1 {
+	font-size: 13px !important;
+}
